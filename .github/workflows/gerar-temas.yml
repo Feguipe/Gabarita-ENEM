@@ -2,8 +2,9 @@ name: Gerar temas semanais
 
 on:
   schedule:
-    # Toda segunda-feira às 06:00 UTC (03:00 de Brasília)
-    - cron: "0 6 * * 1"
+    # Toda segunda-feira às 09:00 UTC (06:00 BRT verão / 07:00 BRT padrão).
+    # Fica depois do reset da cota diária do Gemini (00:00 PT = 07/08 UTC).
+    - cron: "0 9 * * 1"
   workflow_dispatch: # permite rodar manualmente pela UI do GitHub
 
 permissions:
