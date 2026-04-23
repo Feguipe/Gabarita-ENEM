@@ -148,7 +148,7 @@ Retorne APENAS JSON válido, sem markdown fences, sem comentários, neste format
   "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \\"...\\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista."
 }`;
 
-async function gerarTema(noticia) {
+async function gerarTema(noticia, tentativa = 0) {
   const prompt = `NOTÍCIA DE ORIGEM (use como inspiração, reescreva com suas palavras):
 
 Fonte: ${noticia.fonte}
@@ -157,24 +157,36 @@ Resumo: ${noticia.resumo}
 
 Transforme em proposta de redação ENEM seguindo o formato exigido.`;
 
-  const res = await ai.models.generateContent({
-    model: "gemini-2.5-flash",
-    contents: prompt,
-    config: {
-      systemInstruction: SYSTEM_INSTRUCTION,
-      temperature: 0.8,
-      responseMimeType: "application/json",
-    },
-  });
-
-  const texto = res.text;
   try {
-    return JSON.parse(texto);
-  } catch {
-    // tenta extrair JSON dentro de fences
-    const m = texto.match(/\{[\s\S]*\}/);
-    if (m) return JSON.parse(m[0]);
-    throw new Error(`JSON inválido: ${texto.slice(0, 200)}`);
+    const res = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: prompt,
+      config: {
+        systemInstruction: SYSTEM_INSTRUCTION,
+        temperature: 0.8,
+        responseMimeType: "application/json",
+      },
+    });
+
+    const texto = res.text;
+    try {
+      return JSON.parse(texto);
+    } catch {
+      const m = texto.match(/\{[\s\S]*\}/);
+      if (m) return JSON.parse(m[0]);
+      throw new Error(`JSON inválido: ${texto.slice(0, 200)}`);
+    }
+  } catch (err) {
+    const msg = err.message || String(err);
+    // 429 com retryDelay: espera e tenta 1x (503 também: sobrecarga temporária)
+    if (tentativa < 1 && /429|503|RESOURCE_EXHAUSTED|UNAVAILABLE/i.test(msg)) {
+      const m = msg.match(/retry in (\d+(?:\.\d+)?)s/i);
+      const esperaMs = m ? Math.min(Math.ceil(Number(m[1]) * 1000) + 1000, 65000) : 30000;
+      process.stdout.write(`(aguarda ${Math.round(esperaMs / 1000)}s) `);
+      await new Promise((r) => setTimeout(r, esperaMs));
+      return gerarTema(noticia, tentativa + 1);
+    }
+    throw err;
   }
 }
 
@@ -252,8 +264,39 @@ async function main() {
     }
   }
 
-  console.log(`\n💾 Salvando ${temas.length} temas em src/data/temas.json`);
-  writeFileSync("src/data/temas.json", JSON.stringify(temas, null, 2), "utf-8");
+  // Estratégia: merge com o banco existente. Novos no topo, deduplicados por tema,
+  // mantém até 40 temas (rotação natural). Nunca sobrescreve com lista menor/vazia.
+  const MAX_BANCO = 40;
+  const OUT_PATH = "src/data/temas.json";
+
+  let existentes = [];
+  try {
+    existentes = JSON.parse(readFileSync(OUT_PATH, "utf-8"));
+    if (!Array.isArray(existentes)) existentes = [];
+  } catch {
+    existentes = [];
+  }
+
+  if (temas.length === 0) {
+    console.error(`\n✗ Nenhum tema novo gerado. Preservando ${existentes.length} temas existentes.`);
+    process.exit(1);
+  }
+
+  // Dedup por tema normalizado (primeiras 50 chars, lowercase)
+  const chaveTema = (t) => (t.tema || "").toLowerCase().slice(0, 50);
+  const vistosTemas = new Set(temas.map(chaveTema));
+  const mesclados = [...temas];
+  for (const e of existentes) {
+    if (mesclados.length >= MAX_BANCO) break;
+    if (!vistosTemas.has(chaveTema(e))) {
+      mesclados.push(e);
+      vistosTemas.add(chaveTema(e));
+    }
+  }
+
+  console.log(`\n💾 Salvando ${mesclados.length} temas em ${OUT_PATH}`);
+  console.log(`   (${temas.length} novos + ${mesclados.length - temas.length} preservados do banco anterior)`);
+  writeFileSync(OUT_PATH, JSON.stringify(mesclados, null, 2), "utf-8");
   console.log("Pronto.");
 }
 
