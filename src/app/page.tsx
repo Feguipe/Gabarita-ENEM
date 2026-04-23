@@ -1,65 +1,240 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
+import type { Area, SimulationConfig } from "@/lib/types";
+import { QUESTIONS, getAvailableYears } from "@/lib/questions-data";
+import {
+  createSimulation,
+  clearCurrent,
+  filterPool,
+} from "@/lib/simulation-store";
+import { AppHeader } from "@/components/AppHeader";
+
+const AREAS: { value: Area | "misto"; label: string; hint: string }[] = [
+  { value: "misto", label: "Misto", hint: "Todas as áreas" },
+  { value: "linguagens", label: "Linguagens", hint: "Português, literatura, inglês/espanhol" },
+  { value: "humanas", label: "Humanas", hint: "História, geografia, filosofia, sociologia" },
+  { value: "natureza", label: "Natureza", hint: "Biologia, química, física" },
+  { value: "matematica", label: "Matemática", hint: "Matemática e suas tecnologias" },
+];
+
+const QUICK_QUANTIDADES = [10, 20, 45, 90];
+
+const LINGUAS: { value: NonNullable<SimulationConfig["language"]>; label: string }[] = [
+  { value: "ingles", label: "Inglês" },
+  { value: "espanhol", label: "Espanhol" },
+  { value: "sem_estrangeira", label: "Sem língua estrangeira" },
+];
+
+export default function HomePage() {
+  const router = useRouter();
+  const anos = useMemo(() => getAvailableYears(), []);
+  const anoRecente = anos[0] ?? 2023;
+  const anoAntigo = anos[anos.length - 1] ?? 2014;
+
+  const [area, setArea] = useState<Area | "misto">("misto");
+  const [quantidade, setQuantidade] = useState(20);
+  const [language, setLanguage] =
+    useState<NonNullable<SimulationConfig["language"]>>("ingles");
+
+  const poolFiltrado = useMemo(
+    () =>
+      filterPool({
+        area,
+        quantidade: 0,
+        tempoMinutos: 0,
+        language,
+      }),
+    [area, language]
+  );
+  const disponivel = poolFiltrado.length;
+
+  const handleStart = () => {
+    if (quantidade < 1 || quantidade > disponivel) return;
+    clearCurrent();
+    createSimulation({
+      area,
+      quantidade,
+      tempoMinutos: 0,
+      language,
+    });
+    router.push("/pre-prova");
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      <AppHeader />
+      <main className="flex-1 px-6 py-12">
+        <div className="max-w-2xl mx-auto">
+          <div className="mb-10">
+            <h1 className="serif text-4xl font-semibold leading-tight mb-3">
+              Monte seu simulado
+            </h1>
+            <p
+              className="text-base leading-relaxed"
+              style={{ color: "var(--color-ink-2)" }}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+              {QUESTIONS.length.toLocaleString("pt-BR")} questões oficiais do ENEM, de{" "}
+              {anoAntigo} a {anoRecente}. Escolha a área, a quantidade e comece.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            <section>
+              <SectionLabel>Área do conhecimento</SectionLabel>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {AREAS.map((a) => {
+                  const active = area === a.value;
+                  return (
+                    <button
+                      key={a.value}
+                      type="button"
+                      onClick={() => setArea(a.value)}
+                      className="text-left p-4 rounded-lg border transition-colors"
+                      style={{
+                        borderColor: active
+                          ? "var(--color-accent)"
+                          : "var(--color-line)",
+                        background: active
+                          ? "var(--color-accent-soft)"
+                          : "var(--color-paper)",
+                      }}
+                    >
+                      <div
+                        className="font-medium"
+                        style={{ color: "var(--color-ink)" }}
+                      >
+                        {a.label}
+                      </div>
+                      <div
+                        className="text-xs mt-0.5"
+                        style={{ color: "var(--color-ink-3)" }}
+                      >
+                        {a.hint}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
+
+            {(area === "linguagens" || area === "misto") && (
+              <section>
+                <SectionLabel>Língua estrangeira</SectionLabel>
+                <div className="flex flex-wrap gap-2">
+                  {LINGUAS.map((l) => {
+                    const active = language === l.value;
+                    return (
+                      <button
+                        key={l.value}
+                        type="button"
+                        onClick={() => setLanguage(l.value)}
+                        className="px-4 py-2 rounded-md text-sm border transition-colors"
+                        style={{
+                          borderColor: active
+                            ? "var(--color-accent)"
+                            : "var(--color-line-strong)",
+                          background: active
+                            ? "var(--color-accent-soft)"
+                            : "transparent",
+                          color: active
+                            ? "var(--color-accent)"
+                            : "var(--color-ink-2)",
+                        }}
+                      >
+                        {l.label}
+                      </button>
+                    );
+                  })}
+                </div>
+              </section>
+            )}
+
+            <section>
+              <SectionLabel>Quantidade de questões</SectionLabel>
+              <div className="flex flex-wrap gap-2 mb-3">
+                {QUICK_QUANTIDADES.map((n) => {
+                  const active = quantidade === n;
+                  return (
+                    <button
+                      key={n}
+                      type="button"
+                      onClick={() => setQuantidade(n)}
+                      disabled={n > disponivel}
+                      className="px-4 py-2 rounded-md text-sm font-medium border transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                      style={{
+                        borderColor: active
+                          ? "var(--color-accent)"
+                          : "var(--color-line-strong)",
+                        background: active
+                          ? "var(--color-accent-soft)"
+                          : "transparent",
+                        color: active
+                          ? "var(--color-accent)"
+                          : "var(--color-ink-2)",
+                      }}
+                    >
+                      {n}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="flex items-center gap-3">
+                <input
+                  type="number"
+                  min={1}
+                  max={disponivel}
+                  value={quantidade}
+                  onChange={(e) => setQuantidade(Number(e.target.value))}
+                  className="input max-w-[140px]"
+                />
+                <span
+                  className="text-sm"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  de {disponivel.toLocaleString("pt-BR")} disponíveis
+                </span>
+              </div>
+            </section>
+
+            {quantidade > disponivel && (
+              <div
+                className="text-sm rounded-md p-3 border"
+                style={{
+                  background: "var(--color-err-soft)",
+                  borderColor: "var(--color-err)",
+                  color: "var(--color-err)",
+                }}
+              >
+                Quantidade maior que o disponível. Reduza para no máximo {disponivel} ou mude os filtros.
+              </div>
+            )}
+
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={handleStart}
+                disabled={quantidade < 1 || quantidade > disponivel}
+                className="btn-primary w-full py-3.5 text-base"
+              >
+                Iniciar simulado
+              </button>
+            </div>
+          </div>
         </div>
       </main>
-    </div>
+    </>
+  );
+}
+
+function SectionLabel({ children }: { children: React.ReactNode }) {
+  return (
+    <h2
+      className="text-xs font-semibold uppercase tracking-widest mb-3"
+      style={{ color: "var(--color-ink-3)" }}
+    >
+      {children}
+    </h2>
   );
 }
