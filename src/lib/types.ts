@@ -32,7 +32,6 @@ export interface SimulationConfig {
   anoMin?: number;
   anoMax?: number;
   language?: "ingles" | "espanhol" | "sem_estrangeira";
-  dificuldade?: "facil" | "media" | "dificil" | "qualquer";
 }
 
 export interface Answer {

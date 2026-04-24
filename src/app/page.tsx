@@ -27,16 +27,6 @@ const LINGUAS: { value: NonNullable<SimulationConfig["language"]>; label: string
   { value: "sem_estrangeira", label: "Sem língua estrangeira" },
 ];
 
-const DIFICULDADES: {
-  value: NonNullable<SimulationConfig["dificuldade"]>;
-  label: string;
-}[] = [
-  { value: "qualquer", label: "Todas" },
-  { value: "facil", label: "Fácil" },
-  { value: "media", label: "Média" },
-  { value: "dificil", label: "Difícil" },
-];
-
 export default function HomePage() {
   const router = useRouter();
   const anos = useMemo(() => getAvailableYears(), []);
@@ -47,8 +37,6 @@ export default function HomePage() {
   const [quantidade, setQuantidade] = useState(20);
   const [language, setLanguage] =
     useState<NonNullable<SimulationConfig["language"]>>("ingles");
-  const [dificuldade, setDificuldade] =
-    useState<NonNullable<SimulationConfig["dificuldade"]>>("qualquer");
 
   const poolFiltrado = useMemo(
     () =>
@@ -57,9 +45,8 @@ export default function HomePage() {
         quantidade: 0,
         tempoMinutos: 0,
         language,
-        dificuldade,
       }),
-    [area, language, dificuldade]
+    [area, language]
   );
   const disponivel = poolFiltrado.length;
 
@@ -71,7 +58,6 @@ export default function HomePage() {
       quantidade,
       tempoMinutos: 0,
       language,
-      dificuldade,
     });
     router.push("/pre-prova");
   };
@@ -184,36 +170,6 @@ export default function HomePage() {
                 </div>
               </section>
             )}
-
-            <section>
-              <SectionLabel>Dificuldade</SectionLabel>
-              <div className="flex flex-wrap gap-2">
-                {DIFICULDADES.map((d) => {
-                  const active = dificuldade === d.value;
-                  return (
-                    <button
-                      key={d.value}
-                      type="button"
-                      onClick={() => setDificuldade(d.value)}
-                      className="px-4 py-2 rounded-md text-sm border transition-colors"
-                      style={{
-                        borderColor: active
-                          ? "var(--color-accent)"
-                          : "var(--color-line-strong)",
-                        background: active
-                          ? "var(--color-accent-soft)"
-                          : "transparent",
-                        color: active
-                          ? "var(--color-accent)"
-                          : "var(--color-ink-2)",
-                      }}
-                    >
-                      {d.label}
-                    </button>
-                  );
-                })}
-              </div>
-            </section>
 
             <section>
               <SectionLabel>Quantidade de questões</SectionLabel>

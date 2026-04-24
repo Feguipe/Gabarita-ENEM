@@ -27,9 +27,6 @@ export function filterPool(config: SimulationConfig): Question[] {
       pool = pool.filter((q) => !q.language || q.language === config.language);
     }
   }
-  if (config.dificuldade && config.dificuldade !== "qualquer") {
-    pool = pool.filter((q) => q.dificuldade === config.dificuldade);
-  }
   return pool;
 }
 
