@@ -118,6 +118,25 @@ function EscreverInner() {
     strictPaste: true,
   });
 
+  const finalizar = useCallback(() => {
+    const atual = rascunhoRef.current;
+    if (!atual) return;
+    const novo: RedacaoRascunho = {
+      ...atual,
+      status: "finalizada",
+      finalizadoEm: Date.now(),
+      atualizadoEm: Date.now(),
+    };
+    saveRascunho(novo);
+    rascunhoRef.current = novo;
+    setEncerrando(true);
+    router.push("/redacao/finalizar");
+  }, [router]);
+
+  useEffect(() => {
+    finalizarRef.current = finalizar;
+  }, [finalizar]);
+
   if (!tema) {
     return (
       <>
@@ -157,8 +176,8 @@ function EscreverInner() {
 
   const tempoLimiteMs = (rascunho.tempoLimiteMin ?? 0) * 60_000;
   const decorridoMs = agora - rascunho.criadoEm;
-  const restanteMs = tempoLimiteMs > 0 ? Math.max(0, tempoLimiteMs - decorridoMs) : null;
-  const tempoEsgotado = restanteMs !== null && restanteMs <= 0;
+  const restanteMs =
+    tempoLimiteMs > 0 ? Math.max(0, tempoLimiteMs - decorridoMs) : null;
 
   const atualizarTexto = (t: string) => {
     setRascunho((prev) => (prev ? { ...prev, texto: t } : prev));
@@ -167,22 +186,6 @@ function EscreverInner() {
   const bloquear = (e: React.SyntheticEvent) => {
     e.preventDefault();
   };
-
-  const finalizar = useCallback(() => {
-    const atual = rascunhoRef.current;
-    if (!atual) return;
-    const novo: RedacaoRascunho = {
-      ...atual,
-      status: "finalizada",
-      finalizadoEm: Date.now(),
-      atualizadoEm: Date.now(),
-    };
-    saveRascunho(novo);
-    rascunhoRef.current = novo;
-    setEncerrando(true);
-    router.push("/redacao/finalizar");
-  }, [router]);
-  finalizarRef.current = finalizar;
 
   return (
     <>
