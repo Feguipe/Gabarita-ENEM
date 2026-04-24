@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { AppHeader } from "@/components/AppHeader";
 
@@ -11,8 +11,13 @@ export default function GlobalError({
   error: Error & { digest?: string };
   reset: () => void;
 }) {
+  const [rota, setRota] = useState<string>("");
+
   useEffect(() => {
     console.error("Gabarita - erro capturado:", error);
+    if (typeof window !== "undefined") {
+      setRota(window.location.pathname + window.location.search);
+    }
   }, [error]);
 
   return (
@@ -39,14 +44,18 @@ export default function GlobalError({
             Tivemos um problema inesperado ao carregar esta página. Se o
             problema continuar, tente voltar para a home e começar de novo.
           </p>
-          {error.digest && (
-            <p
-              className="text-xs font-mono mb-6"
-              style={{ color: "var(--color-ink-3)" }}
-            >
-              Código: {error.digest}
-            </p>
-          )}
+          <div
+            className="rounded-md border p-3 text-left text-xs font-mono mb-6 break-all"
+            style={{
+              borderColor: "var(--color-line)",
+              background: "var(--color-paper-2)",
+              color: "var(--color-ink-3)",
+            }}
+          >
+            {rota && <div>Rota: {rota}</div>}
+            {error.digest && <div>Código: {error.digest}</div>}
+            {error.message && <div>Detalhe: {error.message}</div>}
+          </div>
           <div className="flex gap-3 justify-center">
             <button type="button" onClick={reset} className="btn-primary">
               Tentar de novo
