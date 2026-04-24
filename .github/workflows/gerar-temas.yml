@@ -10,6 +10,12 @@ on:
 permissions:
   contents: write
 
+# Evita execuções simultâneas — se o cron disparar enquanto um run manual
+# está rodando (ou vice-versa), o novo espera o anterior terminar.
+concurrency:
+  group: gerar-temas
+  cancel-in-progress: false
+
 jobs:
   gerar:
     runs-on: ubuntu-latest

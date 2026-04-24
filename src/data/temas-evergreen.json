@@ -1,0 +1,232 @@
+[
+  {
+    "id": "evergreen-desigualdade-digital",
+    "tema": "Desafios para a redução da desigualdade digital no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": ["inclusão digital", "desigualdade", "acesso à internet", "cidadania"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A internet deixou de ser apenas uma ferramenta de entretenimento para se tornar condição essencial para o exercício da cidadania no século XXI. Pela rede, milhões de brasileiros acessam serviços públicos, estudam, trabalham, se informam e se comunicam. Contudo, esse acesso está longe de ser universal: segundo estudos do IBGE, parcelas significativas da população, principalmente nas periferias urbanas e em áreas rurais, ainda dependem de conexões instáveis ou do compartilhamento de um único dispositivo entre vários membros da família. Essa disparidade revela que a cidadania digital, no país, ainda é privilégio de poucos."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "O conceito de exclusão digital vai além da ausência de equipamentos: inclui também a falta de letramento informacional, ou seja, a capacidade de navegar com autonomia, avaliar fontes e produzir conteúdo em ambiente virtual. Educadores apontam que a mera distribuição de tablets e acesso banda larga não resolve o problema se não vier acompanhada de formação crítica. A consequência é uma juventude que consome informação sem interpretá-la, tornando-se mais vulnerável à desinformação e menos preparada para o mercado de trabalho contemporâneo, cada vez mais digitalizado."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A Constituição de 1988 garante o acesso à informação como direito fundamental (art. 5º, XIV). Especialistas em direito digital defendem que, no contexto atual, esse princípio deve ser interpretado para abranger também o acesso a meios digitais adequados. Países que trataram a conectividade como política pública estruturante — como a Estônia, que declarou o acesso à internet um direito humano em 2000 — avançaram em indicadores de educação, saúde e participação política. No Brasil, propostas nessa direção tramitam no Congresso, mas ainda esbarram em barreiras orçamentárias e de vontade política."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a redução da desigualdade digital no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Desigualdade digital no Brasil", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-saude-mental-jovens",
+    "tema": "Caminhos para o combate ao sofrimento psíquico entre jovens brasileiros",
+    "areaFoco": "saude",
+    "palavrasChave": ["saúde mental", "juventude", "ansiedade", "SUS"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O sofrimento psíquico entre adolescentes e jovens adultos deixou de ser um problema individual para se configurar como questão de saúde pública no Brasil. Pesquisas recentes mostram aumento expressivo de diagnósticos de ansiedade e depressão em estudantes do ensino médio e universitários, acompanhado por elevação nos índices de automutilação e ideação suicida. Embora o tema tenha ganhado mais visibilidade nos últimos anos, permanece rodeado de estigmas que dificultam a busca por ajuda, sobretudo entre rapazes, pressionados por padrões culturais de masculinidade que associam vulnerabilidade à fraqueza."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Entre os fatores apontados pela literatura como gatilhos desse fenômeno, destacam-se a pressão por desempenho acadêmico, o uso excessivo de redes sociais com comparação social constante, a precarização das relações de trabalho e a incerteza em relação ao futuro profissional. A pandemia de covid-19 agravou um quadro que já vinha se deteriorando: o isolamento prolongado, a perda de entes queridos e as dificuldades econômicas produziram uma geração mais consciente da sua fragilidade emocional, mas nem sempre provida das ferramentas para enfrentá-la."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O Sistema Único de Saúde conta, em tese, com uma rede de atenção psicossocial (RAPS) composta por CAPS, unidades básicas e hospitais. Na prática, essa rede é insuficiente: faltam profissionais, equipamentos se concentram em grandes centros e as filas de espera podem chegar a meses. A escola, que poderia ser espaço privilegiado de acolhimento e identificação precoce de casos, raramente possui psicólogos ou programas estruturados de educação emocional. O resultado é uma geração que sofre em silêncio e encontra respostas públicas pontuais, quando encontra."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para o combate ao sofrimento psíquico entre jovens brasileiros\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Saúde mental de jovens", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-violencia-mulher",
+    "tema": "Desafios para o enfrentamento da violência contra a mulher no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": ["violência de gênero", "feminicídio", "Lei Maria da Penha", "direitos humanos"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A sanção da Lei Maria da Penha, em 2006, representou marco no enfrentamento à violência doméstica no Brasil, ao tipificar o problema e estabelecer medidas protetivas específicas. Quase duas décadas depois, a persistência de casos dramáticos — registrados diariamente em boletins de ocorrência — evidencia que a lei, isoladamente, não basta. A tipificação do feminicídio como crime hediondo, em 2015, reforçou o arcabouço legal, mas o país segue entre aqueles com as maiores taxas de assassinato de mulheres do mundo, em especial de mulheres negras e periféricas."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "A cultura do machismo, enraizada em instituições e relações cotidianas, normaliza comportamentos agressivos e culpabiliza a vítima. Campanhas educativas e mudanças no currículo escolar têm sido propostas como estratégias para transformar, a longo prazo, o imaginário coletivo. Entretanto, avanços nesse campo convivem com retrocessos: discursos que deslegitimam a pauta de gênero, ataques a políticas públicas específicas e subfinanciamento de delegacias e casas-abrigo comprometem a rede de proteção que mulheres em situação de risco precisam para sair do ciclo de violência."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Do ponto de vista estrutural, especialistas apontam que o combate eficaz à violência contra a mulher exige a articulação de três eixos: prevenção, proteção e responsabilização. Prevenção envolve educação, comunicação e formação de operadores do direito. Proteção depende de rede psicossocial, acolhimento e autonomia econômica da vítima. Responsabilização implica investigação rigorosa e aplicação efetiva das penas. A fragilidade de qualquer desses eixos compromete o conjunto — e, atualmente, no Brasil, todos os três apresentam lacunas significativas."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o enfrentamento da violência contra a mulher no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Violência contra a mulher", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-crise-climatica",
+    "tema": "O papel do Brasil no enfrentamento da crise climática global",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": ["mudanças climáticas", "Amazônia", "sustentabilidade", "políticas públicas"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Como detentor da maior floresta tropical do mundo e um dos dez maiores emissores globais de gases de efeito estufa, o Brasil ocupa posição estratégica no debate sobre mudanças climáticas. A Amazônia, que por décadas foi tratada como barreira natural contra o aquecimento global, apresenta sinais preocupantes: trechos da floresta já emitem mais carbono do que absorvem, resultado do desmatamento, das queimadas e do aumento da temperatura local. A perda desse sumidouro natural tem consequências não apenas para o Brasil, mas para o regime de chuvas de todo o continente sul-americano."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Historicamente, o país oscila entre períodos de redução e de aumento do desmatamento, conforme a prioridade política de cada governo. Enquanto entre 2004 e 2012 a taxa caiu cerca de 80%, graças a sistemas de monitoramento por satélite e ações integradas de fiscalização, nos anos seguintes observou-se retrocesso significativo. Esse histórico demonstra que existem ferramentas eficazes — o que oscila é a vontade política de aplicá-las. O desafio, portanto, não é apenas técnico, mas de governança: blindar políticas ambientais contra interesses imediatistas."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O Brasil tem, ao mesmo tempo, um potencial singular para liderar a transição energética global. O país já possui matriz elétrica majoritariamente renovável (hidrelétrica, eólica, solar) e reservas abundantes para expansão. A biodiversidade da Amazônia e do Cerrado abriga soluções biotecnológicas ainda subexploradas. Aproveitar esse potencial exige investimento em pesquisa, inclusão das populações tradicionais e diálogo com a comunidade internacional — que demanda ações concretas em troca de apoio financeiro e tecnológico previsto em acordos como o de Paris."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"O papel do Brasil no enfrentamento da crise climática global\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Brasil e crise climática", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-desinformacao",
+    "tema": "O combate à desinformação na era das redes sociais no Brasil",
+    "areaFoco": "tecnologia",
+    "palavrasChave": ["fake news", "redes sociais", "democracia", "educação midiática"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A popularização das redes sociais transformou a maneira como os brasileiros consomem informação. Aplicativos de mensageria, plataformas de vídeo e redes de conteúdo curto substituíram, para ampla parcela da população, os veículos tradicionais de imprensa. Essa descentralização traz ganhos inegáveis em pluralidade e participação, mas também abriu caminho para a circulação massiva de conteúdos falsos ou deliberadamente enganosos, muitas vezes amplificados por algoritmos que priorizam engajamento em detrimento da veracidade."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Os efeitos desse fenômeno transcendem o campo informacional. Campanhas de desinformação já influenciaram eleições, comprometeram respostas a emergências sanitárias e alimentaram ataques a instituições democráticas. Durante a pandemia de covid-19, por exemplo, a circulação de notícias falsas sobre vacinas contribuiu para a hesitação vacinal em parte da população. Quando a mentira se espalha mais rápido do que a correção, como apontam pesquisas do MIT, constrói-se uma realidade paralela que fragiliza o debate público e polariza a sociedade."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O enfrentamento à desinformação envolve múltiplas frentes que precisam operar de forma coordenada. Regulação das plataformas, com obrigação de transparência sobre algoritmos e responsabilização por conteúdos ilícitos; educação midiática, formando cidadãos capazes de avaliar criticamente o que consomem; fortalecimento do jornalismo profissional, que pratica checagem rigorosa; e autorregulação das próprias redes, com políticas claras de moderação. Nenhuma dessas estratégias, isoladamente, é suficiente — mas juntas podem construir um ecossistema informacional mais saudável."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"O combate à desinformação na era das redes sociais no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Desinformação e redes sociais", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-analfabetismo-funcional",
+    "tema": "Desafios para a superação do analfabetismo funcional no Brasil",
+    "areaFoco": "educacao",
+    "palavrasChave": ["educação", "leitura", "analfabetismo funcional", "letramento"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Dados do Indicador de Alfabetismo Funcional (Inaf) apontam que parcela significativa dos brasileiros entre 15 e 64 anos não consegue interpretar textos longos, extrair informações implícitas ou relacionar diferentes argumentos — habilidades consideradas básicas para o exercício pleno da cidadania. Embora o analfabetismo absoluto tenha recuado nas últimas décadas, o analfabetismo funcional persiste como gargalo silencioso, limitando a ascensão social, a participação política e a absorção de novas tecnologias por uma fatia importante da população adulta."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Entre as causas apontadas por educadores, destaca-se a fragilidade da formação nas séries iniciais, quando deveria ocorrer a consolidação da leitura e da escrita. Turmas superlotadas, carreira docente desvalorizada, infraestrutura precária e currículos descolados da realidade dos estudantes comprometem o processo. O resultado é que muitos alunos avançam nos anos escolares sem dominar as habilidades correspondentes à sua série — problema especialmente grave nas redes públicas, que concentram os estudantes de famílias de menor renda."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Superar esse quadro requer ação articulada em múltiplas frentes. A valorização do professor, com formação continuada e salários compatíveis, é condição básica. Políticas de alfabetização na idade certa, com avaliações periódicas e intervenções precoces, são essenciais. Incentivo à leitura por prazer — via bibliotecas escolares, programas de empréstimo de livros e mediação cultural — complementa a formação formal. Sem leitores, não há cidadãos plenos, e sem cidadãos plenos, não há democracia que se sustente a longo prazo."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a superação do analfabetismo funcional no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Analfabetismo funcional", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-trabalho-app",
+    "tema": "A precarização do trabalho na era dos aplicativos no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": ["uberização", "trabalho", "direitos trabalhistas", "economia digital"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A ascensão de plataformas digitais de transporte, entrega e serviços domésticos transformou o mercado de trabalho brasileiro na última década. Milhões de trabalhadores hoje se cadastram como \"parceiros\" ou \"autônomos\" de aplicativos, assumindo sozinhos os riscos da atividade (combustível, manutenção, plano de saúde) em troca de flexibilidade de horários. Essa nova configuração, embora abra oportunidades de renda para quem está desempregado, levanta questões profundas sobre a proteção social desses profissionais, que em geral não se encaixam nas categorias clássicas do direito trabalhista brasileiro."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas em universidades brasileiras apontam que o discurso do \"empreendedorismo\" nessas plataformas frequentemente mascara uma realidade de jornadas extensas, rendimentos baixos e subordinação algorítmica. Motoristas e entregadores relatam trabalhar 12 horas ou mais por dia para atingir metas, enquanto ficam sujeitos a bloqueios arbitrários e avaliações de usuários que funcionam como mecanismos de controle. A autonomia prometida pelos aplicativos revela-se, em muitos casos, ilusória."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Diversos países vêm buscando fórmulas intermediárias entre o emprego tradicional e a autonomia plena — uma categoria híbrida que garanta direitos básicos (seguro contra acidentes, aposentadoria, remuneração mínima) sem eliminar a flexibilidade que atrai tantos trabalhadores a essas plataformas. No Brasil, o debate ainda é incipiente e carece de proposta legislativa consolidada. Enquanto isso, uma geração inteira de profissionais enfrenta, na prática, a inexistência de rede de proteção para momentos de doença, acidente ou envelhecimento."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"A precarização do trabalho na era dos aplicativos no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Trabalho em aplicativos", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-mobilidade-urbana",
+    "tema": "Desafios para a melhoria da mobilidade urbana nas grandes cidades brasileiras",
+    "areaFoco": "sociedade",
+    "palavrasChave": ["mobilidade urbana", "transporte público", "desigualdade", "cidades"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "As grandes metrópoles brasileiras enfrentam crise persistente de mobilidade urbana. Em São Paulo, Rio de Janeiro, Brasília, Recife e outras capitais, trabalhadores gastam em média mais de duas horas por dia em deslocamentos entre casa e trabalho, percurso frequentemente realizado em transporte coletivo lotado, atrasado ou inseguro. Essa realidade afeta desproporcionalmente moradores de periferias, que dependem do transporte público e pagam, em tempo de vida, o custo da segregação territorial característica das cidades brasileiras."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Historicamente, o planejamento urbano no Brasil privilegiou o automóvel individual em detrimento do transporte coletivo. Avenidas largas, elevados e estacionamentos foram priorizados, enquanto investimentos em metrô, BRT, trens urbanos e ciclovias permaneceram subdimensionados. O resultado é um modelo insustentável: congestionamentos crônicos, poluição atmosférica elevada, acidentes de trânsito que matam milhares por ano e exclusão de quem não pode arcar com um veículo próprio. Cidades como Curitiba e, mais recentemente, Belo Horizonte, apontam caminhos alternativos, mas exemplos isolados não revertem o padrão nacional."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Repensar a mobilidade urbana exige combinar investimento em infraestrutura e mudanças culturais. Sistemas integrados de transporte público, com bilhete único e conexão entre diferentes modais, ampliam o alcance e reduzem tempos de viagem. Incentivos à bicicleta e à caminhada, com malha cicloviária segura e calçadas acessíveis, complementam a oferta. Políticas de planejamento urbano que aproximem moradia, emprego e serviços reduzem a necessidade de deslocamentos longos. O desafio, sobretudo, é político: contrariar interesses de setores historicamente privilegiados pelo modelo atual."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a melhoria da mobilidade urbana nas grandes cidades brasileiras\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Mobilidade urbana", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-intolerancia-religiosa",
+    "tema": "Desafios para o combate à intolerância religiosa no Brasil",
+    "areaFoco": "cultura",
+    "palavrasChave": ["intolerância religiosa", "liberdade de culto", "racismo religioso", "diversidade"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A Constituição brasileira de 1988 consagra a liberdade de crença e o Estado laico como pilares fundamentais da nossa democracia. Apesar dessa previsão formal, o país convive com aumento expressivo de casos de intolerância religiosa, concentrados principalmente em ataques a religiões de matriz afro-brasileira — como o candomblé e a umbanda — e a seus terreiros. Agressões físicas, depredação de templos e discursos de ódio em redes sociais compõem um cenário que expõe o abismo entre a lei escrita e a prática social cotidiana."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudiosos apontam que a intolerância contra religiões afro-brasileiras não pode ser dissociada do racismo estrutural que marca a sociedade. Trata-se, portanto, de racismo religioso: a criminalização e demonização dessas tradições reproduzem, sob novas roupagens, a hierarquização racial e cultural herdada do período escravocrata. Nesse sentido, o combate efetivo exige reconhecer que a violência contra o terreiro é também violência contra o corpo negro e contra o patrimônio cultural brasileiro."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Enfrentar o problema demanda ação articulada de diversos atores. O Estado precisa aprimorar a tipificação penal e a capacitação das forças de segurança para identificar e investigar esses crimes. As escolas, desde a educação básica, têm papel central ao ensinar sobre as diferentes tradições religiosas e sobre a cultura afro-brasileira, como prevê a Lei 10.639/2003. A mídia e as próprias lideranças religiosas cristãs, que historicamente protagonizam parte dos ataques, têm responsabilidade em promover o diálogo inter-religioso baseado no respeito mútuo."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate à intolerância religiosa no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Intolerância religiosa", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "evergreen-envelhecimento",
+    "tema": "Caminhos para o cuidado com a população idosa no Brasil",
+    "areaFoco": "saude",
+    "palavrasChave": ["envelhecimento", "idosos", "Estatuto do Idoso", "saúde"],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O Brasil vive transição demográfica acelerada: pela primeira vez na história, o número de pessoas com 60 anos ou mais ultrapassou o de crianças com até 9 anos. Projeções do IBGE apontam que, em 2050, aproximadamente um em cada três brasileiros será idoso. Essa mudança, resultado de conquistas em saúde pública e planejamento familiar, exige do país uma reestruturação profunda em seus sistemas de saúde, previdência, urbanismo e políticas de cuidado — áreas que ainda não se adaptaram à nova realidade etária."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Embora o Estatuto do Idoso, de 2003, tenha sido considerado avanço importante ao garantir prioridade em atendimentos e prever punições para maus-tratos, sua aplicação prática é desigual. Violência contra idosos — física, psicológica ou financeira — muitas vezes ocorre no próprio ambiente familiar, sendo subnotificada. O abandono afetivo, o isolamento social e a solidão são fatores que comprometem a saúde mental dessa população e, segundo estudos, podem acelerar o declínio cognitivo. A Covid-19 escancarou a vulnerabilidade extrema dos idosos, sobretudo os que vivem em instituições de longa permanência precárias."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Pensar em envelhecimento ativo e digno exige integrar múltiplas políticas. O SUS precisa de maior oferta de geriatras e de programas voltados para doenças crônicas; a cidade, de calçadas, transporte e espaços adaptados; a família, de suporte e formação para o cuidado. Países que enfrentaram essa transição antes do Brasil — Japão, Alemanha, Itália — oferecem aprendizados, inclusive os equívocos a serem evitados. Incluir a população idosa como protagonista da vida social, não apenas como objeto de cuidado, é princípio ético e também prático: a experiência dessa geração é recurso que o país não pode desperdiçar."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para o cuidado com a população idosa no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": { "fonte": "Tema evergreen — Gabarita", "titulo": "Envelhecimento da população", "url": "" },
+    "geradoEm": "2024-01-01T00:00:00.000Z"
+  }
+]

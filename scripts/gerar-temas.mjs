@@ -148,6 +148,49 @@ Retorne APENAS JSON válido, sem markdown fences, sem comentários, neste format
   "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \\"...\\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista."
 }`;
 
+// Avalia em lote quais notícias rendem bom tema ENEM. Uma única chamada.
+// Retorna array com os índices (0-based) das notícias aprovadas, em ordem de qualidade.
+async function curarNoticias(candidatas, quantasAprovar) {
+  if (candidatas.length === 0) return [];
+  const lista = candidatas
+    .map((n, i) => `${i}. [${n.fonte}] ${n.titulo}\n   ${n.resumo.slice(0, 220)}`)
+    .join("\n\n");
+
+  const systemCurador = `Você é um professor de redação do ENEM com 20 anos de experiência. Sua tarefa é selecionar, entre notícias jornalísticas recentes, aquelas que rendem os melhores temas de redação no formato ENEM.
+
+CRITÉRIOS DE APROVAÇÃO (uma notícia precisa atender a todos):
+1. Trata de problema social, ambiental, cultural, científico ou político brasileiro/global com impacto no Brasil.
+2. Permite discussão com proposta de intervenção respeitando direitos humanos.
+3. Não é fofoca, crime pontual, esporte, celebridade, nem política partidária acirrada.
+4. Tem profundidade conceitual suficiente — evita notícias rasas, promocionais ou puramente factuais.
+5. NÃO banaliza tragédia individual (assassinato específico, desaparecimento, acidente).
+
+Retorne APENAS um JSON válido no formato:
+{"aprovadas": [<indice1>, <indice2>, ...], "justificativa": "breve explicação em 1 frase sobre critérios aplicados"}
+
+Os índices devem estar em ordem decrescente de qualidade (melhor primeiro). Retorne no máximo ${quantasAprovar} índices.`;
+
+  try {
+    const res = await ai.models.generateContent({
+      model: "gemini-2.5-flash",
+      contents: `CANDIDATAS:\n\n${lista}\n\nSelecione as ${quantasAprovar} melhores.`,
+      config: {
+        systemInstruction: systemCurador,
+        temperature: 0.2,
+        responseMimeType: "application/json",
+      },
+    });
+    const j = JSON.parse(res.text);
+    const aprovadas = Array.isArray(j?.aprovadas) ? j.aprovadas : [];
+    return aprovadas
+      .filter((i) => Number.isInteger(i) && i >= 0 && i < candidatas.length)
+      .slice(0, quantasAprovar);
+  } catch (err) {
+    console.warn(`  (curadoria falhou: ${err.message} — usando ordem de pontuação)`);
+    return candidatas.map((_, i) => i).slice(0, quantasAprovar);
+  }
+}
+
 async function gerarTema(noticia, tentativa = 0) {
   const prompt = `NOTÍCIA DE ORIGEM (use como inspiração, reescreva com suas palavras):
 
@@ -228,17 +271,24 @@ async function main() {
     .sort((a, b) => b.score - a.score);
   console.log(`Após filtro: ${pontuadas.length} notícias ENEM-friendly`);
 
-  // Diversifica: pega top mas evita repetir fonte em sequência
-  const selecionadas = [];
+  // Top candidatas — vamos pedir ao Gemini curar as 40 melhores (1 chamada)
+  // e depois gerar tema completo só pras NUM_TEMAS aprovadas.
+  const CANDIDATAS_PARA_CURAR = Math.min(pontuadas.length, 40);
+  const preSelecionadas = [];
   const contFonte = {};
   for (const n of pontuadas) {
     const c = contFonte[n.fonte] || 0;
-    if (c >= 4) continue;
-    selecionadas.push(n);
+    if (c >= 6) continue;
+    preSelecionadas.push(n);
     contFonte[n.fonte] = c + 1;
-    if (selecionadas.length >= NUM_TEMAS) break;
+    if (preSelecionadas.length >= CANDIDATAS_PARA_CURAR) break;
   }
-  console.log(`Selecionadas: ${selecionadas.length}`);
+  console.log(`Pré-selecionadas: ${preSelecionadas.length}`);
+
+  console.log("\n🧐 Curando candidatas via Gemini (1 chamada)...");
+  const indicesAprovados = await curarNoticias(preSelecionadas, NUM_TEMAS);
+  const selecionadas = indicesAprovados.map((i) => preSelecionadas[i]);
+  console.log(`Aprovadas pela curadoria: ${selecionadas.length}`);
 
   console.log("\n🤖 Gerando temas via Gemini...");
   const temas = [];
@@ -264,10 +314,13 @@ async function main() {
     }
   }
 
-  // Estratégia: merge com o banco existente. Novos no topo, deduplicados por tema,
-  // mantém até 40 temas (rotação natural). Nunca sobrescreve com lista menor/vazia.
+  // Estratégia: merge novos + banco existente + evergreen (fallback).
+  // Prioridade: temas novos > banco anterior > evergreen curados.
+  // Piso mínimo de 15 temas no banco final (senão adiciona evergreens).
   const MAX_BANCO = 40;
+  const PISO_BANCO = 15;
   const OUT_PATH = "src/data/temas.json";
+  const EVERGREEN_PATH = "src/data/temas-evergreen.json";
 
   let existentes = [];
   try {
@@ -277,25 +330,52 @@ async function main() {
     existentes = [];
   }
 
-  if (temas.length === 0) {
-    console.error(`\n✗ Nenhum tema novo gerado. Preservando ${existentes.length} temas existentes.`);
+  let evergreen = [];
+  try {
+    evergreen = JSON.parse(readFileSync(EVERGREEN_PATH, "utf-8"));
+    if (!Array.isArray(evergreen)) evergreen = [];
+  } catch {
+    evergreen = [];
+  }
+
+  const temEvergreenFallback = evergreen.length > 0;
+
+  if (temas.length === 0 && existentes.length < PISO_BANCO && !temEvergreenFallback) {
+    console.error(`\n✗ Nenhum tema novo gerado e banco existente (${existentes.length}) abaixo do piso. Abortando sem sobrescrever.`);
     process.exit(1);
   }
 
   // Dedup por tema normalizado (primeiras 50 chars, lowercase)
   const chaveTema = (t) => (t.tema || "").toLowerCase().slice(0, 50);
-  const vistosTemas = new Set(temas.map(chaveTema));
-  const mesclados = [...temas];
-  for (const e of existentes) {
-    if (mesclados.length >= MAX_BANCO) break;
-    if (!vistosTemas.has(chaveTema(e))) {
-      mesclados.push(e);
-      vistosTemas.add(chaveTema(e));
+  const vistosTemas = new Set();
+  const mesclados = [];
+
+  const adicionar = (arr) => {
+    for (const t of arr) {
+      if (mesclados.length >= MAX_BANCO) return;
+      const k = chaveTema(t);
+      if (vistosTemas.has(k)) continue;
+      vistosTemas.add(k);
+      mesclados.push(t);
     }
+  };
+
+  adicionar(temas);      // 1º novos
+  adicionar(existentes); // 2º banco anterior
+  if (mesclados.length < PISO_BANCO) {
+    adicionar(evergreen); // 3º evergreen só se necessário
   }
 
+  const qtdEvergreen = mesclados.filter((t) =>
+    t.id?.startsWith?.("evergreen-")
+  ).length;
+  const qtdNovos = temas.length;
+  const qtdPreservados = mesclados.length - qtdNovos - qtdEvergreen;
+
   console.log(`\n💾 Salvando ${mesclados.length} temas em ${OUT_PATH}`);
-  console.log(`   (${temas.length} novos + ${mesclados.length - temas.length} preservados do banco anterior)`);
+  console.log(
+    `   (${qtdNovos} novos + ${qtdPreservados} do banco anterior + ${qtdEvergreen} evergreen)`
+  );
   writeFileSync(OUT_PATH, JSON.stringify(mesclados, null, 2), "utf-8");
   console.log("Pronto.");
 }
