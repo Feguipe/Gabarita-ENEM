@@ -44,7 +44,7 @@ export default function ResultadoPage() {
   }
 
   const score = calculateScore(sim);
-  const duracao = (sim.finishedAt ?? Date.now()) - sim.startedAt;
+  const duracao = (sim.finishedAt ?? sim.startedAt) - sim.startedAt;
 
   const voltar = () => {
     clearCurrent();

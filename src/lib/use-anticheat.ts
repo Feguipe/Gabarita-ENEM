@@ -20,7 +20,7 @@ const BLOCKED_KEYS = new Set([
 export function useAntiCheat(opts: Options) {
   const { enabled, startedAt, onViolation, onInterrupt, graceMs = 2500, strictPaste = false } = opts;
   const interruptedRef = useRef(false);
-  const mountedAtRef = useRef(Date.now());
+  const mountedAtRef = useRef(0);
 
   useEffect(() => {
     if (!enabled) return;

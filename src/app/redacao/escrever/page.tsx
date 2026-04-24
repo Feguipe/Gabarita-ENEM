@@ -112,7 +112,7 @@ function EscreverInner() {
 
   useAntiCheat({
     enabled: mounted && !encerrando,
-    startedAt: rascunho?.criadoEm ?? Date.now(),
+    startedAt: rascunho?.criadoEm ?? 0,
     onViolation: handleViolation,
     onInterrupt: handleInterrupt,
     strictPaste: true,

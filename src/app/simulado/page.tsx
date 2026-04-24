@@ -31,10 +31,10 @@ const AREA_LABEL: Record<string, string> = {
 export default function SimuladoPage() {
   const router = useRouter();
   const [sim, setSim] = useState<Simulation | null>(null);
-  const [now, setNow] = useState(Date.now());
+  const [now, setNow] = useState(() => Date.now());
   const [lastViolation, setLastViolation] = useState<AntiCheatEvent | null>(null);
   const simRef = useRef<Simulation | null>(null);
-  const questionEnterRef = useRef<number>(Date.now());
+  const questionEnterRef = useRef<number>(0);
 
   useEffect(() => {
     const s = loadCurrent();
@@ -107,7 +107,7 @@ export default function SimuladoPage() {
 
   useAntiCheat({
     enabled: !!sim && sim.status === "em_andamento",
-    startedAt: sim?.startedAt ?? Date.now(),
+    startedAt: sim?.startedAt ?? 0,
     onViolation: handleViolation,
     onInterrupt: handleInterrupt,
     graceMs: 2500,
