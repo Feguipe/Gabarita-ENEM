@@ -32,6 +32,7 @@ export interface SimulationConfig {
   anoMin?: number;
   anoMax?: number;
   language?: "ingles" | "espanhol" | "sem_estrangeira";
+  dificuldade?: "facil" | "media" | "dificil" | "qualquer";
 }
 
 export interface Answer {
@@ -90,6 +91,8 @@ export interface RedacaoRascunho {
   finalizadoEm: number | null;
   status: RedacaoStatus;
   anticheatEvents: AntiCheatEvent[];
+  /** Minutos do cronômetro (90 = simula ENEM; 0 = sem limite). */
+  tempoLimiteMin?: number;
 }
 
 export interface AntiCheatEvent {

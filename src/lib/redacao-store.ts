@@ -18,7 +18,10 @@ export function loadRascunho(): RedacaoRascunho | null {
   }
 }
 
-export function criarRascunho(tema: RedacaoTema): RedacaoRascunho {
+export function criarRascunho(
+  tema: RedacaoTema,
+  tempoLimiteMin = 0
+): RedacaoRascunho {
   const agora = Date.now();
   return {
     id: `red-${tema.id}-${agora}`,
@@ -30,6 +33,7 @@ export function criarRascunho(tema: RedacaoTema): RedacaoRascunho {
     finalizadoEm: null,
     status: "em_andamento",
     anticheatEvents: [],
+    tempoLimiteMin,
   };
 }
 

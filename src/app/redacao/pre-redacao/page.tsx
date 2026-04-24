@@ -25,6 +25,7 @@ function PreRedacaoInner() {
     regras: false,
     copiarColar: false,
   });
+  const [tempoLimite, setTempoLimite] = useState<0 | 90>(0);
 
   if (!tema) {
     return (
@@ -52,7 +53,7 @@ function PreRedacaoInner() {
     checks.ambiente && checks.notificacoes && checks.regras && checks.copiarColar;
 
   const iniciar = () => {
-    const r = criarRascunho(tema);
+    const r = criarRascunho(tema, tempoLimite);
     saveRascunho(r);
     router.push(`/redacao/escrever?tema=${encodeURIComponent(tema.id)}`);
   };
@@ -69,12 +70,80 @@ function PreRedacaoInner() {
             >
               Antes de começar
             </span>
-            <h1 className="serif text-3xl font-semibold mb-2">{tema.tema}</h1>
+            <h1 className="serif text-2xl md:text-3xl font-semibold mb-2">
+              {tema.tema}
+            </h1>
             <p style={{ color: "var(--color-ink-2)" }}>
-              Simulação estilo ENEM · sem limite de tempo · exportação em PDF ao
-              final
+              Simulação estilo ENEM · exportação em PDF ao final
             </p>
           </header>
+
+          <section className="mb-8">
+            <h2
+              className="text-xs font-semibold uppercase tracking-widest mb-3"
+              style={{ color: "var(--color-ink-3)" }}
+            >
+              Modo de prova
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => setTempoLimite(0)}
+                className="text-left p-4 rounded-lg border transition-colors"
+                style={{
+                  borderColor:
+                    tempoLimite === 0
+                      ? "var(--color-accent)"
+                      : "var(--color-line)",
+                  background:
+                    tempoLimite === 0
+                      ? "var(--color-accent-soft)"
+                      : "var(--color-paper)",
+                }}
+              >
+                <div
+                  className="font-medium mb-0.5"
+                  style={{ color: "var(--color-ink)" }}
+                >
+                  Sem limite de tempo
+                </div>
+                <div
+                  className="text-xs"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Escreva no seu ritmo
+                </div>
+              </button>
+              <button
+                type="button"
+                onClick={() => setTempoLimite(90)}
+                className="text-left p-4 rounded-lg border transition-colors"
+                style={{
+                  borderColor:
+                    tempoLimite === 90
+                      ? "var(--color-accent)"
+                      : "var(--color-line)",
+                  background:
+                    tempoLimite === 90
+                      ? "var(--color-accent-soft)"
+                      : "var(--color-paper)",
+                }}
+              >
+                <div
+                  className="font-medium mb-0.5"
+                  style={{ color: "var(--color-ink)" }}
+                >
+                  90 minutos (tempo oficial)
+                </div>
+                <div
+                  className="text-xs"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Cronômetro regressivo como na prova
+                </div>
+              </button>
+            </div>
+          </section>
 
           <div
             className="rounded-lg border p-5 mb-8"

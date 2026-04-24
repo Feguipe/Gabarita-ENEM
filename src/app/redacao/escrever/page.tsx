@@ -29,6 +29,7 @@ function EscreverInner() {
   const [mounted, setMounted] = useState(false);
   const [violacaoFlash, setViolacaoFlash] = useState<AntiCheatEvent | null>(null);
   const [encerrando, setEncerrando] = useState(false);
+  const [agora, setAgora] = useState(() => Date.now());
   const rascunhoRef = useRef<RedacaoRascunho | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
@@ -55,6 +56,25 @@ function EscreverInner() {
     }, 500);
     return () => clearTimeout(id);
   }, [rascunho, mounted]);
+
+  // Cronômetro: atualiza a cada 1s quando há tempo limite
+  useEffect(() => {
+    if (!mounted || !rascunho?.tempoLimiteMin) return;
+    const id = setInterval(() => setAgora(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, [mounted, rascunho?.tempoLimiteMin]);
+
+  // Auto-finaliza quando o tempo esgota
+  const finalizarRef = useRef<() => void>(() => {});
+  useEffect(() => {
+    if (!mounted || encerrando) return;
+    const atual = rascunhoRef.current;
+    if (!atual?.tempoLimiteMin) return;
+    const decorrido = agora - atual.criadoEm;
+    if (decorrido >= atual.tempoLimiteMin * 60_000) {
+      finalizarRef.current();
+    }
+  }, [agora, mounted, encerrando]);
 
   const handleViolation = useCallback((ev: AntiCheatEvent) => {
     setViolacaoFlash(ev);
@@ -135,6 +155,11 @@ function EscreverInner() {
   const palavras = contarPalavras(rascunho.texto);
   const caracteres = rascunho.texto.length;
 
+  const tempoLimiteMs = (rascunho.tempoLimiteMin ?? 0) * 60_000;
+  const decorridoMs = agora - rascunho.criadoEm;
+  const restanteMs = tempoLimiteMs > 0 ? Math.max(0, tempoLimiteMs - decorridoMs) : null;
+  const tempoEsgotado = restanteMs !== null && restanteMs <= 0;
+
   const atualizarTexto = (t: string) => {
     setRascunho((prev) => (prev ? { ...prev, texto: t } : prev));
   };
@@ -143,9 +168,11 @@ function EscreverInner() {
     e.preventDefault();
   };
 
-  const finalizar = () => {
+  const finalizar = useCallback(() => {
+    const atual = rascunhoRef.current;
+    if (!atual) return;
     const novo: RedacaoRascunho = {
-      ...rascunho,
+      ...atual,
       status: "finalizada",
       finalizadoEm: Date.now(),
       atualizadoEm: Date.now(),
@@ -154,15 +181,16 @@ function EscreverInner() {
     rascunhoRef.current = novo;
     setEncerrando(true);
     router.push("/redacao/finalizar");
-  };
+  }, [router]);
+  finalizarRef.current = finalizar;
 
   return (
     <>
       <AppHeader />
-      <main className="flex-1 px-6 py-8">
-        <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-6">
+      <main className="flex-1 px-4 md:px-6 py-4 md:py-8">
+        <div className="max-w-5xl mx-auto grid lg:grid-cols-2 gap-4 lg:gap-6">
           <section
-            className="rounded-lg border p-6 overflow-y-auto lg:sticky lg:top-6 lg:self-start lg:max-h-[calc(100vh-6rem)]"
+            className="rounded-lg border p-4 md:p-6 overflow-y-auto lg:sticky lg:top-6 lg:self-start lg:max-h-[calc(100vh-6rem)]"
             style={{
               background: "var(--color-paper)",
               borderColor: "var(--color-line)",
@@ -222,15 +250,40 @@ function EscreverInner() {
           </section>
 
           <section className="flex flex-col">
-            <div className="flex items-center justify-between mb-3">
-              <span
-                className="text-xs font-semibold uppercase tracking-widest"
-                style={{ color: "var(--color-ink-3)" }}
-              >
-                Sua redação
-              </span>
+            <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
+              <div className="flex items-center gap-3">
+                <span
+                  className="text-xs font-semibold uppercase tracking-widest"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Sua redação
+                </span>
+                {restanteMs !== null && (
+                  <span
+                    className="inline-flex items-center gap-1 font-mono text-sm px-2 py-0.5 rounded"
+                    style={{
+                      background:
+                        restanteMs < 5 * 60_000
+                          ? "var(--color-err-soft)"
+                          : restanteMs < 15 * 60_000
+                          ? "var(--color-warn-soft)"
+                          : "var(--color-paper-2)",
+                      color:
+                        restanteMs < 5 * 60_000
+                          ? "var(--color-err)"
+                          : restanteMs < 15 * 60_000
+                          ? "var(--color-warn)"
+                          : "var(--color-ink-2)",
+                      border: "1px solid var(--color-line)",
+                    }}
+                    title="Tempo restante"
+                  >
+                    ⏱ {fmtRestante(restanteMs)}
+                  </span>
+                )}
+              </div>
               <div
-                className="flex gap-4 text-xs font-mono"
+                className="flex gap-3 text-xs font-mono"
                 style={{ color: "var(--color-ink-2)" }}
               >
                 <span>
@@ -247,8 +300,10 @@ function EscreverInner() {
                   </strong>
                   /30
                 </span>
-                <span>Palavras: {palavras}</span>
-                <span>Caracteres: {caracteres}</span>
+                <span className="hidden sm:inline">Palavras: {palavras}</span>
+                <span className="hidden md:inline">
+                  Caracteres: {caracteres}
+                </span>
               </div>
             </div>
 
@@ -323,6 +378,17 @@ function EscreverInner() {
       </main>
     </>
   );
+}
+
+function fmtRestante(ms: number): string {
+  const total = Math.max(0, Math.floor(ms / 1000));
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  if (h > 0) {
+    return `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  }
+  return `${m}:${String(s).padStart(2, "0")}`;
 }
 
 function descreverViolacao(tipo: AntiCheatEvent["type"]): string {

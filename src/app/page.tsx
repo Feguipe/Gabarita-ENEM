@@ -27,6 +27,16 @@ const LINGUAS: { value: NonNullable<SimulationConfig["language"]>; label: string
   { value: "sem_estrangeira", label: "Sem língua estrangeira" },
 ];
 
+const DIFICULDADES: {
+  value: NonNullable<SimulationConfig["dificuldade"]>;
+  label: string;
+}[] = [
+  { value: "qualquer", label: "Todas" },
+  { value: "facil", label: "Fácil" },
+  { value: "media", label: "Média" },
+  { value: "dificil", label: "Difícil" },
+];
+
 export default function HomePage() {
   const router = useRouter();
   const anos = useMemo(() => getAvailableYears(), []);
@@ -37,6 +47,8 @@ export default function HomePage() {
   const [quantidade, setQuantidade] = useState(20);
   const [language, setLanguage] =
     useState<NonNullable<SimulationConfig["language"]>>("ingles");
+  const [dificuldade, setDificuldade] =
+    useState<NonNullable<SimulationConfig["dificuldade"]>>("qualquer");
 
   const poolFiltrado = useMemo(
     () =>
@@ -45,8 +57,9 @@ export default function HomePage() {
         quantidade: 0,
         tempoMinutos: 0,
         language,
+        dificuldade,
       }),
-    [area, language]
+    [area, language, dificuldade]
   );
   const disponivel = poolFiltrado.length;
 
@@ -58,6 +71,7 @@ export default function HomePage() {
       quantidade,
       tempoMinutos: 0,
       language,
+      dificuldade,
     });
     router.push("/pre-prova");
   };
@@ -65,19 +79,39 @@ export default function HomePage() {
   return (
     <>
       <AppHeader />
-      <main className="flex-1 px-6 py-12">
+      <main className="flex-1 px-6 py-8 md:py-12">
         <div className="max-w-2xl mx-auto">
-          <div className="mb-10">
-            <h1 className="serif text-4xl font-semibold leading-tight mb-3">
+          <div className="mb-8 md:mb-10">
+            <h1 className="serif text-3xl md:text-4xl font-semibold leading-tight mb-3">
               Monte seu simulado
             </h1>
             <p
-              className="text-base leading-relaxed"
+              className="text-base leading-relaxed mb-5"
               style={{ color: "var(--color-ink-2)" }}
             >
               {QUESTIONS.length.toLocaleString("pt-BR")} questões oficiais do ENEM, de{" "}
               {anoAntigo} a {anoRecente}. Escolha a área, a quantidade e comece.
             </p>
+            <div
+              className="rounded-md border p-3 text-sm flex items-start gap-3"
+              style={{
+                background: "var(--color-warn-soft)",
+                borderColor: "var(--color-warn)",
+                color: "var(--color-ink)",
+              }}
+            >
+              <span
+                className="text-base leading-none mt-0.5"
+                aria-hidden="true"
+              >
+                ⚡
+              </span>
+              <div>
+                <strong>Protocolo anti-cola ativo:</strong> sair da aba, Alt+Tab
+                ou copiar/colar encerra o simulado imediatamente. É o mesmo rigor
+                da prova real.
+              </div>
+            </div>
           </div>
 
           <div className="space-y-8">
@@ -150,6 +184,36 @@ export default function HomePage() {
                 </div>
               </section>
             )}
+
+            <section>
+              <SectionLabel>Dificuldade</SectionLabel>
+              <div className="flex flex-wrap gap-2">
+                {DIFICULDADES.map((d) => {
+                  const active = dificuldade === d.value;
+                  return (
+                    <button
+                      key={d.value}
+                      type="button"
+                      onClick={() => setDificuldade(d.value)}
+                      className="px-4 py-2 rounded-md text-sm border transition-colors"
+                      style={{
+                        borderColor: active
+                          ? "var(--color-accent)"
+                          : "var(--color-line-strong)",
+                        background: active
+                          ? "var(--color-accent-soft)"
+                          : "transparent",
+                        color: active
+                          ? "var(--color-accent)"
+                          : "var(--color-ink-2)",
+                      }}
+                    >
+                      {d.label}
+                    </button>
+                  );
+                })}
+              </div>
+            </section>
 
             <section>
               <SectionLabel>Quantidade de questões</SectionLabel>

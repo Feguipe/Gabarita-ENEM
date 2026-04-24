@@ -56,22 +56,29 @@ export default function ResultadoPage() {
       <AppHeader />
       <main className="flex-1 px-6 py-12">
         <div className="max-w-4xl mx-auto">
-          <header className="mb-8">
-            <h1 className="serif text-4xl font-semibold mb-2">
-              Resultado do simulado
-            </h1>
-            <p style={{ color: "var(--color-ink-2)" }}>
-              Status:{" "}
-              <span
-                className="font-semibold"
-                style={{ color: "var(--color-ink)" }}
-              >
-                {sim.status === "finalizado" && "Finalizado"}
-                {sim.status === "interrompido_tempo" && "Tempo esgotado"}
-                {sim.status === "interrompido_saida" && "Interrompido"}
-                {sim.status === "em_andamento" && "Em andamento"}
-              </span>
-            </p>
+          <header className="mb-8 flex items-start justify-between gap-4 flex-wrap">
+            <div>
+              <h1 className="serif text-3xl md:text-4xl font-semibold mb-2">
+                Resultado do simulado
+              </h1>
+              <p style={{ color: "var(--color-ink-2)" }}>
+                Status:{" "}
+                <span
+                  className="font-semibold"
+                  style={{ color: "var(--color-ink)" }}
+                >
+                  {sim.status === "finalizado" && "Finalizado"}
+                  {sim.status === "interrompido_tempo" && "Tempo esgotado"}
+                  {sim.status === "interrompido_saida" && "Interrompido"}
+                  {sim.status === "em_andamento" && "Em andamento"}
+                </span>
+              </p>
+            </div>
+            <CompartilharResultado
+              acertos={score.acertos}
+              total={score.total}
+              percentual={score.percentual}
+            />
           </header>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
@@ -294,6 +301,60 @@ export default function ResultadoPage() {
         </div>
       </main>
     </>
+  );
+}
+
+function CompartilharResultado({
+  acertos,
+  total,
+  percentual,
+}: {
+  acertos: number;
+  total: number;
+  percentual: number;
+}) {
+  const [feedback, setFeedback] = useState<"copiado" | null>(null);
+
+  const texto = `Fiz um simulado no Gabarita: ${acertos}/${total} acertos (${percentual.toFixed(
+    1
+  )}%).\n\nTreine ENEM grátis em https://gabarita-enem.vercel.app`;
+
+  const handleClick = async () => {
+    const shareData: ShareData = {
+      title: "Meu resultado no Gabarita",
+      text: texto,
+      url: "https://gabarita-enem.vercel.app",
+    };
+    try {
+      if (
+        typeof navigator !== "undefined" &&
+        typeof navigator.share === "function" &&
+        navigator.canShare?.(shareData) !== false
+      ) {
+        await navigator.share(shareData);
+        return;
+      }
+    } catch {
+      // usuário cancelou ou API indisponível — cai pro clipboard
+    }
+    try {
+      await navigator.clipboard.writeText(texto);
+      setFeedback("copiado");
+      setTimeout(() => setFeedback(null), 2200);
+    } catch {
+      // último fallback: nada
+    }
+  };
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      className="btn-ghost text-sm whitespace-nowrap"
+      title="Compartilhar resultado"
+    >
+      {feedback === "copiado" ? "✓ Copiado" : "Compartilhar"}
+    </button>
   );
 }
 
