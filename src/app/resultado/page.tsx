@@ -88,7 +88,7 @@ export default function ResultadoPage() {
             <Card label="Tempo médio/questão" value={fmtMs(score.tempoMedioMs)} />
           </div>
 
-          {sim.anticheatEvents.length > 0 && (
+          {sim.anticheatEvents.length > 0 && sim.status !== "finalizado" && (
             <div
               className="rounded-lg border p-4 mb-8"
               style={{
