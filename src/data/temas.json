@@ -1,5 +1,69 @@
 [
   {
+    "id": "tema-1777287593847-desafios-para-a-promocao-da-equidade-social-nas-cidades-bras",
+    "tema": "Desafios para a promoção da equidade social nas cidades brasileiras",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "desigualdade social",
+      "equidade",
+      "cidades brasileiras",
+      "acesso a serviços",
+      "políticas públicas"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Em diversas metrópoles brasileiras, a coexistência de riqueza e miséria é uma realidade palpável, evidenciando profundas fraturas sociais. Iniciativas como os \"Mapas da Desigualdade\" buscam quantificar e espacializar essas disparidades, revelando que o acesso a serviços básicos como saúde, educação e cultura varia drasticamente entre diferentes regiões de uma mesma cidade. Essa ferramenta se torna essencial para governos e sociedade civil identificarem as áreas mais vulneráveis e as carências prioritárias, direcionando esforços para a construção de um ambiente urbano mais justo e equitativo para todos os seus habitantes."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Levantamentos recentes sobre o panorama urbano brasileiro apontam para uma correlação direta entre o local de residência e a qualidade de vida. Em grandes centros, por exemplo, a expectativa de vida pode variar em mais de uma década entre bairros ricos e periféricos. No campo da cultura, a oferta de equipamentos como teatros, cinemas e bibliotecas públicas mostra-se concentrada em áreas de maior poder aquisitivo, privando parcelas significativas da população do acesso a bens culturais essenciais para o desenvolvimento humano e a cidadania plena. Tais dados reforçam a urgência de políticas que visem à democratização do acesso a direitos fundamentais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A complexidade da desigualdade urbana exige abordagens multifacetadas, que vão além da mera distribuição de recursos. É fundamental considerar os fatores históricos e estruturais que moldaram o desenvolvimento desigual das cidades, assim como o papel do planejamento urbano na perpetuação ou mitigação dessas disparidades. A participação ativa da sociedade civil, por meio de organizações e movimentos sociais, é crucial para cobrar das autoridades a implementação de políticas públicas eficazes e transparentes, capazes de promover a inclusão social e garantir que todos os cidadãos, independentemente de sua localização geográfica ou condição socioeconômica, tenham seus direitos assegurados."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a promoção da equidade social nas cidades brasileiras\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "A vergonhosa desigualdade na cidade mais rica do pa�s",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/colunas/jorge-abrahao/2026/04/a-vergonhosa-desigualdade-na-cidade-mais-rica-do-pais.shtml"
+    },
+    "geradoEm": "2026-04-27T10:59:53.848Z"
+  },
+  {
+    "id": "tema-1777287742427-o-debate-sobre-a-regulamentacao-da-cannabis-no-brasil-desafi",
+    "tema": "O debate sobre a regulamentação da cannabis no Brasil: desafios e perspectivas",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "Cannabis",
+      "Legislação",
+      "Saúde Pública"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Em um cenário global de reavaliação de políticas sobre substâncias psicoativas, diversos países, como os Estados Unidos, têm explorado novas abordagens para a cannabis, seja para uso medicinal ou recreativo. Essas mudanças legislativas internacionais reacendem a discussão em nações como o Brasil, onde a legislação atual é objeto de contestação. A movimentação global sugere uma tendência de busca por modelos que possam otimizar os benefícios e mitigar os riscos associados à planta, impulsionando a necessidade de um debate aprofundado no contexto nacional."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos e experiências de países que implementaram algum grau de regulamentação da cannabis apresentam resultados multifacetados. Enquanto alguns relatórios apontam para potenciais benefícios econômicos, como aumento da arrecadação tributária e criação de empregos, e uma possível redução na criminalidade relacionada ao tráfico, outros levantam preocupações sobre os impactos na saúde pública, especialmente entre populações mais jovens, e a necessidade de políticas robustas de prevenção e tratamento. A divergência de dados reforça a complexidade do tema e a importância de análises pormenorizadas para a tomada de decisões."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "No Brasil, o debate acerca da regulamentação da cannabis é permeado por visões distintas e intensas. De um lado, defensores argumentam que uma nova abordagem poderia desonerar o sistema carcerário, combater o narcotráfico, garantir acesso a tratamentos terapêuticos e gerar receitas para o Estado. De outro, críticos expressam receios quanto a um possível aumento do consumo, riscos para a saúde mental e a segurança pública, além de questões morais e éticas. Essa polarização evidencia a necessidade de um diálogo amplo e embasado para construir caminhos que atendam aos interesses da sociedade brasileira."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"O debate sobre a regulamentação da cannabis no Brasil: desafios e perspectivas\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "Reforma de Trump para maconha � fuma�a de palha",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/colunas/marceloleite/2026/04/reforma-de-trump-para-maconha-e-fumaca-de-palha.shtml"
+    },
+    "geradoEm": "2026-04-27T11:02:22.427Z"
+  },
+  {
     "id": "tema-1776935764524-desafios-para-a-implementacao-etica-e-inclusiva-da-saude-dig",
     "tema": "Desafios para a implementação ética e inclusiva da saúde digital no Brasil",
     "areaFoco": "saude",
