@@ -8,6 +8,8 @@ export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boole
   const { theme, setTheme } = useTheme();
   const pathname = usePathname();
   const isRedacao = pathname?.startsWith("/redacao");
+  const isSugestoes = pathname?.startsWith("/sugestoes");
+  const isHome = !isRedacao && !isSugestoes;
 
   const cycle = () => {
     setTheme(theme === "light" ? "dark" : theme === "dark" ? "system" : "light");
@@ -44,9 +46,9 @@ export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boole
               href="/"
               className="px-3 py-1.5 rounded-md transition-colors"
               style={{
-                color: !isRedacao ? "var(--color-ink)" : "var(--color-ink-3)",
-                background: !isRedacao ? "var(--color-accent-soft)" : "transparent",
-                fontWeight: !isRedacao ? 600 : 400,
+                color: isHome ? "var(--color-ink)" : "var(--color-ink-3)",
+                background: isHome ? "var(--color-accent-soft)" : "transparent",
+                fontWeight: isHome ? 600 : 400,
               }}
             >
               Simulado
@@ -61,6 +63,17 @@ export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boole
               }}
             >
               Redação
+            </Link>
+            <Link
+              href="/sugestoes"
+              className="px-3 py-1.5 rounded-md transition-colors"
+              style={{
+                color: isSugestoes ? "var(--color-ink)" : "var(--color-ink-3)",
+                background: isSugestoes ? "var(--color-accent-soft)" : "transparent",
+                fontWeight: isSugestoes ? 600 : 400,
+              }}
+            >
+              Sugestões
             </Link>
           </nav>
         </div>
