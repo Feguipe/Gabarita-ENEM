@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
 
 const TIPOS = [
@@ -13,22 +13,95 @@ const TIPOS = [
 
 type Status = "idle" | "enviando" | "sucesso" | "erro";
 
+const COOLDOWN_MS = 30_000;
+const ENVIOS_DIA_MAX = 5;
+const TEMPO_MIN_PREENCHIMENTO_MS = 3_000;
+const ENVIOS_KEY = "gabarita:sugestoes:envios";
+
+interface RegistroEnvios {
+  ultimoEnvioMs: number;
+  enviosHoje: number;
+  diaIso: string;
+}
+
+function carregarRegistro(): RegistroEnvios {
+  if (typeof window === "undefined") {
+    return { ultimoEnvioMs: 0, enviosHoje: 0, diaIso: "" };
+  }
+  try {
+    const raw = localStorage.getItem(ENVIOS_KEY);
+    if (!raw) return { ultimoEnvioMs: 0, enviosHoje: 0, diaIso: "" };
+    const parsed = JSON.parse(raw) as RegistroEnvios;
+    const hoje = new Date().toISOString().slice(0, 10);
+    if (parsed.diaIso !== hoje) {
+      return { ultimoEnvioMs: parsed.ultimoEnvioMs, enviosHoje: 0, diaIso: hoje };
+    }
+    return parsed;
+  } catch {
+    return { ultimoEnvioMs: 0, enviosHoje: 0, diaIso: "" };
+  }
+}
+
+function salvarRegistro(r: RegistroEnvios) {
+  if (typeof window === "undefined") return;
+  localStorage.setItem(ENVIOS_KEY, JSON.stringify(r));
+}
+
 export default function SugestoesPage() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [tipo, setTipo] = useState<(typeof TIPOS)[number]["value"]>("sugestao");
   const [mensagem, setMensagem] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   const [erro, setErro] = useState<string | null>(null);
+  const aberturaRef = useRef<number>(0);
+
+  useEffect(() => {
+    aberturaRef.current = Date.now();
+  }, []);
 
   const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
 
   const enviar = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    // 1. Honeypot — bot preenche, humano não vê
+    if (honeypot.trim() !== "") {
+      setStatus("sucesso");
+      return;
+    }
+
+    // 2. Time-trap — submeteu rápido demais? bot
+    const tempoPreenchendo = Date.now() - aberturaRef.current;
+    if (tempoPreenchendo < TEMPO_MIN_PREENCHIMENTO_MS) {
+      setErro("Calma — tente novamente em alguns segundos.");
+      return;
+    }
+
+    // 3. Validação de conteúdo
     if (!mensagem.trim() || mensagem.trim().length < 10) {
       setErro("Escreva uma mensagem com pelo menos 10 caracteres.");
       return;
     }
+
+    // 4. Rate limit local — cooldown e máximo diário
+    const reg = carregarRegistro();
+    const desdeUltimo = Date.now() - reg.ultimoEnvioMs;
+    if (desdeUltimo < COOLDOWN_MS) {
+      const restantes = Math.ceil((COOLDOWN_MS - desdeUltimo) / 1000);
+      setErro(
+        `Aguarde ${restantes}s antes de enviar outra mensagem.`
+      );
+      return;
+    }
+    if (reg.enviosHoje >= ENVIOS_DIA_MAX) {
+      setErro(
+        `Limite de ${ENVIOS_DIA_MAX} mensagens por dia atingido. Tente novamente amanhã.`
+      );
+      return;
+    }
+
     if (!accessKey) {
       setErro(
         "Formulário ainda não configurado pelo administrador. Tente novamente em alguns minutos."
@@ -55,11 +128,19 @@ export default function SugestoesPage() {
           from_name: nome.trim() || "Usuário Gabarita",
           email: email.trim() || "noreply@gabarita.app",
           message: `Tipo: ${tipoLabel}\n\n${mensagem.trim()}`,
+          // botcheck — Web3Forms ignora envios com este campo preenchido
+          botcheck: "",
         }),
       });
 
       const data = await res.json();
       if (data.success) {
+        const hoje = new Date().toISOString().slice(0, 10);
+        salvarRegistro({
+          ultimoEnvioMs: Date.now(),
+          enviosHoje: reg.enviosHoje + 1,
+          diaIso: hoje,
+        });
         setStatus("sucesso");
         setNome("");
         setEmail("");
@@ -143,6 +224,30 @@ export default function SugestoesPage() {
           </header>
 
           <form onSubmit={enviar} className="space-y-5">
+            {/* Honeypot — invisível para humanos, bots preenchem */}
+            <div
+              aria-hidden="true"
+              style={{
+                position: "absolute",
+                left: "-10000px",
+                top: "auto",
+                width: "1px",
+                height: "1px",
+                overflow: "hidden",
+              }}
+            >
+              <label htmlFor="website">Website</label>
+              <input
+                id="website"
+                name="website"
+                type="text"
+                tabIndex={-1}
+                autoComplete="off"
+                value={honeypot}
+                onChange={(e) => setHoneypot(e.target.value)}
+              />
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <Label htmlFor="nome">Nome (opcional)</Label>
