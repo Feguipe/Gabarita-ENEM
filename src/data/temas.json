@@ -1,5 +1,626 @@
 [
   {
+    "id": "tema-1777892571627-os-desafios-para-assegurar-condicoes-de-trabalho-dignas-aos-",
+    "tema": "Os desafios para assegurar condições de trabalho dignas aos entregadores por aplicativo no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "entregadores por aplicativo",
+      "precarização do trabalho",
+      "economia digital",
+      "regulamentação",
+      "direitos trabalhistas"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O modelo de trabalho mediado por plataformas digitais de entrega transformou a dinâmica urbana e o acesso a serviços, criando uma vasta categoria de trabalhadores. Contudo, a flexibilidade prometida aos entregadores muitas vezes se contrapõe a uma realidade de intensa pressão por produtividade e prazos curtos. Essa estrutura, baseada em algoritmos, pode gerar um ambiente de trabalho que carece de garantias e proteções laborais tradicionais, levantando debates sobre a natureza do vínculo empregatício e as responsabilidades das empresas."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos e experiências recentes têm revelado os múltiplos riscos enfrentados pelos entregadores de aplicativos no cotidiano de suas atividades no Brasil. A necessidade de cumprir metas e prazos apertados, muitas vezes sob avaliação constante das plataformas, pode impelir esses profissionais a adotar comportamentos de risco no trânsito, elevando a incidência de acidentes e problemas de saúde física e mental. A ausência de um arcabouço de segurança social e trabalhista robusto agrava a vulnerabilidade desses indivíduos frente a imprevistos e períodos de inatividade."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Enquanto as empresas de aplicativos frequentemente argumentam que investem em segurança e oferecem autonomia aos trabalhadores, a percepção dos entregadores e de pesquisadores aponta para uma lacuna regulatória significativa. A falta de legislação específica para essa modalidade de trabalho no Brasil cria um cenário em que a responsabilidade pela segurança e bem-estar dos entregadores é difusa. Esse vácuo legal fomenta um debate crucial sobre a necessidade de equilibrar a inovação tecnológica e a flexibilidade com a garantia de direitos fundamentais e condições de trabalho justas."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para assegurar condições de trabalho dignas aos entregadores por aplicativo no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "O que pesquisador descobriu pedalando como entregador de apps por 6 meses: 'É terra de ninguém, risco de vida o tempo todo'",
+      "url": "https://www.bbc.com/portuguese/articles/c62erdx967ro?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-05-04T11:02:51.627Z"
+  },
+  {
+    "id": "tema-1777892582032-os-desafios-para-a-reconstrucao-e-a-garantia-do-direito-a-ed",
+    "tema": "Os desafios para a reconstrução e a garantia do direito à educação em áreas brasileiras atingidas por desastres climáticos",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "desastres climáticos",
+      "educação",
+      "reconstrução",
+      "Rio Grande do Sul"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Dois anos após eventos climáticos severos que assolaram o Rio Grande do Sul, significativas parcelas da rede de ensino estadual ainda se encontram em processo de reconstrução. A morosidade na conclusão de obras em dezenas de escolas prejudica diretamente milhares de estudantes, que enfrentam a interrupção de suas rotinas educacionais e a precarização das condições de aprendizado. Essa realidade expõe as dificuldades enfrentadas na recuperação de infraestruturas essenciais após catástrofes naturais, impactando o acesso e a qualidade da educação em regiões vulneráveis."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos recentes apontam que regiões costeiras e ribeirinhas do Brasil, bem como áreas sujeitas a deslizamentos, são particularmente suscetíveis a eventos climáticos extremos, como chuvas intensas e enchentes. A infraestrutura escolar, muitas vezes construída sem planejamento adequado para tais cenários, torna-se uma das primeiras a ser afetada. Estima-se que a cada ano, centenas de escolas em diferentes estados brasileiros sofram algum tipo de dano, desde alagamentos a colapsos estruturais, gerando prejuízos que vão além do financeiro, comprometendo o futuro educacional de gerações de alunos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A interrupção prolongada das atividades escolares em decorrência de desastres naturais não acarreta apenas a perda de conteúdo pedagógico, mas também afeta o desenvolvimento socioemocional de crianças e adolescentes. A escola, além de ser um ambiente de aprendizado formal, representa um espaço de socialização, segurança e apoio psicológico, especialmente em momentos de crise. A demora na retomada das aulas e na reconstrução dos espaços educativos pode agravar traumas, desestabilizar rotinas familiares e aumentar a evasão escolar, perpetuando ciclos de vulnerabilidade social."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a reconstrução e a garantia do direito à educação em áreas brasileiras atingidas por desastres climáticos\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "RS ainda tem 42 escolas em obras dois anos ap�s trag�dia clim�tica",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/05/rs-ainda-tem-42-escolas-em-obras-dois-anos-apos-tragedia-climatica.shtml"
+    },
+    "geradoEm": "2026-05-04T11:03:02.032Z"
+  },
+  {
+    "id": "tema-1777892592596-desafios-para-conciliar-infraestrutura-e-conservacao-ambient",
+    "tema": "Desafios para conciliar infraestrutura e conservação ambiental na Amazônia brasileira",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "Amazônia",
+      "infraestrutura",
+      "desenvolvimento sustentável",
+      "preservação ambiental",
+      "BR-319"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A BR-319, rodovia que liga Manaus (AM) a Porto Velho (RO), é um projeto de infraestrutura de longa data na Amazônia brasileira. Recentemente, a retomada dos planos de pavimentação de trechos significativos foi marcada por intensos debates e impasses judiciais. Órgãos ambientais e a sociedade civil têm questionado a viabilidade e as implicações ecológicas de tal empreendimento, levando à suspensão de processos licitatórios. Essa situação reflete a complexidade de se harmonizar o desenvolvimento regional com a indispensável proteção de um dos biomas mais ricos e vulneráveis do planeta."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em meio ambiente e organizações civis alertam que a pavimentação da BR-319 pode impulsionar um aumento significativo do desmatamento e de atividades ilegais na região. A facilitação do acesso a áreas remotas, sem fiscalização e planejamento territorial adequados, historicamente resulta na exploração predatória de recursos naturais e na invasão de terras indígenas e unidades de conservação. A preocupação se estende à perda de biodiversidade e à intensificação das emissões de gases de efeito estufa, o que pode agravar as mudanças climáticas e comprometer ecossistemas vitais para o equilíbrio do planeta."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Por outro lado, defensores da pavimentação da BR-319 argumentam que a rodovia é essencial para o desenvolvimento econômico e social da Amazônia. A melhoria da infraestrutura de transporte facilitaria o escoamento da produção, reduziria custos logísticos e promoveria a integração regional, conectando o estado do Amazonas ao restante do Brasil. Além disso, a pavimentação é vista como um meio de melhorar a qualidade de vida das comunidades isoladas, garantindo acesso mais rápido a serviços básicos como saúde e educação, e promovendo a segurança viária em uma rota atualmente precária."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para conciliar infraestrutura e conservação ambiental na Amazônia brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Ap�s vaiv�m judicial, Dnit suspende licita��es para pavimentar trecho da BR-319, na amaz�nia",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/04/apos-vaivem-judicial-dnit-suspende-licitacoes-para-obras-na-br-319-na-amazonia.shtml"
+    },
+    "geradoEm": "2026-05-04T11:03:12.597Z"
+  },
+  {
+    "id": "tema-1777892602217-desafios-para-o-combate-as-atividades-madeireiras-ilegais-e-",
+    "tema": "Desafios para o combate às atividades madeireiras ilegais e fraudulentas na Amazônia brasileira",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "desmatamento ilegal",
+      "Amazônia",
+      "fraude ambiental",
+      "fiscalização"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Uma recente operação do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) na região amazônica revelou a existência de dezenas de empresas madeireiras com fortes indícios de serem fachadas ou 'fantasmas'. Essas entidades operam de forma clandestina, burlando a legislação ambiental e contribuindo significativamente para o desmatamento ilegal. A ação teve como objetivo principal desarticular esquemas que utilizam a documentação de empresas inexistentes para 'esquentar' madeira extraída ilegalmente, demonstrando a complexidade da fiscalização na maior floresta tropical do mundo."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "A dimensão do problema da exploração ilegal de madeira na Amazônia é alarmante, com estimativas que apontam para uma vasta quantidade de madeira extraída sem as devidas licenças ou de forma fraudulenta. As multas aplicadas em operações de fiscalização, que podem somar dezenas de milhões de reais, evidenciam não apenas a persistência do crime ambiental, mas também a dificuldade em erradicá-lo completamente. A criação de empresas de fachada é uma tática comum para lavar o produto do desmatamento, dificultando o rastreamento e a responsabilização dos verdadeiros infratores."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A atuação de madeireiras ilegais e fraudulentas na Amazônia não acarreta apenas danos ambientais irreversíveis, como a perda de biodiversidade e a contribuição para as mudanças climáticas. Ela também gera prejuízos sociais e econômicos, ao minar os esforços de desenvolvimento sustentável da região, desestimular a atuação de empresas que operam dentro da legalidade e, muitas vezes, envolver comunidades locais em cadeias produtivas ilícitas. O fortalecimento da governança ambiental e a transparência na cadeia produtiva da madeira são cruciais para proteger a floresta e seus habitantes."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate às atividades madeireiras ilegais e fraudulentas na Amazônia brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Ap�s multas de R$ 110 mi, Ibama identifica 21 poss�veis madeireiras fantasmas e de fachada no Par�",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/04/apos-multas-de-r-110-mi-ibama-identifica-21-possiveis-madeireiras-fantasmas-e-de-fachada-no-para.shtml"
+    },
+    "geradoEm": "2026-05-04T11:03:22.217Z"
+  },
+  {
+    "id": "tema-1777892611884-os-desafios-da-mediacao-tecnologica-na-saude-no-brasil",
+    "tema": "Os desafios da mediação tecnológica na saúde no Brasil",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "saúde digital",
+      "telemedicina",
+      "acessibilidade",
+      "privacidade de dados",
+      "equidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A expansão das ferramentas digitais na área da saúde representa uma transformação significativa na forma como indivíduos acessam e gerenciam seu bem-estar. Plataformas de telemedicina, aplicativos de monitoramento e prontuários eletrônicos tornaram-se mais presentes, prometendo otimizar o atendimento e facilitar o acesso a serviços médicos. Essa digitalização, acelerada por eventos recentes, reconfigura a relação entre pacientes, profissionais da saúde e o próprio sistema, levantando questões sobre sua eficácia e aplicabilidade em diferentes contextos sociais brasileiros."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Apesar do potencial da tecnologia em superar barreiras geográficas e democratizar o acesso à saúde, a realidade brasileira apresenta um cenário complexo. Pesquisas indicam que, enquanto grandes centros urbanos e parcelas da população com maior conectividade podem se beneficiar da telemedicina e de aplicativos de saúde, milhões de brasileiros ainda enfrentam a exclusão digital. Essa disparidade evidencia que a simples oferta de ferramentas tecnológicas não garante sua ampla utilização ou equidade, ressaltando a necessidade de infraestrutura e letramento digital para que a mediação tecnológica na saúde seja verdadeiramente inclusiva."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A crescente mediação tecnológica na saúde também suscita debates importantes sobre a privacidade dos dados pessoais e a desumanização do cuidado. A coleta e o armazenamento de informações sensíveis por plataformas digitais exigem rigorosos protocolos de segurança para evitar vazamentos e usos indevidos. Além disso, a interação remota, embora eficiente, pode comprometer a relação médico-paciente e a percepção empática, elementos cruciais para um diagnóstico preciso e um tratamento humanizado. É fundamental ponderar sobre o equilíbrio entre inovação tecnológica e a manutenção da qualidade e ética no atendimento à saúde."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da mediação tecnológica na saúde no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Ciência",
+      "titulo": "Será que é saudável a tecnologia fazer a mediação da saúde?",
+      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
+    },
+    "geradoEm": "2026-05-04T11:03:31.884Z"
+  },
+  {
+    "id": "tema-1777892622541-desafios-para-a-regulamentacao-e-o-uso-etico-da-inteligencia",
+    "tema": "Desafios para a regulamentação e o uso ético da Inteligência Artificial no contexto da segurança e defesa no Brasil",
+    "areaFoco": "politica",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "regulamentação",
+      "ética",
+      "segurança nacional",
+      "defesa"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A integração da Inteligência Artificial (IA) em estratégias militares modernas marca uma nova era nos conflitos globais. Exemplos recentes demonstram a capacidade de sistemas autônomos de processar vastas quantidades de dados e identificar alvos com uma velocidade e precisão inatingíveis por análises humanas. Essa dependência crescente da IA não apenas acelera a tomada de decisões em cenários de guerra, mas também redefine a natureza do combate, deslocando parte do discernimento humano para algoritmos complexos, o que levanta questionamentos profundos sobre responsabilidade e controle em situações de conflito."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em tecnologia e ética alertam que o avanço exponencial da Inteligência Artificial, embora promissor para diversas áreas, apresenta um dilema significativo no campo da defesa. A capacidade de sistemas de IA de operar de forma autônoma em cenários de guerra, desde a vigilância até a identificação de alvos, suscita preocupações sobre a tomada de decisões morais e a potencial escalada de conflitos. A ausência de uma estrutura regulatória global ou nacional robusta para o uso militar da IA pode abrir precedentes perigosos, diluindo a responsabilidade humana e aumentando os riscos de erros catastróficos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "No Brasil, o debate sobre a Inteligência Artificial no setor de segurança e defesa ganha contornos urgentes. Enquanto a tecnologia oferece potenciais benefícios para a proteção das fronteiras, combate ao crime organizado e monitoramento ambiental, a ausência de um marco regulatório específico para sua aplicação militar ou policial é uma lacuna. É fundamental discutir como o país pode desenvolver suas capacidades tecnológicas de forma soberana e ética, garantindo que o uso da IA esteja alinhado com os princípios democráticos, os direitos humanos e a estabilidade regional, evitando a militarização indiscriminada e a dependência tecnológica."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a regulamentação e o uso ético da Inteligência Artificial no contexto da segurança e defesa no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Como a inteligência artificial inaugura capítulo na história das guerras",
+      "url": "https://www.bbc.com/portuguese/articles/cgmpg98exzzo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-05-04T11:03:42.541Z"
+  },
+  {
+    "id": "tema-1777892664977-desafios-para-a-efetivacao-da-educacao-pre-escolar-obrigator",
+    "tema": "Desafios para a efetivação da educação pré-escolar obrigatória no Brasil",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "educacao infantil",
+      "pré-escola",
+      "acesso",
+      "desafios",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A Constituição Federal e a Lei de Diretrizes e Bases da Educação Nacional (LDB) estabelecem a pré-escola como etapa obrigatória da educação básica para crianças de 4 e 5 anos. Essa determinação legal, vigente há mais de uma década, visa garantir o direito à educação desde a primeira infância, reconhecendo a importância dessa fase para o desenvolvimento cognitivo, social e emocional. Contudo, apesar do arcabouço legal, a plena universalização do acesso a essa etapa educacional ainda se configura como um desafio significativo em diversas regiões do Brasil, evidenciando lacunas na implementação da política pública."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Dados recentes de pesquisas educacionais, como os divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE), indicam que, embora o Brasil tenha avançado na oferta de vagas em pré-escolas, uma parcela considerável de crianças na faixa etária obrigatória permanece fora das salas de aula. Essa defasagem é mais acentuada em áreas rurais e em comunidades com menor Índice de Desenvolvimento Humano (IDH), onde a infraestrutura e a disponibilidade de profissionais qualificados são limitadas. A ausência na pré-escola pode comprometer o desenvolvimento integral e o processo de alfabetização, impactando o percurso escolar futuro desses indivíduos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A ausência de políticas públicas eficazes e de investimentos adequados na educação infantil contribui para a persistência da desigualdade social no país. Crianças que não frequentam a pré-escola chegam ao ensino fundamental com menor preparo, o que pode gerar um ciclo de defasagem educacional e exclusão social. Além disso, a falta de vagas e a qualidade questionável em algumas instituições impactam diretamente as famílias, especialmente as mães, que podem ter suas oportunidades de trabalho e desenvolvimento pessoal limitadas pela necessidade de cuidado integral dos filhos. Superar esses entraves exige um esforço conjunto da sociedade e do Estado."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação da educação pré-escolar obrigatória no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "Mesmo obrigatória há mais de uma década, pré‑escola ainda não chega a todas as crianças brasileiras",
+      "url": "https://g1.globo.com/educacao/noticia/2026/04/29/preescola-ainda-nao-chega-a-todas-as-criancas-brasileiras.ghtml"
+    },
+    "geradoEm": "2026-05-04T11:04:24.977Z"
+  },
+  {
+    "id": "tema-1777892713449-os-desafios-para-a-integracao-etica-e-responsavel-da-intelig",
+    "tema": "Os desafios para a integração ética e responsável da Inteligência Artificial no contexto educacional brasileiro",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "Educação",
+      "Ética",
+      "Tecnologia",
+      "Regulamentação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A ascensão de ferramentas de Inteligência Artificial generativa, como o ChatGPT, revolucionou o cenário educacional, especialmente no ensino superior. A facilidade de acesso a essas tecnologias tem levado instituições de ensino a debater e implementar diretrizes sobre seu uso. O objetivo é assegurar que a incorporação da IA na rotina acadêmica ocorra de forma a complementar o aprendizado, sem comprometer a originalidade e o desenvolvimento crítico dos estudantes. Esse movimento reflete uma busca por equilíbrio entre a inovação tecnológica e a manutenção dos padrões éticos do ambiente universitário."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas recentes indicam que uma parcela significativa de estudantes brasileiros já utiliza ferramentas de Inteligência Artificial em suas atividades acadêmicas, desde a pesquisa e organização de ideias até a redação de textos. Essa realidade impõe um desafio às universidades, que precisam conciliar a proibição total, muitas vezes inviável e contraproducente, com a ausência de normas claras, que pode fomentar práticas antiéticas. Especialistas em educação e tecnologia defendem que a chave está na alfabetização digital e na redefinição do papel da IA como um recurso de apoio, e não como um substituto do pensamento crítico e da autoria."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Embora a Inteligência Artificial apresente riscos relacionados ao plágio e à superficialidade do aprendizado se utilizada de forma inadequada, seu potencial transformador na educação é inegável. Ela pode personalizar o ensino, automatizar tarefas administrativas, auxiliar na pesquisa e oferecer novas metodologias de avaliação. Contudo, para que esses benefícios sejam plenamente explorados, é crucial desenvolver políticas educacionais que não apenas restrinjam o uso indevido, mas que também capacitem professores e alunos a empregar a IA de maneira construtiva, promovendo a inovação e o aprimoramento das práticas pedagógicas no Brasil."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a integração ética e responsável da Inteligência Artificial no contexto educacional brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "Universidades estabelecem regras para o uso de IA na educação",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/04/21/universidades-estabelecem-regras-para-o-uso-de-ia-na-educacao.ghtml"
+    },
+    "geradoEm": "2026-05-04T11:05:13.449Z"
+  },
+  {
+    "id": "tema-1777892724149-os-desafios-para-a-valorizacao-e-integracao-dos-saberes-trad",
+    "tema": "Os desafios para a valorização e integração dos saberes tradicionais indígenas na produção científica brasileira",
+    "areaFoco": "cultura",
+    "palavrasChave": [
+      "Saberes tradicionais",
+      "Ciência indígena",
+      "Pluralidade de conhecimentos"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Recentemente, observa-se um movimento crescente de pesquisadores indígenas que acessam o ensino superior e trazem para o ambiente acadêmico a riqueza dos saberes ancestrais de suas comunidades. Essa fusão entre o conhecimento tradicional, transmitido oralmente por gerações, e as metodologias científicas formais tem gerado novas abordagens para a compreensão de fenômenos naturais e sociais, especialmente em áreas como a biodiversidade e a saúde. Tal iniciativa ressalta a importância de uma perspectiva mais plural na produção científica brasileira, promovendo um diálogo necessário entre diferentes cosmovisões."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos e relatos de especialistas apontam que a contribuição dos povos originários para o patrimônio científico global é imensa, embora muitas vezes subestimada ou invisibilizada. A incorporação ativa de pesquisadores indígenas em projetos científicos não apenas enriquece a base de dados com informações históricas e observações de longo prazo, mas também promove a sustentabilidade e a valorização cultural. A Universidade de Brasília, por exemplo, tem sido pioneira em programas de inclusão que visam a formação de cientistas indígenas, demonstrando o potencial transformador dessa integração para o avanço da ciência."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Apesar do reconhecimento crescente, a integração plena dos saberes tradicionais indígenas na academia ainda enfrenta obstáculos significativos, como o preconceito epistêmico e a dificuldade de diálogo entre diferentes cosmologias. Superar essas barreiras exige não apenas a criação de políticas de inclusão, mas também uma revisão crítica dos modelos eurocêntricos de produção de conhecimento. A valorização da ciência indígena é um caminho para a descolonização do pensamento e para a construção de uma sociedade mais equitativa e ecologicamente consciente, que reconheça a diversidade como uma força motriz para o desenvolvimento."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a valorização e integração dos saberes tradicionais indígenas na produção científica brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "Da floresta à universidade: Conheça pesquisadores indígenas que produzem ciência a partir da conexão com saberes tradicionais",
+      "url": "https://g1.globo.com/pa/para/noticia/2026/04/19/da-floresta-a-universidade-pesquisadores-indigenas-produzem-ciencia-a-partir-da-conexao-com-saberes-tradicionais.ghtml"
+    },
+    "geradoEm": "2026-05-04T11:05:24.149Z"
+  },
+  {
+    "id": "tema-1777892734624-os-desafios-da-desconstrucao-de-padroes-esteticos-eurocentri",
+    "tema": "Os desafios da desconstrução de padrões estéticos eurocêntricos e seus impactos na saúde e identidade brasileiras",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "padrões de beleza",
+      "eurocentrismo",
+      "clareamento de pele",
+      "saúde",
+      "identidade",
+      "colorismo"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O uso de produtos para clareamento da pele é uma prática difundida em diversas partes do mundo, incluindo o Brasil. Motivada por um ideal de beleza predominantemente eurocêntrico, essa busca por um tom de pele mais claro pode estar associada a pressões sociais e culturais, que muitas vezes desvalorizam a diversidade de tons de pele presentes na população brasileira. Embora a prática seja frequentemente justificada pela estética, ela levanta questões importantes sobre autoestima e aceitação da própria identidade racial, configurando um fenômeno complexo com implicações sociais e de saúde pública."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos e levantamentos indicam que o mercado de produtos clareadores de pele movimenta bilhões globalmente, e muitos desses itens contêm substâncias como hidroquinona e mercúrio, que podem causar danos irreversíveis à saúde. Entre os riscos estão o surgimento de manchas, irritações, dermatites, e em casos mais graves, insuficiência renal e câncer de pele. Além dos perigos físicos, a pressão estética para clarear a pele pode gerar problemas psicológicos, como baixa autoestima e distúrbios de imagem, afetando o bem-estar mental de indivíduos que se sentem compelidos a alterar sua aparência natural para se adequarem a um ideal imposto."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A persistência de padrões de beleza eurocêntricos na sociedade brasileira é um reflexo do racismo estrutural e do colorismo, que valorizam traços europeus em detrimento das características de pessoas negras e indígenas. A mídia e a publicidade frequentemente perpetuam esses ideais, reforçando a ideia de que a pele mais clara é sinônimo de status, sucesso e beleza. Essa representação seletiva contribui para a internalização de preconceitos e para a busca por uma estética que não corresponde à diversidade étnica do país, impactando profundamente a identidade e a autoaceitação de parcelas significativas da população brasileira."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da desconstrução de padrões estéticos eurocêntricos e seus impactos na saúde e identidade brasileiras\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Por que tantas mulheres africanas clareiam a pele?",
+      "url": "https://www.bbc.com/portuguese/articles/clyp5nexyj0o?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-05-04T11:05:34.624Z"
+  },
+  {
+    "id": "tema-1777892745576-caminhos-para-o-enfrentamento-da-obesidade-e-a-promocao-de-h",
+    "tema": "Caminhos para o enfrentamento da obesidade e a promoção de hábitos saudáveis na sociedade brasileira",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "obesidade",
+      "saúde pública",
+      "hábitos saudáveis",
+      "bem-estar",
+      "dietas restritivas"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A obesidade tornou-se uma preocupação global de saúde pública, com o Brasil enfrentando um cenário de aumento constante de casos em diversas faixas etárias. Em meio a essa realidade, observa-se a proliferação de métodos e regimes para perda de peso que, embora prometam resultados rápidos, muitas vezes negligenciam a sustentabilidade e os riscos potenciais à saúde dos indivíduos. A busca por um corpo idealizado, impulsionada por padrões estéticos e pressões sociais, leva muitos a aderir a práticas que podem comprometer o bem-estar físico e mental a longo prazo, em vez de promover uma relação equilibrada com a alimentação e o exercício."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Segundo dados recentes do Ministério da Saúde, a prevalência de obesidade entre adultos brasileiros tem crescido de forma alarmante nas últimas décadas, atingindo parcelas significativas da população. Esse aumento está associado a uma série de fatores, como o sedentarismo, a alimentação rica em ultraprocessados e o estresse da vida moderna. Especialistas em nutrição e medicina alertam que a busca por soluções rápidas e milagrosas para o emagrecimento, como dietas extremamente restritivas ou programas de exercícios exaustivos sem acompanhamento profissional, pode ser contraproducente, levando a distúrbios alimentares, problemas metabólicos e um efeito sanfona prejudicial à saúde a longo prazo."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A indústria do emagrecimento no Brasil movimenta bilhões de reais anualmente, oferecendo uma vasta gama de produtos, dietas e programas que prometem a perda de peso em tempo recorde. Contudo, essa lógica mercadológica muitas vezes ignora a complexidade da obesidade, que é multifatorial e envolve aspectos genéticos, psicológicos, sociais e econômicos. É fundamental que a sociedade brasileira reflita sobre a importância de adotar uma abordagem mais integral e sustentável para a saúde, que valorize a educação nutricional, a prática regular de atividades físicas adequadas e o acompanhamento de profissionais qualificados, em vez de recorrer a soluções radicais que desconsideram o respeito ao corpo e à saúde mental."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para o enfrentamento da obesidade e a promoção de hábitos saudáveis na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Como são as 'prisões para obesos' da China: pesagem duas vezes por dia, exercícios intensos e lanches proibidos",
+      "url": "https://www.bbc.com/portuguese/articles/c0m2027mdmjo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-05-04T11:05:45.576Z"
+  },
+  {
+    "id": "tema-1777892754898-desafios-para-a-adaptacao-e-mitigacao-dos-impactos-das-mudan",
+    "tema": "Desafios para a adaptação e mitigação dos impactos das mudanças climáticas no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "mudanças climáticas",
+      "eventos extremos",
+      "adaptação",
+      "mitigação",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O Brasil, assim como diversas outras nações, tem testemunhado um aumento na frequência e intensidade de eventos climáticos extremos. Fenômenos como ondas de calor prolongadas, secas severas em algumas regiões e chuvas torrenciais resultando em inundações e deslizamentos de terra tornam-se cada vez mais comuns. Essa nova realidade climática, que afeta desde a produção agrícola até a segurança das moradias urbanas, ressalta a urgência de compreender e agir frente às transformações ambientais em curso no território nacional."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Relatórios recentes de organizações ambientais e científicas indicam que o Brasil está entre os países mais vulneráveis aos efeitos das mudanças climáticas. Projeções apontam para possíveis perdas significativas na biodiversidade, prejuízos econômicos na agricultura e pecuária, e impactos diretos na saúde pública, especialmente das populações mais carentes. A intensificação de doenças transmitidas por vetores e a escassez de recursos hídricos em determinadas áreas são preocupações crescentes, evidenciando a necessidade de políticas públicas e ações preventivas robustas."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A complexidade das mudanças climáticas exige uma abordagem multifacetada que combine estratégias de adaptação e mitigação. Enquanto a adaptação busca reduzir a vulnerabilidade e aumentar a resiliência das comunidades aos impactos já existentes ou futuros, a mitigação foca na redução das emissões de gases de efeito estufa. No Brasil, iniciativas de transição energética para fontes renováveis, reflorestamento de áreas degradadas e o desenvolvimento de cidades mais sustentáveis são cruciais, mas enfrentam desafios como a coordenação intersetorial e a conscientização popular."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a adaptação e mitigação dos impactos das mudanças climáticas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Relat�rio confirma que quase toda a Europa foi anormalmente quente em 2025",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/05/relatorio-confirma-que-quase-toda-a-europa-foi-anormalmente-quente-em-2025.shtml"
+    },
+    "geradoEm": "2026-05-04T11:05:54.898Z"
+  },
+  {
+    "id": "tema-1777892765963-desafios-para-a-efetivacao-da-transicao-energetica-sustentav",
+    "tema": "Desafios para a efetivação da transição energética sustentável no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "transição energética",
+      "sustentabilidade",
+      "combustíveis fósseis",
+      "Brasil",
+      "desenvolvimento"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "As cúpulas climáticas globais, como as Conferências das Partes (COPs), reiteram a urgência da descarbonização e da transição para fontes de energia limpa. Contudo, líderes de diversas nações têm expressado preocupação com a viabilidade de uma interrupção abrupta do uso de combustíveis fósseis. Argumenta-se que tal medida, embora desejável, poderia comprometer o crescimento econômico e a estabilidade social, especialmente em países com grande dependência dessas fontes para sua matriz energética e industrial. O desafio reside em equilibrar as ambiciosas metas climáticas com as realidades socioeconômicas e as necessidades de desenvolvimento de cada país."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Apesar de possuir uma matriz elétrica com significativa participação de fontes renováveis, o Brasil ainda depende substancialmente de combustíveis fósseis para setores vitais como transporte, indústria e até mesmo para a geração termelétrica de base, acionada em períodos de menor disponibilidade hídrica. Especialistas apontam que a transição plena requer investimentos massivos em infraestrutura, tecnologia e pesquisa, além de políticas públicas robustas. Estima-se que os custos sociais e econômicos de uma descarbonização acelerada sem planejamento adequado poderiam impactar milhões de trabalhadores e a competitividade de diversos setores produtivos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A transição energética sustentável não representa apenas um desafio, mas também uma oportunidade ímpar para o desenvolvimento de novas tecnologias, a geração de empregos verdes e a promoção da inovação. Muitos defendem que o Brasil, com seu vasto potencial em energias renováveis como solar, eólica e biomassa, pode se tornar um líder global nesse campo. No entanto, é fundamental que esse processo seja conduzido de forma equitativa, garantindo que comunidades e trabalhadores dependentes da economia fóssil sejam amparados e que os benefícios da nova matriz energética sejam acessíveis a todos os cidadãos, evitando aprofundar desigualdades sociais."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação da transição energética sustentável no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Dizer �s na��es para abandonarem combust�veis f�sseis 'n�o � realista', afirma chefe da COP31",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/05/dizer-as-nacoes-para-abandonarem-combustiveis-fosseis-nao-e-realista-afirma-chefe-da-cop31.shtml"
+    },
+    "geradoEm": "2026-05-04T11:06:05.963Z"
+  },
+  {
+    "id": "tema-1777892780459-desafios-para-o-brasil-na-promocao-de-uma-transicao-energeti",
+    "tema": "Desafios para o Brasil na promoção de uma transição energética sustentável em um cenário de descrença nos acordos climáticos globais",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "transição energética",
+      "crise climática",
+      "acordos internacionais",
+      "sustentabilidade",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A Conferência das Partes (COP30), agendada para ocorrer no Brasil em 2025, simboliza um momento crucial para as discussões climáticas globais. No entanto, a trajetória das cúpulas anteriores tem sido marcada por críticas quanto à sua capacidade de gerar compromissos efetivos e ações concretas para conter o aquecimento global. A expectativa em torno do evento brasileiro se choca com um cenário internacional de crescente ceticismo sobre a real eficácia dos acordos multilaterais na promoção de uma transição energética e na mitigação dos impactos das mudanças climáticas."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas e líderes globais têm apontado para a persistente lacuna entre as metas estabelecidas em conferências climáticas e a implementação prática de políticas que visem à descarbonização da economia. A falta de consenso e a priorização de interesses nacionais em detrimento de uma agenda comum têm levado a um sentimento de \"impotência\" diante da magnitude da crise climática e da urgência de uma transição energética. Essa percepção de ineficácia dos fóruns internacionais desafia a capacidade do Brasil de se posicionar como um ator relevante na busca por soluções."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O Brasil, detentor de uma das maiores biodiversidades do planeta e com um papel estratégico na matriz energética global, enfrenta o dilema de avançar em sua própria transição para fontes renováveis e na proteção ambiental, ao mesmo tempo em que lida com a descrença nos mecanismos de cooperação internacional. A complexidade de conciliar o desenvolvimento econômico com a sustentabilidade é intensificada pela percepção de que os esforços nacionais podem ser insuficientes sem um engajamento global robusto e compromissos vinculativos que acelerem o abandono dos combustíveis fósseis em escala mundial."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o Brasil na promoção de uma transição energética sustentável em um cenário de descrença nos acordos climáticos globais\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "COP30 � demonstra��o do fracasso de confer�ncias do clima, diz presidente colombiano",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/04/cop30-e-demonstracao-do-fracasso-de-conferencias-do-clima-diz-presidente-colombiano.shtml"
+    },
+    "geradoEm": "2026-05-04T11:06:20.459Z"
+  },
+  {
+    "id": "tema-1777892796122-os-desafios-da-emigracao-de-brasileiros-para-o-exterior-impu",
+    "tema": "Os desafios da emigração de brasileiros para o exterior impulsionada por fatores políticos e econômicos",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "emigração brasileira",
+      "polarização política",
+      "desafios econômicos",
+      "influência digital"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Nos últimos anos, observa-se um crescimento notável no fluxo de brasileiros buscando residência em países vizinhos, como o Paraguai. Esse movimento migratório é impulsionado por uma complexa combinação de fatores, incluindo a busca por regimes tributários mais favoráveis, a insatisfação com o cenário político e social brasileiro, e a influência de narrativas difundidas por meio das redes sociais. Muitos desses indivíduos expressam um desejo por um ambiente que consideram mais alinhado às suas convicções ideológicas e econômicas, percebendo-se \"oprimidos\" ou limitados em seu país de origem."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas recentes e relatos de quem se muda indicam que a decisão de deixar o Brasil frequentemente está ligada a uma percepção de instabilidade econômica e a um profundo descontentamento com a polarização política. Muitos migrantes, ao buscarem oportunidades em nações como o Paraguai, citam a carga tributária elevada e a burocracia excessiva como entraves ao desenvolvimento pessoal e empresarial no Brasil. A idealização de um \"sonho\" em um novo país, muitas vezes amplificada por comunidades online e influenciadores digitais, reforça a ideia de que a mudança representa uma libertação de um sistema considerado desfavorável."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A crescente emigração de brasileiros, motivada por visões de mundo específicas e por expectativas econômicas, levanta questionamentos sobre a capacidade do Brasil de reter sua população e talentos. Esse fenômeno não apenas reflete desafios internos em áreas como governança e ambiente de negócios, mas também evidencia o poder das redes sociais na formação de percepções e na mobilização de massas. A construção de comunidades virtuais em torno de ideologias e aspirações específicas pode consolidar a ideia de que a solução para problemas complexos reside na migração, impactando a coesão social e a identidade nacional."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da emigração de brasileiros para o exterior impulsionada por fatores políticos e econômicos\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "'Somos oprimidos no Brasil': a onda de brasileiros rumo ao Paraguai em busca de 'sonho de direita'",
+      "url": "https://www.bbc.com/portuguese/articles/cwyw7696n1zo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-05-04T11:06:36.122Z"
+  },
+  {
+    "id": "tema-1777892807638-o-debate-sobre-a-regulamentacao-de-substancias-psicoativas-n",
+    "tema": "O debate sobre a regulamentação de substâncias psicoativas na sociedade brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "regulamentação",
+      "substâncias psicoativas",
+      "saúde pública"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Em diversos países ao redor do mundo, o debate sobre a regulamentação de substâncias psicoativas, como a cannabis e certos psicodélicos, tem ganhado destaque. Recentemente, por exemplo, importantes mudanças na legislação de uma nação ocidental demonstraram uma reavaliação das políticas públicas sobre o tema. Essas discussões refletem uma busca por abordagens mais eficazes, considerando aspectos de saúde pública, justiça social e economia, em contraposição a modelos proibicionistas que historicamente geraram desafios significativos. A complexidade do assunto exige uma análise multifacetada dos impactos sociais e individuais."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "No Brasil, a atual política de proibição de certas substâncias psicoativas gera debates intensos sobre suas consequências. Estimativas de organizações não governamentais e estudos acadêmicos apontam para o alto custo social e econômico associado ao encarceramento em massa, especialmente de jovens e minorias, e ao fortalecimento do crime organizado. Além disso, a falta de regulamentação dificulta o controle de qualidade e o acesso a tratamentos de saúde adequados, deixando a população mais vulnerável e sobrecarregando o sistema público com demandas complexas."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A discussão sobre a regulamentação de substâncias psicoativas envolve diversas perspectivas, desde o potencial terapêutico de certas plantas e compostos, reconhecido pela comunidade científica para o tratamento de condições como dor crônica e transtornos mentais, até as implicações éticas e econômicas de sua produção e comercialização. Defensores da regulamentação argumentam sobre a possibilidade de geração de impostos, controle de qualidade e redução dos danos sociais. Contudo, preocupações com a saúde pública, o aumento do consumo e o impacto na segurança ainda são centrais para muitos setores da sociedade."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"O debate sobre a regulamentação de substâncias psicoativas na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ciência",
+      "titulo": "Reforma de Trump para maconha � fuma�a de palha",
+      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/colunas/marceloleite/2026/04/reforma-de-trump-para-maconha-e-fumaca-de-palha.shtml"
+    },
+    "geradoEm": "2026-05-04T11:06:47.638Z"
+  },
+  {
+    "id": "tema-1777892831062-os-desafios-da-manutencao-e-adaptacao-do-ideal-de-cidade-pla",
+    "tema": "Os desafios da manutenção e adaptação do ideal de cidade planejada na realidade urbana brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "planejamento urbano",
+      "Brasília",
+      "cidade ideal",
+      "realidade urbana",
+      "patrimônio cultural"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Brasília, concebida na metade do século XX, representa um marco do urbanismo modernista no Brasil. Projetada por nomes como Oscar Niemeyer e Lucio Costa, a capital federal surgiu com a promessa de uma cidade organizada, eficiente e inovadora. Seu Plano Piloto foi, inclusive, reconhecido como Patrimônio Cultural da Humanidade pela UNESCO, consolidando a imagem de um modelo de planejamento urbano que almejava a modernidade e o progresso. Este ideal, forjado no imaginário coletivo, ainda hoje é associado à singularidade e ao avanço do projeto de nação."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Contudo, a grandiosidade da concepção inicial de Brasília muitas vezes contrasta com as complexidades da vida urbana contemporânea. Estudos e análises sobre metrópoles planejadas indicam que, apesar de seus méritos estéticos e funcionais iniciais, muitas enfrentam desafios significativos em termos de mobilidade, acessibilidade e inclusão social. Por exemplo, a segregação espacial ou a dificuldade de adaptação a novas demandas populacionais podem emergir como problemas persistentes, desvirtuando o propósito original de uma cidade que se pretendia exemplar e acessível a todos os seus habitantes."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A percepção de que Brasília, apesar de seu reconhecimento histórico, não serve plenamente como modelo para o urbanismo atual levanta questões sobre a longevidade e adaptabilidade de projetos urbanos grandiosos. O ideal de uma 'cidade perfeita' ou 'organizada' pode negligenciar a dinâmica social, econômica e cultural que molda o cotidiano das pessoas. Assim, a necessidade de repensar a gestão e evolução desses espaços torna-se crucial, buscando equilibrar a preservação do patrimônio com as urgentes demandas por uma cidade mais inclusiva, sustentável e humana, que atenda às diversas necessidades de seus cidadãos."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da manutenção e adaptação do ideal de cidade planejada na realidade urbana brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "Bras�lia n�o � um bom exemplo de cidade",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/colunas/caos-planejado/2026/05/brasilia-nao-e-um-bom-exemplo-de-cidade.shtml"
+    },
+    "geradoEm": "2026-05-04T11:07:11.062Z"
+  },
+  {
+    "id": "tema-1777892840869-desafios-para-a-protecao-da-biodiversidade-em-paisagens-frag",
+    "tema": "Desafios para a proteção da biodiversidade em paisagens fragmentadas no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "biodiversidade",
+      "conservação",
+      "fragmentação",
+      "ecossistema",
+      "fauna"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Estudos recentes indicam que a sobrevivência de espécies animais em ecossistemas tropicais, como as florestas brasileiras, não depende apenas do tamanho das áreas de mata preservada. A qualidade e a gestão do ambiente que circunda essas florestas são fatores igualmente cruciais para a manutenção de populações saudáveis de fauna. A degradação ou a má utilização dessas zonas de transição podem isolar as espécies e impedir o fluxo genético, impactando diretamente a resiliência dos ecossistemas e a capacidade de adaptação da vida selvagem."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Dados hipotéticos de relatórios ambientais sugerem que cerca de 40% das espécies de aves que habitam florestas tropicais brasileiras enfrentam riscos crescentes de extinção devido à perda de conectividade entre os fragmentos de seus habitats. A expansão agrícola e urbana desordenada nas bordas das matas é apontada como um dos principais motores desse processo, criando barreiras que impedem a dispersão de indivíduos e a busca por recursos essenciais para sua sobrevivência e reprodução."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A conservação da biodiversidade no Brasil exige uma abordagem integrada que vá além da criação de unidades de conservação isoladas. É fundamental considerar as interações entre as áreas protegidas e as propriedades rurais ou urbanas adjacentes. A implementação de corredores ecológicos, o incentivo a práticas sustentáveis na agricultura e a educação ambiental para comunidades do entorno são estratégias essenciais para mitigar os impactos da fragmentação e promover a coexistência entre o desenvolvimento humano e a vida selvagem."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a proteção da biodiversidade em paisagens fragmentadas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "Preserva��o de entorno de matas garante maior sobreviv�ncia de aves",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/ambiente/2026/05/preservacao-de-entorno-de-matas-garante-maior-sobrevivencia-de-aves.shtml"
+    },
+    "geradoEm": "2026-05-04T11:07:20.869Z"
+  },
+  {
+    "id": "tema-1777892951076-desafios-para-a-transicao-energetica-e-a-descarbonizacao-da-",
+    "tema": "Desafios para a transição energética e a descarbonização da economia no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "transição energética",
+      "combustíveis fósseis",
+      "descarbonização",
+      "mudanças climáticas",
+      "sustentabilidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A urgência climática global exige uma transição energética acelerada, com o abandono progressivo dos combustíveis fósseis. Nesse cenário, a ciência desempenha um papel crucial, fornecendo dados e soluções para guiar políticas públicas e inovações tecnológicas. Recentemente, um painel internacional de especialistas, com participação proeminente de pesquisadores da Universidade de São Paulo (USP), foi lançado para intensificar os esforços científicos e influenciar decisões globais rumo a uma matriz energética mais limpa. A iniciativa ressalta a importância da pesquisa e do engajamento acadêmico brasileiro na busca por um futuro mais sustentável."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Embora o Brasil possua uma das matrizes energéticas mais limpas do mundo, impulsionada por fontes hidrelétricas e renováveis, ainda há uma dependência significativa de combustíveis fósseis em diversos setores, como transportes e indústria. Dados recentes indicam que a queima desses recursos é um dos maiores emissores de gases de efeito estufa no país, contribuindo para o agravamento das mudanças climáticas. A descarbonização da economia brasileira, portanto, não é apenas um compromisso ambiental global, mas uma necessidade estratégica para mitigar impactos futuros e promover um desenvolvimento verdadeiramente sustentável e resiliente."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A transição para uma economia de baixo carbono no Brasil enfrenta desafios multifacetados, que vão além da inovação tecnológica. Questões econômicas, como o impacto na indústria de petróleo e gás e a necessidade de investimentos massivos em infraestrutura para energias renováveis, são centrais. Além disso, aspectos sociais, como a requalificação de trabalhadores e a garantia de acesso equitativo à energia limpa, demandam atenção. É fundamental que as políticas públicas incentivem a diversificação da matriz energética, promovam a pesquisa e o desenvolvimento, e articulem soluções que considerem a complexidade e as potencialidades regionais do país."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a transição energética e a descarbonização da economia no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Painel internacional na USP quer influenciar fim dos combust�veis f�sseis",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/04/painel-internacional-na-usp-quer-influenciar-fim-dos-combustiveis-fosseis.shtml"
+    },
+    "geradoEm": "2026-05-04T11:09:11.076Z"
+  },
+  {
     "id": "tema-1777287593847-desafios-para-a-promocao-da-equidade-social-nas-cidades-bras",
     "tema": "Desafios para a promoção da equidade social nas cidades brasileiras",
     "areaFoco": "sociedade",
