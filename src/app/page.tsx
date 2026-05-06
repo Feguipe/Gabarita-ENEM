@@ -11,6 +11,8 @@ import {
 } from "@/lib/simulation-store";
 import { AppHeader } from "@/components/AppHeader";
 
+type Modo = null | "individual" | "grupo";
+
 const AREAS: { value: Area | "misto"; label: string; hint: string }[] = [
   { value: "misto", label: "Misto", hint: "Todas as áreas" },
   { value: "linguagens", label: "Linguagens", hint: "Português, literatura, inglês/espanhol" },
@@ -33,6 +35,7 @@ export default function HomePage() {
   const anoRecente = anos[0] ?? 2023;
   const anoAntigo = anos[anos.length - 1] ?? 2014;
 
+  const [modo, setModo] = useState<Modo>(null);
   const [area, setArea] = useState<Area | "misto">("misto");
   const [quantidade, setQuantidade] = useState(20);
   const [language, setLanguage] =
@@ -69,38 +72,130 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto">
           <div className="mb-8 md:mb-10">
             <h1 className="serif text-3xl md:text-4xl font-semibold leading-tight mb-3">
-              Monte seu simulado
+              Como você quer estudar hoje?
             </h1>
             <p
-              className="text-base leading-relaxed mb-5"
+              className="text-base leading-relaxed"
               style={{ color: "var(--color-ink-2)" }}
             >
-              {QUESTIONS.length.toLocaleString("pt-BR")} questões oficiais do ENEM, de{" "}
-              {anoAntigo} a {anoRecente}. Escolha a área, a quantidade e comece.
+              {QUESTIONS.length.toLocaleString("pt-BR")} questões oficiais do
+              ENEM, de {anoAntigo} a {anoRecente}, e oficinas de redação com
+              temas atuais.
             </p>
-            <div
-              className="rounded-md border p-3 text-sm flex items-start gap-3"
-              style={{
-                background: "var(--color-warn-soft)",
-                borderColor: "var(--color-warn)",
-                color: "var(--color-ink)",
-              }}
-            >
-              <span
-                className="text-base leading-none mt-0.5"
-                aria-hidden="true"
-              >
-                ⚡
-              </span>
-              <div>
-                <strong>Protocolo anti-cola ativo:</strong> sair da aba, Alt+Tab
-                ou copiar/colar encerra o simulado imediatamente. É o mesmo rigor
-                da prova real.
-              </div>
-            </div>
           </div>
 
-          <div className="space-y-8">
+          {/* Cards de modo */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-10">
+            <ModoCard
+              titulo="Estudo individual"
+              descricao="Faça simulado ou redação no seu ritmo"
+              icone="📚"
+              ativo={modo === "individual"}
+              onClick={() => setModo("individual")}
+            />
+            <ModoCard
+              titulo="Estudo em grupo"
+              descricao="Sala de simulado, oficina de redação ou entrar com código"
+              icone="👥"
+              ativo={modo === "grupo"}
+              onClick={() => setModo("grupo")}
+            />
+          </div>
+
+          {modo === "grupo" && (
+            <section className="mb-10 space-y-3">
+              <h2
+                className="text-xs font-semibold uppercase tracking-widest mb-3"
+                style={{ color: "var(--color-ink-3)" }}
+              >
+                Estudo em grupo
+              </h2>
+              <button
+                type="button"
+                onClick={() => router.push("/sala/criar")}
+                className="w-full text-left p-4 rounded-lg border transition-colors hover:border-[var(--color-accent)]"
+                style={{
+                  background: "var(--color-paper)",
+                  borderColor: "var(--color-line)",
+                }}
+              >
+                <div className="font-medium" style={{ color: "var(--color-ink)" }}>
+                  👥 Criar sala de simulado
+                </div>
+                <div
+                  className="text-xs mt-0.5"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Compartilhe um código com sua turma e veja o ranking ao vivo
+                </div>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => router.push("/oficina/criar")}
+                className="w-full text-left p-4 rounded-lg border transition-colors hover:border-[var(--color-accent)]"
+                style={{
+                  background: "var(--color-paper)",
+                  borderColor: "var(--color-line)",
+                }}
+              >
+                <div className="font-medium" style={{ color: "var(--color-ink)" }}>
+                  ✍️ Criar oficina de redação
+                </div>
+                <div
+                  className="text-xs mt-0.5"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Escolha um tema e receba as redações dos alunos para corrigir
+                </div>
+              </button>
+
+              <button
+                type="button"
+                onClick={() => router.push("/sala/entrar")}
+                className="w-full text-left p-4 rounded-lg border transition-colors hover:border-[var(--color-accent)]"
+                style={{
+                  background: "var(--color-paper)",
+                  borderColor: "var(--color-line)",
+                }}
+              >
+                <div className="font-medium" style={{ color: "var(--color-ink)" }}>
+                  🚪 Entrar com código
+                </div>
+                <div
+                  className="text-xs mt-0.5"
+                  style={{ color: "var(--color-ink-3)" }}
+                >
+                  Você recebeu um código? Funciona para sala ou oficina
+                </div>
+              </button>
+            </section>
+          )}
+
+          {modo === "individual" && (
+            <>
+              <div
+                className="rounded-md border p-3 text-sm flex items-start gap-3 mb-6"
+                style={{
+                  background: "var(--color-warn-soft)",
+                  borderColor: "var(--color-warn)",
+                  color: "var(--color-ink)",
+                }}
+              >
+                <span
+                  className="text-base leading-none mt-0.5"
+                  aria-hidden="true"
+                >
+                  ⚡
+                </span>
+                <div>
+                  <strong>Protocolo anti-cola ativo:</strong> sair da aba,
+                  Alt+Tab ou copiar/colar encerra o simulado imediatamente. É o
+                  mesmo rigor da prova real.
+                </div>
+              </div>
+
+              <div className="space-y-8">
             <section>
               <SectionLabel>Área do conhecimento</SectionLabel>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -231,7 +326,7 @@ export default function HomePage() {
               </div>
             )}
 
-            <div className="pt-2">
+            <div className="pt-2 space-y-3">
               <button
                 type="button"
                 onClick={handleStart}
@@ -240,11 +335,60 @@ export default function HomePage() {
               >
                 Iniciar simulado
               </button>
+              <button
+                type="button"
+                onClick={() => router.push("/redacao")}
+                className="btn-ghost w-full py-3"
+                title="Fazer redação no seu ritmo, com tema do banco"
+              >
+                ✍️ Fazer redação individual
+              </button>
             </div>
           </div>
+            </>
+          )}
         </div>
       </main>
     </>
+  );
+}
+
+function ModoCard({
+  titulo,
+  descricao,
+  icone,
+  ativo,
+  onClick,
+}: {
+  titulo: string;
+  descricao: string;
+  icone: string;
+  ativo: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="text-left p-5 rounded-lg border transition-colors"
+      style={{
+        borderColor: ativo ? "var(--color-accent)" : "var(--color-line)",
+        background: ativo ? "var(--color-accent-soft)" : "var(--color-paper)",
+      }}
+    >
+      <div className="text-2xl mb-2" aria-hidden="true">
+        {icone}
+      </div>
+      <div
+        className="font-semibold text-base mb-1"
+        style={{ color: "var(--color-ink)" }}
+      >
+        {titulo}
+      </div>
+      <div className="text-xs leading-snug" style={{ color: "var(--color-ink-3)" }}>
+        {descricao}
+      </div>
+    </button>
   );
 }
 

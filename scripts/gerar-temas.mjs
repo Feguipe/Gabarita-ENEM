@@ -314,11 +314,12 @@ async function main() {
     }
   }
 
-  // Estratégia: merge novos + banco existente + evergreen (fallback).
-  // Prioridade: temas novos > banco anterior > evergreen curados.
+  // Estratégia: merge novos + banco existente recente + evergreen (fallback).
+  // Prioridade: temas novos > banco anterior (≤30 dias) > evergreen curados.
   // Piso mínimo de 15 temas no banco final (senão adiciona evergreens).
   const MAX_BANCO = 40;
   const PISO_BANCO = 15;
+  const RETENCAO_DIAS = 30;
   const OUT_PATH = "src/data/temas.json";
   const EVERGREEN_PATH = "src/data/temas-evergreen.json";
 
@@ -345,6 +346,22 @@ async function main() {
     process.exit(1);
   }
 
+  // PODA: descarta temas existentes mais velhos que RETENCAO_DIAS.
+  // Evergreens nunca são podados (eles vêm de outro arquivo, mas se um
+  // evergreen-XXX entrou em existentes em algum momento, preservamos).
+  const limiteMs = Date.now() - RETENCAO_DIAS * 24 * 60 * 60 * 1000;
+  const antesDaPoda = existentes.length;
+  existentes = existentes.filter((t) => {
+    if (t.id?.startsWith?.("evergreen-")) return true;
+    const geradoMs = t.geradoEm ? Date.parse(t.geradoEm) : NaN;
+    if (isNaN(geradoMs)) return true; // sem data: preserva por segurança
+    return geradoMs >= limiteMs;
+  });
+  const podados = antesDaPoda - existentes.length;
+  if (podados > 0) {
+    console.log(`🧹 Poda: removidos ${podados} temas com mais de ${RETENCAO_DIAS} dias`);
+  }
+
   // Dedup por tema normalizado (primeiras 50 chars, lowercase)
   const chaveTema = (t) => (t.tema || "").toLowerCase().slice(0, 50);
   const vistosTemas = new Set();
@@ -361,7 +378,7 @@ async function main() {
   };
 
   adicionar(temas);      // 1º novos
-  adicionar(existentes); // 2º banco anterior
+  adicionar(existentes); // 2º banco anterior (já podado)
   if (mesclados.length < PISO_BANCO) {
     adicionar(evergreen); // 3º evergreen só se necessário
   }
