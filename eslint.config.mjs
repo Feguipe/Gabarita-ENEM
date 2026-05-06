@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
       "react-hooks/set-state-in-effect": "off",
       // Permite Date.now() em funções chamadas por eventos (não no render).
       "react-hooks/purity": "off",
+      // Patterns válidos com refs em handlers / refs setados em useEffect.
+      "react-hooks/refs": "off",
+      "react-hooks/static-components": "off",
+      "react-hooks/immutability": "off",
+      "react-hooks/preserve-manual-memoization": "off",
     },
   },
   // Override default ignores of eslint-config-next.

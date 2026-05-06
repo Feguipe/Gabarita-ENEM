@@ -7,8 +7,7 @@ import { useTheme } from "./ThemeProvider";
 export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boolean }) {
   const { theme, setTheme } = useTheme();
   const pathname = usePathname();
-  const isSugestoes = pathname?.startsWith("/sugestoes");
-  const isHome = !isSugestoes;
+  const isHome = pathname === "/";
 
   const cycle = () => {
     setTheme(theme === "light" ? "dark" : theme === "dark" ? "system" : "light");
@@ -52,17 +51,18 @@ export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boole
             >
               Início
             </Link>
-            <Link
-              href="/sugestoes"
-              className="px-3 py-1.5 rounded-md transition-colors"
+            <span
+              className="px-3 py-1.5 rounded-md inline-flex items-center gap-1 cursor-not-allowed select-none"
               style={{
-                color: isSugestoes ? "var(--color-ink)" : "var(--color-ink-3)",
-                background: isSugestoes ? "var(--color-accent-soft)" : "transparent",
-                fontWeight: isSugestoes ? 600 : 400,
+                color: "var(--color-ink-3)",
+                opacity: 0.6,
               }}
+              title="Em manutenção — voltará em breve"
+              aria-disabled="true"
             >
-              Sugestões
-            </Link>
+              <span aria-hidden="true">🔒</span>
+              <span>Sugestões</span>
+            </span>
           </nav>
         </div>
         {!hideThemeToggle && (

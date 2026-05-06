@@ -1,7 +1,55 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { AppHeader } from "@/components/AppHeader";
+
+// ⛔ Bloqueio temporário — tela "em manutenção" enquanto o email novo
+// dedicado a feedback não está pronto. Pra reativar: apague o componente
+// SugestoesEmManutencao e o "return <SugestoesEmManutencao />" no início
+// do default export.
+
+function SugestoesEmManutencao() {
+  return (
+    <>
+      <AppHeader />
+      <main className="flex-1 px-6 py-12">
+        <div className="max-w-md mx-auto">
+          <div
+            className="rounded-lg border p-8 text-center"
+            style={{
+              background: "var(--color-paper)",
+              borderColor: "var(--color-warn)",
+            }}
+          >
+            <div
+              className="w-12 h-12 rounded-full flex items-center justify-center text-xl mx-auto mb-4"
+              style={{
+                background: "var(--color-warn-soft)",
+                color: "var(--color-warn)",
+              }}
+            >
+              🔒
+            </div>
+            <h1 className="serif text-2xl font-semibold mb-3">
+              Sugestões em manutenção
+            </h1>
+            <p
+              className="mb-6 leading-relaxed"
+              style={{ color: "var(--color-ink-2)" }}
+            >
+              Estamos preparando um canal dedicado para receber suas sugestões.
+              Volte em alguns dias.
+            </p>
+            <Link href="/" className="btn-primary">
+              Voltar para início
+            </Link>
+          </div>
+        </div>
+      </main>
+    </>
+  );
+}
 
 const TIPOS = [
   { value: "sugestao", label: "Sugestão de melhoria" },
@@ -47,7 +95,13 @@ function salvarRegistro(r: RegistroEnvios) {
   localStorage.setItem(ENVIOS_KEY, JSON.stringify(r));
 }
 
+// ⛔ MANUTENÇÃO: apague as 3 linhas abaixo (export default + return + closing)
+// e renomeie a SugestoesPageReal -> SugestoesPage pra reativar o form.
 export default function SugestoesPage() {
+  return <SugestoesEmManutencao />;
+}
+
+function SugestoesPageReal() {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [tipo, setTipo] = useState<(typeof TIPOS)[number]["value"]>("sugestao");
