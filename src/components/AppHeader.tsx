@@ -7,9 +7,8 @@ import { useTheme } from "./ThemeProvider";
 export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boolean }) {
   const { theme, setTheme } = useTheme();
   const pathname = usePathname();
-  const isRedacao = pathname?.startsWith("/redacao");
   const isSugestoes = pathname?.startsWith("/sugestoes");
-  const isHome = !isRedacao && !isSugestoes;
+  const isHome = !isSugestoes;
 
   const cycle = () => {
     setTheme(theme === "light" ? "dark" : theme === "dark" ? "system" : "light");
@@ -51,18 +50,7 @@ export function AppHeader({ hideThemeToggle = false }: { hideThemeToggle?: boole
                 fontWeight: isHome ? 600 : 400,
               }}
             >
-              Simulado
-            </Link>
-            <Link
-              href="/redacao"
-              className="px-3 py-1.5 rounded-md transition-colors"
-              style={{
-                color: isRedacao ? "var(--color-ink)" : "var(--color-ink-3)",
-                background: isRedacao ? "var(--color-accent-soft)" : "transparent",
-                fontWeight: isRedacao ? 600 : 400,
-              }}
-            >
-              Redação
+              Início
             </Link>
             <Link
               href="/sugestoes"
