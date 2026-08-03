@@ -1,5 +1,592 @@
 [
   {
+    "id": "tema-1785759472388-a-persistencia-da-violencia-contra-professores-no-brasil-e-o",
+    "tema": "A persistência da violência contra professores no Brasil e os desafios para a promoção de um ambiente escolar seguro",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "violência",
+      "professores",
+      "educação",
+      "segurança escolar",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A crescente onda de violência nas escolas brasileiras não poupa os profissionais da educação, que se veem diariamente expostos a ameaças e agressões. Esse cenário, que abrange desde a intimidação verbal até ataques físicos graves, compromete não apenas o desempenho pedagógico, mas também a saúde mental e a permanência desses profissionais em sala de aula. A escola, que deveria ser um espaço de acolhimento e aprendizado, muitas vezes se transforma em palco de tensões e insegurança, refletindo problemas sociais mais amplos que extrapolam os muros da instituição."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas recentes indicam que uma parcela significativa dos educadores brasileiros já foi alvo de algum tipo de violência no ambiente de trabalho. Essa realidade alarmante não se restringe a grandes centros urbanos, mas permeia escolas de diversas regiões do país, impactando a qualidade do ensino e a atração de novos talentos para a carreira docente. A percepção de insegurança e a falta de apoio institucional adequado contribuem para a desvalorização da profissão, gerando um ciclo vicioso de desmotivação e precariedade no sistema educacional."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A violência contra professores é um sintoma de problemas estruturais mais profundos na sociedade brasileira, como a desvalorização da educação e a fragilização dos laços comunitários. O respeito à autoridade do professor e à instituição escolar tem sido erodido, muitas vezes em um contexto de desamparo familiar e social, onde a escola se torna o único ponto de referência para jovens em situação de vulnerabilidade. Enfrentar essa questão exige uma abordagem multifacetada, que envolva não apenas medidas de segurança, mas também investimentos em políticas públicas de valorização profissional e de fortalecimento do papel da escola na comunidade."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"A persistência da violência contra professores no Brasil e os desafios para a promoção de um ambiente escolar seguro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "A epidemia de violência contra professores no Brasil: 'Fui ameaçada de morte pelo pai de um aluno de 6 anos'",
+      "url": "https://g1.globo.com/educacao/noticia/2026/07/21/a-epidemia-de-violencia-contra-professores-no-brasil-fui-ameacada-de-morte-pelo-pai-de-um-aluno-de-6-anos.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:17:52.388Z"
+  },
+  {
+    "id": "tema-1785759525218-os-desafios-da-relacao-entre-a-inteligencia-artificial-e-a-s",
+    "tema": "Os desafios da relação entre a Inteligência Artificial e a saúde mental na sociedade brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "saúde mental",
+      "interação digital",
+      "bem-estar",
+      "sociedade brasileira"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O avanço e a popularização de sistemas de Inteligência Artificial conversacionais têm transformado a maneira como indivíduos interagem com a tecnologia. Embora ofereçam diversas facilidades, relatos recentes indicam que a imersão profunda e prolongada em diálogos com IAs pode, em alguns casos, desencadear episódios de confusão mental ou delírio em usuários. Essa interação intensa, que por vezes simula relações humanas, levanta questões importantes sobre os limites e os riscos psicológicos associados ao uso descontrolado dessas ferramentas digitais no cotidiano."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em saúde mental alertam para a vulnerabilidade de certos perfis de usuários, que podem desenvolver uma dependência emocional ou uma percepção distorcida da realidade ao interagir excessivamente com plataformas de Inteligência Artificial. A capacidade dessas IAs de gerar respostas personalizadas e envolventes pode confundir a fronteira entre o real e o artificial, especialmente em contextos de isolamento social ou predisposição a transtornos psicológicos. Torna-se crucial, portanto, discutir a necessidade de diretrizes e acompanhamento para mitigar tais impactos na população brasileira."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A rápida evolução da Inteligência Artificial impõe à sociedade brasileira o desafio de conciliar inovação tecnológica com a proteção do bem-estar individual. A ausência de uma compreensão abrangente sobre os efeitos a longo prazo da interação humano-IA na psique humana pode gerar problemas de saúde pública e éticos. É imperativo que o desenvolvimento e a implementação dessas tecnologias considerem não apenas a eficiência e a utilidade, mas também as implicações para a saúde mental dos cidadãos, demandando um debate público e regulamentação adequada."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da relação entre a Inteligência Artificial e a saúde mental na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "'Passei a acreditar que meus parentes eram assassinos': como conversas com IA levaram pessoas ao delírio",
+      "url": "https://www.bbc.com/portuguese/articles/c980pd6lp96o?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-08-03T12:18:45.218Z"
+  },
+  {
+    "id": "tema-1785759536014-desafios-para-mitigar-o-uso-abusivo-de-anabolizantes-e-seus-",
+    "tema": "Desafios para mitigar o uso abusivo de anabolizantes e seus impactos na saúde pública brasileira",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "anabolizantes",
+      "saúde pública",
+      "padrões estéticos"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Nos últimos anos, observa-se um crescimento alarmante no consumo de substâncias anabolizantes no Brasil, impulsionado por uma cultura que supervaloriza a estética corporal e a rápida obtenção de resultados. A proliferação de conteúdos nas redes sociais, que frequentemente exibem corpos \"perfeitos\" e rotinas de treino intensas, somada à facilidade de acesso a essas substâncias no mercado clandestino, tem contribuído significativamente para a elevação do número de usuários. Essa tendência acende um alerta sobre os riscos à saúde pública e a necessidade de uma abordagem mais eficaz para enfrentar o problema."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em saúde alertam para as graves consequências do uso de anabolizantes, que vão desde problemas cardiovasculares, hepáticos e renais até alterações psicológicas severas, como depressão e agressividade. Dados indicam que uma parcela significativa dos usuários desconhece ou subestima os perigos, buscando uma imagem corporal idealizada, muitas vezes inspirada em figuras públicas e influenciadores digitais. Essa busca incessante por um padrão estético inatingível, muitas vezes propagado sem responsabilidade, transforma-se em um fator de risco para a saúde e bem-estar de indivíduos em diversas faixas etárias."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A expansão do mercado ilegal de anabolizantes representa um dos maiores obstáculos para o controle da questão. A venda desregulamentada dessas substâncias, muitas vezes de procedência duvidosa e sem qualquer acompanhamento médico, potencializa os riscos à saúde dos consumidores. Além disso, a pressão social para adequação a determinados padrões de beleza, que erroneamente associam músculos volumosos à saúde e sucesso, perpetua um ciclo vicioso. É fundamental que a sociedade reflita sobre os valores impostos e que as políticas públicas sejam fortalecidas para coibir o comércio ilegal e promover uma educação em saúde mais abrangente."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para mitigar o uso abusivo de anabolizantes e seus impactos na saúde pública brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Por que fisiculturistas estão morrendo de forma súbita",
+      "url": "https://www.bbc.com/portuguese/articles/cvgvxll1d7lo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-08-03T12:18:56.014Z"
+  },
+  {
+    "id": "tema-1785759545521-desafios-para-a-governanca-e-o-uso-etico-da-inteligencia-art",
+    "tema": "Desafios para a governança e o uso ético da inteligência artificial na sociedade brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "inteligência artificial",
+      "ética",
+      "governança",
+      "legislação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Sistemas de inteligência artificial têm demonstrado capacidade de processar dados e tomar decisões em uma escala e velocidade que superam a cognição humana. Recentemente, em contextos de alta complexidade e com grande impacto, a IA foi utilizada para identificar milhares de alvos em um curto período, ilustrando a transição de funções tradicionalmente desempenhadas por analistas humanos para algoritmos autônomos. Essa mudança levanta questões significativas sobre a autonomia das máquinas e o papel da supervisão humana em cenários críticos."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "No Brasil, a expansão da inteligência artificial em setores como saúde, segurança pública e finanças tem gerado debates intensos. Embora a tecnologia prometa otimização e eficiência, especialistas alertam para a necessidade de estruturas regulatórias robustas que garantam a transparência dos algoritmos e a responsabilidade por suas decisões. A ausência de um marco legal claro e a rápida implementação podem fragilizar a proteção de direitos individuais e coletivos, exigindo um equilíbrio entre inovação e salvaguarda social."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A crescente autonomia da inteligência artificial nos confronta com dilemas éticos complexos. A capacidade de sistemas autônomos de operar sem intervenção direta humana, tomando decisões que afetam vidas e direitos, exige uma reflexão profunda sobre os limites da automação. Questões como a responsabilidade em caso de falhas, o viés algorítmico e a preservação da dignidade humana no processo decisório tornam-se centrais para assegurar que a tecnologia sirva ao bem-estar social, e não o contrário."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a governança e o uso ético da inteligência artificial na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Como a inteligência artificial inaugura capítulo na história das guerras",
+      "url": "https://www.bbc.com/portuguese/articles/cgmpg98exzzo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-08-03T12:19:05.521Z"
+  },
+  {
+    "id": "tema-1785759556050-desafios-para-a-gestao-humanitaria-e-integrativa-dos-fluxos-",
+    "tema": "Desafios para a gestão humanitária e integrativa dos fluxos migratórios no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "migração",
+      "fronteiras",
+      "integração",
+      "direitos humanos",
+      "acolhimento"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O Brasil tem vivenciado, especialmente nas últimas décadas, um aumento significativo nos fluxos migratórios, impulsionados por crises políticas, sociais e econômicas em países vizinhos. A chegada massiva de pessoas em busca de refúgio e melhores condições de vida expõe a complexidade de conciliar o controle de fronteiras com a oferta de acolhimento e serviços básicos. Essa realidade gera debates intensos sobre a capacidade de resposta do Estado e as tensões sociais decorrentes da presença de grandes contingentes de imigrantes."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Dados de organismos internacionais, como a Agência da ONU para Refugiados (ACNUR), revelam que o Brasil se tornou um importante destino para milhares de solicitantes de refúgio e migrantes. Essa condição impõe ao país não apenas a responsabilidade de gerenciar suas fronteiras de forma eficaz e segura, mas também o dever de garantir o acesso a direitos fundamentais, como saúde, educação e trabalho. A promoção da integração social desses indivíduos é essencial, em conformidade com as leis nacionais e os acordos internacionais de direitos humanos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A questão migratória transcende a dimensão da segurança e vigilância de fronteiras, configurando-se como um desafio humanitário profundo. Muitos migrantes e refugiados, impelidos por necessidades extremas e pela busca por sobrevivência, arriscam suas vidas em travessias perigosas, tornando-se vulneráveis a exploração, tráfico de pessoas e violações de direitos. A resposta a essa crise demanda, além de políticas de controle migratório, um olhar atento às causas da migração forçada e à construção de caminhos para a dignidade e o acolhimento, evitando a desumanização dos indivíduos envolvidos."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a gestão humanitária e integrativa dos fluxos migratórios no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1",
+      "titulo": "Chefe da UE diz que Espanha 'foi eficiente' para resolver crise de migrantes em Ceuta e que bloco precisa reforçar suas fronteiras",
+      "url": "https://g1.globo.com/mundo/noticia/2026/08/03/chefe-ue-agradece-espanha-resolver-crise-migrantes-ceuta-bloco-precisa-reforcar-fronteiras.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:19:16.050Z"
+  },
+  {
+    "id": "tema-1785759570099-desafios-para-a-construcao-de-um-ambiente-de-pertencimento-e",
+    "tema": "Desafios para a construção de um ambiente de pertencimento e oportunidade em meio à polarização ideológica no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "polarização",
+      "pertencimento",
+      "oportunidade",
+      "migração"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Nos últimos anos, observa-se um crescimento significativo no número de cidadãos brasileiros que buscam residência no Paraguai, especialmente em cidades fronteiriças como Ciudad del Este. Essa movimentação, muitas vezes influenciada por narrativas difundidas nas redes sociais, é impulsionada pela busca por um ambiente econômico com menor carga tributária e por uma suposta maior alinhamento com ideologias políticas conservadoras, o que os leva a acreditar na existência de um 'sonho de direita' em solo paraguaio. Tal fluxo migratório reflete uma insatisfação com o cenário socioeconômico e político do Brasil."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em sociologia e economia política apontam que a busca por melhores condições fiscais e a adesão a certas correntes ideológicas são fatores determinantes para a decisão de muitos brasileiros de deixar o país. A percepção de que o Brasil não oferece um terreno fértil para o desenvolvimento de certos modelos de negócio ou para a expressão plena de determinadas visões de mundo pode gerar um sentimento de desamparo e impulsionar a procura por nações vizinhas que, em sua visão, ofereçam um cenário mais favorável."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O fenômeno da emigração de brasileiros motivada por fatores ideológicos e econômicos, embora não seja um movimento de massa em termos absolutos, levanta questionamentos importantes sobre a capacidade do Brasil de reter seus cidadãos e promover um ambiente de inclusão para diversas perspectivas. A saída de indivíduos, muitas vezes com capital financeiro ou intelectual, pode representar uma perda para o desenvolvimento nacional e, ao mesmo tempo, evidenciar uma fragmentação social e política que dificulta a construção de um projeto de nação mais coeso e dialógico."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a construção de um ambiente de pertencimento e oportunidade em meio à polarização ideológica no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "'Somos oprimidos no Brasil': a onda de brasileiros rumo ao Paraguai em busca de 'sonho de direita'",
+      "url": "https://www.bbc.com/portuguese/articles/cwyw7696n1zo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-08-03T12:19:30.099Z"
+  },
+  {
+    "id": "tema-1785759578987-desafios-para-a-mediacao-tecnologica-da-saude-no-brasil",
+    "tema": "Desafios para a mediação tecnológica da saúde no Brasil",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "saúde digital",
+      "telemedicina",
+      "acesso à saúde",
+      "privacidade de dados",
+      "equidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A rápida evolução tecnológica tem transformado diversos setores, incluindo a saúde. No Brasil, um número crescente de plataformas digitais, aplicativos e dispositivos vestíveis oferece serviços que vão desde consultas remotas e monitoramento até o rastreamento de sintomas e o fornecimento de conselhos personalizados. Essa digitalização, impulsionada por eventos recentes e pela busca por maior eficiência, promete otimizar o acesso e a qualidade dos cuidados de saúde, mas também levanta questionamentos essenciais sobre sua implementação e os impactos na sociedade brasileira."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas recentes indicam que uma parte significativa da população brasileira já utiliza ou demonstra interesse em soluções tecnológicas para gerenciar sua saúde. Estima-se que milhões de cidadãos buscam informações médicas online, consultam especialistas virtualmente ou utilizam aplicativos para agendamentos e acompanhamento de rotinas. Apesar da inegável conveniência e do potencial de democratização do acesso, essa adesão massiva exige uma reflexão crítica sobre a confiabilidade das informações, a segurança dos dados pessoais e a capacidade de discernimento dos usuários diante de um vasto universo de recursos digitais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A mediação tecnológica na saúde, embora promissora, enfrenta desafios consideráveis no contexto brasileiro. Questões como a exclusão digital, que impede o acesso de parcelas menos favorecidas da população, a precisão diagnóstica de algoritmos sem supervisão humana adequada e a privacidade e segurança de dados sensíveis são pontos críticos. Além disso, há o risco de desumanização do cuidado, da sobrecarga de informações para leigos e da mercantilização da saúde, elementos que demandam um debate aprofundado para garantir que a tecnologia sirva verdadeiramente ao bem-estar coletivo e à equidade."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a mediação tecnológica da saúde no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Ciência",
+      "titulo": "Será que é saudável a tecnologia fazer a mediação da saúde?",
+      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:19:38.987Z"
+  },
+  {
+    "id": "tema-1785759588419-os-desafios-para-a-manutencao-da-autonomia-pedagogica-e-o-pl",
+    "tema": "Os desafios para a manutenção da autonomia pedagógica e o pluralismo de ideias no ambiente escolar brasileiro",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "autonomia pedagógica",
+      "pluralismo de ideias",
+      "censura",
+      "liberdade de expressão",
+      "educação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Recentemente, um episódio em uma cidade paulista expôs o debate sobre a influência de conteúdos didáticos. Um livro que abordava a vida de mulheres notáveis, incluindo uma figura pública controversa, foi inicialmente retirado de bibliotecas escolares por decisão da gestão municipal. A medida gerou ampla discussão e, posteriormente, uma decisão judicial determinou o retorno da obra às instituições de ensino. Esse caso reflete a tensão existente sobre os limites da curadoria de material pedagógico e a garantia de acesso a diferentes narrativas no ambiente escolar, suscitando questionamentos sobre a liberdade de expressão e a autonomia dos educadores no Brasil."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "O educador Paulo Freire defendia que a educação deve ser um ato de conhecimento, de diálogo e de libertação, jamais um instrumento de domesticação ou de imposição ideológica. Nesse sentido, a restrição de acesso a determinadas obras ou a tentativa de padronizar o pensamento em sala de aula pode ir na contramão dos princípios de uma formação cidadã crítica e reflexiva. A pluralidade de visões e a capacidade de análise são fundamentais para que os estudantes possam construir sua própria compreensão do mundo, desenvolvendo senso crítico e respeito às diferentes perspectivas sociais e culturais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A gestão de conteúdos educacionais em escolas brasileiras frequentemente se torna palco de disputas ideológicas, com setores da sociedade e autoridades locais argumentando sobre a necessidade de adequação dos materiais aos valores familiares e comunitários. Tal perspectiva, embora muitas vezes motivada pela preocupação com a formação dos jovens, levanta discussões sobre os riscos de cerceamento da liberdade intelectual e do pluralismo de ideias. O equilíbrio entre a proteção dos estudantes e a garantia de um ambiente de aprendizado rico e diversificado, que estimule o pensamento crítico e a capacidade de argumentação, representa um desafio complexo para o sistema educacional do país."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a manutenção da autonomia pedagógica e o pluralismo de ideias no ambiente escolar brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ciência",
+      "titulo": "Justi�a determina volta de livro que retrata Marielle a escolas em S�o Jos� dos Campos",
+      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/ciencia/2026/07/justica-determina-volta-de-livro-que-retrata-marielle-a-escolas-em-sao-jose-dos-campos.shtml"
+    },
+    "geradoEm": "2026-08-03T12:19:48.419Z"
+  },
+  {
+    "id": "tema-1785759600676-caminhos-para-o-brasil-enfrentar-as-consequencias-do-degelo-",
+    "tema": "Caminhos para o Brasil enfrentar as consequências do degelo polar acelerado e seus impactos na sociedade e no meio ambiente",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "degelo polar",
+      "rios atmosféricos",
+      "nível do mar",
+      "mudanças climáticas",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Pesquisadores brasileiros vêm estudando um fenômeno atmosférico complexo, conhecido como \"rios atmosféricos\", que transporta calor e umidade das regiões tropicais para a Antártida. Esses corredores invisíveis são apontados como um dos principais fatores que aceleram o degelo em setores específicos do continente gelado, como a Península Antártica. A intensificação desse processo tem gerado preocupação global, pois o derretimento das calotas polares contribui significativamente para a elevação do nível dos oceanos, com potenciais impactos em diversas regiões do planeta, incluindo as áreas costeiras brasileiras."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "A Organização Meteorológica Mundial (OMM) alerta que a taxa de elevação do nível do mar duplicou na última década, atingindo um novo recorde. Projeções indicam que, mesmo em cenários de redução de emissões, o nível dos oceanos continuará a subir, ameaçando milhões de pessoas em áreas costeiras e ilhas baixas. No Brasil, cidades litorâneas como Rio de Janeiro, Santos e Recife já enfrentam desafios como erosão costeira, inundações e salinização de lençóis freáticos, que tendem a se agravar com a progressão do degelo polar. Esses impactos exigem estratégias urgentes de adaptação e mitigação."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O degelo acelerado da Antártida, impulsionado por fenômenos como os rios atmosféricos, não representa apenas uma ameaça ambiental, mas também um sério risco socioeconômico e cultural. A elevação do nível do mar pode deslocar comunidades inteiras, comprometer a infraestrutura urbana e portuária, afetar a agricultura em zonas costeiras e impactar ecossistemas marinhos vitais. A necessidade de investimentos em pesquisa científica, políticas públicas de adaptação e conscientização social torna-se premente para que o Brasil possa desenvolver resiliência frente a esses desafios climáticos complexos e de longo prazo."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para o Brasil enfrentar as consequências do degelo polar acelerado e seus impactos na sociedade e no meio ambiente\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Rios atmosf�ricos aceleram degelo da Ant�rtida e amea�am elevar n�vel dos oceanos",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/rios-atmosfericos-aceleram-degelo-da-antartida-e-ameacam-elevar-nivel-dos-oceanos.shtml"
+    },
+    "geradoEm": "2026-08-03T12:20:00.676Z"
+  },
+  {
+    "id": "tema-1785759651463-desafios-para-a-garantia-dos-direitos-humanos-de-migrantes-e",
+    "tema": "Desafios para a garantia dos direitos humanos de migrantes e refugiados no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "migrantes",
+      "refugiados",
+      "direitos humanos",
+      "vulnerabilidade",
+      "integração"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Milhões de pessoas ao redor do mundo são forçadas a deixar seus países de origem devido a conflitos armados, perseguições ou extrema pobreza. A busca por segurança e melhores condições de vida muitas vezes os leva a jornadas perigosas e a situações de grande vulnerabilidade em territórios estrangeiros. Chegando a novos países, esses indivíduos frequentemente enfrentam barreiras linguísticas, culturais e legais, além de preconceitos, o que dificulta sua integração e os expõe a diversos riscos sociais e econômicos, comprometendo sua dignidade e direitos fundamentais."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "A situação de vulnerabilidade dos migrantes e refugiados pode ser agravada pela falta de documentação adequada, pelo desconhecimento da legislação local e pela ausência de redes de apoio. Em muitos casos, essa fragilidade os torna alvos fáceis para redes de exploração, trabalho análogo à escravidão ou envolvimento involuntário em atividades ilícitas, com consequências severas para suas vidas e liberdade. Estatísticas internacionais apontam para um aumento no número de pessoas em deslocamento forçado que se veem em condições precárias, sem acesso a direitos básicos e à proteção devida."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A comunidade internacional, por meio de acordos e convenções, estabelece diretrizes para a proteção de migrantes e refugiados, reforçando o princípio da não repulsão e o direito ao asilo. Contudo, a efetivação desses direitos depende de políticas públicas robustas e da conscientização social nos países de acolhimento. A garantia de acesso à justiça, à saúde, à educação e ao trabalho digno é essencial para que esses indivíduos possam reconstruir suas vidas e contribuir para a sociedade, evitando desfechos trágicos e assegurando o respeito à dignidade humana."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a garantia dos direitos humanos de migrantes e refugiados no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Condenados à morte na Arábia Saudita ligam para a BBC pedindo ajuda",
+      "url": "https://www.bbc.com/portuguese/articles/cj36lkkvmgko?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-08-03T12:20:51.464Z"
+  },
+  {
+    "id": "tema-1785759660172-caminhos-para-a-reducao-da-violencia-letal-no-brasil",
+    "tema": "Caminhos para a redução da violência letal no Brasil",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "violência letal",
+      "segurança pública",
+      "homicídios",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O Brasil enfrenta um cenário complexo de violência, com índices alarmantes de crimes letais intencionais que persistem em diversas regiões do país. Relatórios anuais, como o Atlas da Violência, reiteram a gravidade da situação, evidenciando que, apesar de algumas oscilações pontuais, a estrutura da criminalidade se mantém robusta. Essa realidade impacta diretamente a segurança e a qualidade de vida da população, gerando um constante desafio para as políticas públicas e para a construção de uma sociedade mais pacífica e justa."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Dados recentes de instituições como o Instituto de Pesquisa Econômica Aplicada (Ipea) e o Fórum Brasileiro de Segurança Pública (FBSP) continuam a apontar para a alta letalidade no Brasil. Notadamente, estados da região Norte, como o Amapá, figuram entre os mais afetados, registrando taxas de homicídios que superam significativamente a média nacional e internacional – chegando, em alguns casos, a quase 46 mortes por 100 mil habitantes. Essa concentração da violência em determinadas localidades indica a necessidade de abordagens diferenciadas e urgentes para combater as causas e consequências desse fenômeno."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A recorrência de altas taxas de violência letal no Brasil não se restringe a números, mas reflete uma falha sistêmica na garantia do direito à vida e à segurança. A persistência desse quadro, ano após ano, sugere que as estratégias atualmente em vigor podem não ser suficientes ou abrangentes para desmantelar as raízes multifacetadas da criminalidade, que incluem fatores socioeconômicos, deficiências na justiça e problemas estruturais. É imperativo que a sociedade e o Estado busquem novas perspectivas e soluções integradas para reverter esse cenário."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para a redução da violência letal no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "Uma compara��o assustadora",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/colunas/gabriel-feltran/2026/08/uma-comparacao-assustadora.shtml"
+    },
+    "geradoEm": "2026-08-03T12:21:00.172Z"
+  },
+  {
+    "id": "tema-1785759669955-os-desafios-do-envelhecimento-populacional-na-sociedade-bras",
+    "tema": "Os desafios do envelhecimento populacional na sociedade brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "envelhecimento populacional",
+      "demografia",
+      "políticas públicas",
+      "qualidade de vida",
+      "intergeracional"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O envelhecimento da população representa uma das maiores transformações demográficas globais do século XXI. Antes restrito a nações desenvolvidas, impulsionado pelo aumento da expectativa de vida e pela queda das taxas de natalidade, esse fenômeno agora avança rapidamente em países de renda média e baixa, incluindo o Brasil. Essa mudança estrutural na pirâmide etária redefine o perfil das cidades e da força de trabalho, exigindo novas abordagens para a organização social e o bem-estar coletivo. A necessidade de adaptação a essa nova realidade demográfica impõe desafios significativos para o planejamento urbano e as políticas públicas."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Projeções demográficas indicam que, nas próximas décadas, o Brasil terá um número crescente de idosos e uma proporção menor de crianças e jovens. Essa inversão da pirâmide etária gera impactos multifacetados, desde a sobrecarga nos sistemas de saúde e previdência social até a necessidade de reestruturação do mercado de trabalho e da infraestrutura urbana. A garantia de qualidade de vida para todas as gerações, em um contexto de maior longevidade, exige um olhar atento para a inclusão social, a acessibilidade e a valorização das contribuições dos mais velhos."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O rápido envelhecimento da população brasileira exige uma readequação das cidades e dos serviços públicos para atender às necessidades de uma parcela cada vez maior de cidadãos na terceira idade. Isso envolve desde a criação de espaços urbanos mais acessíveis e seguros até o desenvolvimento de programas de saúde preventiva e de inclusão digital. Além disso, a convivência intergeracional e a valorização da experiência dos idosos tornam-se cruciais para a construção de uma sociedade mais equitativa e solidária, capaz de aproveitar o potencial de todas as faixas etárias."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios do envelhecimento populacional na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Quando aumentam os idosos e diminuem as crian�as, mudam os desafios da cidade",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/colunas/jorge-abrahao/2026/07/quando-aumentam-os-idosos-e-diminuem-as-criancas-mudam-os-desafios-da-cidade.shtml"
+    },
+    "geradoEm": "2026-08-03T12:21:09.955Z"
+  },
+  {
+    "id": "tema-1785759681828-os-desafios-para-a-manutencao-da-integridade-em-processos-av",
+    "tema": "Os desafios para a manutenção da integridade em processos avaliativos e seletivos na era da Inteligência Artificial no Brasil",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "fraude",
+      "avaliação",
+      "seleção",
+      "educação",
+      "integridade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A proliferação de ferramentas de Inteligência Artificial generativa, como os modelos de linguagem avançados, tem imposto novos dilemas ao campo educacional. Sua capacidade de produzir textos complexos e coerentes rapidamente levanta preocupações significativas sobre a autenticidade de trabalhos e exames. No Brasil, instituições de ensino e órgãos avaliadores começam a se defrontar com a necessidade de adaptar suas metodologias para evitar o uso indevido dessas tecnologias, garantindo que o mérito individual continue sendo o pilar dos processos seletivos e avaliativos."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em educação e tecnologia alertam para a crescente dificuldade em distinguir conteúdos produzidos por humanos daqueles gerados por IA. Essa indistinção compromete a lisura de vestibulares, concursos e outras formas de avaliação, onde a originalidade e o conhecimento genuíno são cruciais. A falta de métodos eficazes de detecção pode criar um ambiente de injustiça, onde candidatos que utilizam IA de forma indevida obtêm vantagens sobre aqueles que se dedicam ao estudo e à produção autêntica, minando a confiança nos sistemas de seleção."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A questão da IA em avaliações transcende a simples detecção de fraude, tocando em aspectos éticos e na própria concepção de aprendizado. Reflete a urgência de um debate nacional sobre como a sociedade brasileira irá integrar essas tecnologias sem comprometer a formação crítica e a meritocracia. É fundamental que as políticas educacionais e os marcos regulatórios se desenvolvam para acompanhar o avanço tecnológico, assegurando que o uso da Inteligência Artificial beneficie o progresso educacional, e não se torne uma ferramenta para burlar o sistema e desvalorizar o esforço intelectual."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a manutenção da integridade em processos avaliativos e seletivos na era da Inteligência Artificial no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "Maior universidade do México investiga suspeita de fraude com IA em vestibular",
+      "url": "https://g1.globo.com/educacao/noticia/2026/07/29/maior-universidade-do-mexico-investiga-suspeita-de-fraude-com-ia-em-vestibular.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:21:21.828Z"
+  },
+  {
+    "id": "tema-1785759691209-desafios-para-a-manutencao-da-integridade-academica-na-educa",
+    "tema": "Desafios para a manutenção da integridade acadêmica na educação brasileira diante da proliferação da Inteligência Artificial",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "integridade acadêmica",
+      "educação",
+      "plágio"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O advento de ferramentas de Inteligência Artificial generativa, como o ChatGPT, transformou rapidamente o cenário educacional global. Essas tecnologias, capazes de produzir textos coerentes e informativos em questão de segundos, apresentam um novo desafio para instituições de ensino de todos os níveis. A facilidade de acesso e a eficácia dessas IAs levantam questões sérias sobre a autoria, a originalidade e a validade do processo de aprendizagem, exigindo que educadores e alunos repensem as práticas pedagógicas e os limites da colaboração tecnológica."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Uma pesquisa recente, conduzida por uma associação de educadores, revelou que mais de 70% dos professores brasileiros em nível superior e médio já identificaram indícios do uso de ferramentas de Inteligência Artificial em trabalhos de seus alunos. Este dado sublinha a urgência de debater não apenas a detecção, mas também a reformulação das metodologias de avaliação e ensino. A preocupação central reside em como garantir que o processo de aprendizado seja genuíno e que os estudantes desenvolvam habilidades críticas, em vez de apenas delegar tarefas intelectuais à tecnologia."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Embora o uso indevido de Inteligência Artificial gere preocupações éticas e acadêmicas, muitos especialistas apontam para o potencial transformador dessas ferramentas quando aplicadas de maneira construtiva. A IA pode ser uma aliada poderosa no desenvolvimento de pesquisas, na personalização do aprendizado e na otimização de tarefas repetitivas. O desafio não é demonizar a tecnologia, mas sim educar alunos e professores para seu uso responsável e ético, transformando-a de uma possível fonte de fraude em um recurso para aprimorar o pensamento crítico e a criatividade."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a manutenção da integridade acadêmica na educação brasileira diante da proliferação da Inteligência Artificial\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "Professor cria ‘armadilha’ para descobrir quem usou IA e reprova 32 de 35 alunos; saiba como",
+      "url": "https://g1.globo.com/educacao/noticia/2026/07/27/professor-cria-armadilha-para-descobrir-quem-usou-ia-e-reprova-32-de-35-alunos-saiba-como.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:21:31.209Z"
+  },
+  {
+    "id": "tema-1785759700362-desafios-para-a-promocao-da-integridade-academica-na-era-da-",
+    "tema": "Desafios para a promoção da integridade acadêmica na era da inteligência artificial no Brasil",
+    "areaFoco": "educacao",
+    "palavrasChave": [
+      "inteligencia artificial",
+      "integridade academica",
+      "educacao",
+      "plagio",
+      "tecnologia"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A rápida evolução das ferramentas de inteligência artificial (IA) generativa transformou o cenário educacional, permitindo a criação de textos complexos com grande facilidade. Diante disso, surgiram também softwares que prometem 'humanizar' esses conteúdos, ou seja, modificar a linguagem gerada por IA para que se assemelhe mais à escrita humana, dificultando a detecção por algoritmos antiplágio ou por professores. Essa dinâmica cria um novo campo de desafios para a avaliação e a autenticidade da produção acadêmica, exigindo das instituições de ensino uma adaptação constante."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Pesquisas recentes indicam que a maioria dos educadores brasileiros reconhece o potencial da IA, mas também se mostra apreensiva quanto ao seu uso indevido. Um levantamento hipotético entre universidades e escolas de ensino médio revelou que mais de 70% dos professores já se depararam com situações suspeitas de uso de IA em trabalhos e redações. Contudo, a eficácia dos detectores de IA é constantemente questionada, uma vez que as ferramentas de 'humanização' se aprimoram na mesma velocidade, criando um ciclo de adaptação tecnológica que exige constante vigilância e atualização."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "O debate sobre a inteligência artificial na educação transcende a mera detecção de plágio. Ele levanta questões fundamentais sobre o processo de aprendizagem, o desenvolvimento do pensamento crítico, a capacidade de argumentação original e a própria valorização do esforço intelectual. Se o aluno delega a escrita a uma máquina, mesmo que 'humanizada', qual o verdadeiro sentido da avaliação e do diploma? A discussão, portanto, caminha para a necessidade de redefinir metodologias de ensino e avaliação que estimulem a criatividade e a autoria, em vez de apenas focar na proibição ou na detecção."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a promoção da integridade acadêmica na era da inteligência artificial no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Educação",
+      "titulo": "'Humanizadores' de textos prometem driblar detectores de IA; professores dizem que tecnologia não faz milagres",
+      "url": "https://g1.globo.com/educacao/noticia/2026/08/03/humanizadores-de-textos-prometem-driblar-detectores-de-ia-professores-dizem-que-tecnologia-nao-faz-milagres.ghtml"
+    },
+    "geradoEm": "2026-08-03T12:21:40.362Z"
+  },
+  {
+    "id": "tema-1785759712675-desafios-para-o-enfrentamento-dos-impactos-ambientais-das-nu",
+    "tema": "Desafios para o enfrentamento dos impactos ambientais das nuvens de fogo (pirocúmulo-nimbo) no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "incêndios florestais",
+      "nuvens pirocúmulo-nimbo",
+      "mudanças climáticas",
+      "gestão ambiental"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O fenômeno das nuvens pirocúmulo-nimbo (pyroCb), popularmente conhecidas como 'nuvens de fogo', representa uma crescente preocupação global e, especialmente, no Brasil. Formadas a partir do calor e da fumaça intensos de grandes incêndios florestais, essas formações atmosféricas podem atingir altitudes elevadas, injetando fuligem e gases na estratosfera. Esse processo não apenas propaga partículas a longas distâncias, afetando a qualidade do ar, mas também pode influenciar padrões climáticos regionais e globais de maneiras ainda pouco compreendidas, exacerbando os desafios da crise climática."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Cientistas têm observado um aumento na frequência e intensidade de incêndios florestais extremos nas últimas décadas, paralelamente à detecção mais comum de eventos de nuvens pirocúmulo-nimbo. No Brasil, biomas como a Amazônia e o Cerrado, historicamente afetados por queimadas, tornam-se cenários propícios para a formação dessas nuvens, especialmente em períodos de seca prolongada e desmatamento. Estudos indicam que o material particulado e os aerossóis liberados por esses eventos podem alterar o balanço de radiação da Terra, contribuindo para o aquecimento ou resfriamento local, e impactando a formação de chuvas, gerando um ciclo vicioso."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A imprevisibilidade das nuvens de fogo adiciona uma camada complexa aos esforços de gestão ambiental e de combate a incêndios no Brasil. Ao contrário das nuvens comuns, a formação de pyroCb não segue os padrões meteorológicos habituais, tornando sua previsão um desafio para os sistemas de monitoramento climático. Essa característica dificulta a antecipação de seus efeitos na atmosfera e na saúde humana, que vão desde problemas respiratórios até a alteração de regimes de chuva e temperatura. A comunidade científica e as autoridades precisam desenvolver estratégias mais robustas para compreender e mitigar os riscos associados a esses eventos extremos."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o enfrentamento dos impactos ambientais das nuvens de fogo (pirocúmulo-nimbo) no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ciência",
+      "titulo": "A ascens�o das nuvens de fogo e seu efeito imprevis�vel no clima",
+      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/colunas/reinaldojoselopes/2026/08/a-ascensao-das-nuvens-de-fogo-e-seu-efeito-imprevisivel-no-clima.shtml"
+    },
+    "geradoEm": "2026-08-03T12:21:52.675Z"
+  },
+  {
+    "id": "tema-1785759721895-desafios-para-a-gestao-e-prevencao-de-incendios-florestais-n",
+    "tema": "Desafios para a gestão e prevenção de incêndios florestais no contexto das mudanças climáticas no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "incêndios florestais",
+      "mudanças climáticas",
+      "prevenção",
+      "gestão ambiental",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O aquecimento global tem intensificado fenômenos extremos, como ondas de calor e secas prolongadas, criando um cenário propício para a ocorrência e propagação de incêndios florestais em diversas regiões do planeta. Na Europa, estudos recentes apontam para um aumento significativo na probabilidade de condições favoráveis a queimadas. No Brasil, biomas como Amazônia, Cerrado e Pantanal também enfrentam a crescente ameaça de incêndios de grandes proporções, que causam perdas ambientais, econômicas e sociais incalculáveis, agravando a crise climática global."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Segundo dados de monitoramento ambiental, o Brasil tem registrado um aumento preocupante no número e na intensidade de focos de incêndio nos últimos anos. Especialistas alertam que a elevação das temperaturas médias e a alteração dos regimes de chuva, consequências diretas das mudanças climáticas, criam um \"caldo de cultura\" para a proliferação das chamas. A desertificação em algumas áreas e períodos de estiagem mais longos contribuem para que a vegetação fique mais seca, tornando-se combustível fácil para o fogo, seja ele de origem natural ou criminosa."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A gestão dos incêndios florestais no Brasil transcende a mera contenção do fogo, envolvendo complexos desafios socioambientais. A ocupação irregular do solo, a expansão agropecuária sem planejamento e a falta de fiscalização eficaz são fatores que, somados às condições climáticas extremas, potencializam o problema. Além disso, a saúde pública é afetada pela fumaça, e a biodiversidade sofre perdas irreparáveis. Diante desse cenário, a necessidade de políticas públicas abrangentes que integrem prevenção, monitoramento, combate e recuperação de áreas degradadas é premente."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a gestão e prevenção de incêndios florestais no contexto das mudanças climáticas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Aquecimento global tornou condi��o para inc�ndios 20 vezes mais prov�vel na Espanha",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/aquecimento-global-tornou-condicao-para-incendios-20-vezes-mais-provavel-na-espanha.shtml"
+    },
+    "geradoEm": "2026-08-03T12:22:01.895Z"
+  },
+  {
+    "id": "tema-1785759730739-desafios-para-a-gestao-e-combate-aos-incendios-florestais-no",
+    "tema": "Desafios para a gestão e combate aos incêndios florestais no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "incêndios florestais",
+      "gestão ambiental",
+      "crise climática",
+      "preservação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "O Brasil, lar de vastos biomas como Amazônia, Cerrado e Pantanal, enfrenta anualmente uma crescente ameaça de incêndios florestais. Esses eventos, muitas vezes potencializados por condições climáticas extremas e ações humanas, destroem ecossistemas, afetam a qualidade do ar, ameaçam comunidades e sobrecarregam as equipes de combate a incêndios. A recorrência desses desastres naturais e antrópicos exige uma reflexão sobre a capacidade de resposta e prevenção do país."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Dados recentes de instituições de monitoramento ambiental indicam um aumento significativo no número e na intensidade dos focos de calor nos principais biomas brasileiros nos últimos anos. Por exemplo, em 2023, o Instituto Nacional de Pesquisas Espaciais (INPE) registrou um recorde de queimadas em certas regiões, superando médias históricas. Especialistas apontam que a combinação de secas prolongadas, desmatamento e uso inadequado do fogo potencializa esses eventos, gerando perdas irreparáveis para a biodiversidade e a economia local."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A exaustão das equipes de brigadistas e bombeiros no combate aos incêndios florestais é uma realidade no Brasil, ecoando a experiência de outras nações. A luta contra as chamas exige recursos humanos e materiais adequados, além de estratégias de prevenção robustas, que vão desde a educação ambiental até o monitoramento constante e o planejamento territorial. A complexidade do problema demanda uma abordagem multifacetada, envolvendo governos, sociedade civil, setor privado e comunidades locais na busca por soluções duradouras."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a gestão e combate aos incêndios florestais no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Fogo amea�a complexo tur�stico na Gr�cia, e bombeiros lutam contra exaust�o",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/08/fogo-ameaca-complexo-turistico-na-grecia-e-bombeiros-lutam-contra-exaustao.shtml"
+    },
+    "geradoEm": "2026-08-03T12:22:10.739Z"
+  },
+  {
     "id": "tema-1785154636612-desafios-para-garantir-a-seguranca-e-o-respeito-aos-professo",
     "tema": "Desafios para garantir a segurança e o respeito aos professores no ambiente escolar brasileiro",
     "areaFoco": "sociedade",
@@ -718,588 +1305,5 @@
       "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/colunas/txai-surui/2026/07/terra-e-mulheres-sao-tratados-como-propriedade-a-ser-usurpada.shtml"
     },
     "geradoEm": "2026-07-20T11:40:59.417Z"
-  },
-  {
-    "id": "tema-1784547669355-desafios-para-o-enfrentamento-da-desinformacao-gerada-por-in",
-    "tema": "Desafios para o enfrentamento da desinformação gerada por Inteligência Artificial e seus impactos na saúde e bem-estar da população brasileira",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "Inteligência Artificial",
-      "Desinformação",
-      "Saúde Pública"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A proliferação de vídeos e conteúdos online criados por Inteligência Artificial (IA) tem se tornado um desafio significativo para a saúde pública e a segurança digital no Brasil. Recentemente, observou-se a disseminação de perfis falsos, simulando profissionais da saúde, que utilizam a credibilidade da imagem médica para veicular informações enganosas. Esses materiais, frequentemente hospedados em plataformas digitais de grande alcance, exploram medos e incertezas, especialmente entre grupos mais vulneráveis, como idosos, que buscam soluções rápidas para problemas de saúde."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes apontam que a população idosa brasileira, embora crescente no uso da internet, apresenta maior vulnerabilidade a golpes e desinformação digital. A facilidade de acesso a conteúdos online, aliada à menor familiaridade com a detecção de manipulações tecnológicas, torna esse grupo um alvo preferencial para campanhas de desinformação. Especialistas em segurança digital alertam que a sofisticação das ferramentas de Inteligência Artificial torna cada vez mais difícil para o usuário comum distinguir o conteúdo autêntico do fabricado, exigindo um esforço contínuo de educação digital e verificação de fontes."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A evolução da Inteligência Artificial levanta questões éticas complexas sobre a responsabilidade de criadores de conteúdo e das plataformas digitais. Enquanto a IA oferece inúmeros benefícios, seu uso indevido para gerar desinformação e manipular a opinião pública representa uma ameaça à integridade social e à saúde individual. É fundamental que haja um debate aprofundado sobre a regulamentação do uso da IA, a promoção da literacia digital e o papel das empresas de tecnologia na moderação e combate à disseminação de conteúdo prejudicial, visando proteger os cidadãos de práticas maliciosas."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o enfrentamento da desinformação gerada por Inteligência Artificial e seus impactos na saúde e bem-estar da população brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "Os médicos falsos feitos por IA que viralizam entre idosos no Brasil",
-      "url": "https://www.bbc.com/portuguese/articles/c4gy1e0m6l4o?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-07-20T11:41:09.355Z"
-  },
-  {
-    "id": "tema-1784547679784-avancos-da-inteligencia-artificial-e-os-dilemas-eticos-na-so",
-    "tema": "Avanços da inteligência artificial e os dilemas éticos na sociedade brasileira",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "inteligência artificial",
-      "ética",
-      "sociedade",
-      "dilemas",
-      "tecnologia"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A inserção da Inteligência Artificial (IA) em diversos campos tem transformado paradigmas, inclusive no setor de defesa e segurança. Recentemente, relatos indicam que sistemas autônomos foram capazes de identificar e processar um grande número de alvos em operações militares, superando a capacidade de análise humana em velocidade e escala. Essa evolução tecnológica, embora prometa maior eficiência e precisão, levanta questões urgentes sobre a autonomia das máquinas e o papel da decisão humana em cenários de alta complexidade e risco, inaugurando um novo capítulo na interação entre tecnologia e conflitos."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Especialistas em tecnologia e ética têm enfatizado a natureza dual da Inteligência Artificial. Por um lado, a IA oferece avanços significativos em áreas como medicina, transporte e comunicação, prometendo otimização de processos e soluções inovadoras para desafios complexos. Por outro lado, a rápida evolução dessas tecnologias traz consigo dilemas éticos profundos, relacionados à privacidade, vieses algorítmicos e, em contextos mais sensíveis, à autonomia na tomada de decisões com impacto direto na vida humana. A ausência de um debate ético robusto e de marcos regulatórios adequados pode amplificar os riscos inerentes a essa transformação tecnológica."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "No cenário brasileiro, o debate sobre os avanços da Inteligência Artificial e seus dilemas éticos ganha contornos específicos. Embora o país seja um polo de desenvolvimento tecnológico em ascensão, a discussão sobre a governança da IA, suas implicações sociais, econômicas e, inclusive, para a segurança nacional, ainda é incipiente. É fundamental que a sociedade, a academia, o setor privado e o poder público se engajem na formulação de políticas e diretrizes que garantam o uso ético e responsável dessas ferramentas, protegendo os direitos fundamentais e promovendo um desenvolvimento tecnológico que beneficie a todos, sem negligenciar os potenciais riscos."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Avanços da inteligência artificial e os dilemas éticos na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "Como a inteligência artificial inaugura capítulo na história das guerras",
-      "url": "https://www.bbc.com/portuguese/articles/cgmpg98exzzo?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-07-20T11:41:19.784Z"
-  },
-  {
-    "id": "tema-1784547692618-a-emigracao-de-brasileiros-para-paises-vizinhos-desafios-par",
-    "tema": "A emigração de brasileiros para países vizinhos: desafios para a coesão social e o desenvolvimento nacional",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "emigração",
-      "coesão social",
-      "oportunidade"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Nos últimos anos, observa-se um crescimento notável no número de cidadãos brasileiros que optam por se mudar para nações vizinhas, como o Paraguai. Essa movimentação, impulsionada por uma combinação de fatores econômicos, como a busca por regimes fiscais mais brandos, e ideológicos, reflete um descontentamento com o cenário nacional. A influência de conteúdos disseminados em redes sociais também desempenha um papel crucial, ao projetar uma imagem de 'terra prometida' que atrai indivíduos em busca de novas perspectivas de vida e alinhamento com seus valores."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos indicam que a decisão de emigrar para países como o Paraguai está frequentemente ligada à percepção de 'opressão' ou à insatisfação com o ambiente sociopolítico e econômico brasileiro. Uma pesquisa hipotética realizada com brasileiros residentes no Paraguai revela que mais de 70% citam a busca por menor carga tributária e a identificação com um modelo político-econômico específico como as principais motivações para a mudança. Esse dado ilustra a profunda desconexão que parte da população sente em relação às políticas e ao ambiente de seu país de origem."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A crescente emigração de brasileiros para nações fronteiriças, embora possa representar uma escolha individual legítima, levanta importantes questionamentos sobre a capacidade do Brasil de reter talentos e promover um ambiente propício ao desenvolvimento de todos os seus cidadãos. Este movimento migratório pode sinalizar desafios internos relacionados à coesão social, à confiança nas instituições e à oferta de oportunidades equitativas, exigindo uma reflexão aprofundada sobre as causas da insatisfação e os caminhos para fortalecer o senso de pertencimento e o potencial de crescimento dentro do próprio território nacional."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"A emigração de brasileiros para países vizinhos: desafios para a coesão social e o desenvolvimento nacional\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "'Somos oprimidos no Brasil': a onda de brasileiros rumo ao Paraguai em busca de 'sonho de direita'",
-      "url": "https://www.bbc.com/portuguese/articles/cwyw7696n1zo?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-07-20T11:41:32.618Z"
-  },
-  {
-    "id": "tema-1784547703359-os-desafios-da-saude-digital-no-brasil-entre-o-acesso-democr",
-    "tema": "Os desafios da saúde digital no Brasil: entre o acesso democrático e a proteção individual",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "saúde digital",
-      "privacidade de dados",
-      "acesso à saúde"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A crescente digitalização da vida cotidiana tem transformado diversos setores, incluindo a saúde. Aplicativos de monitoramento, teleconsultas e dispositivos vestíveis (wearables) tornaram-se ferramentas cada vez mais presentes no dia a dia dos brasileiros. Essa integração tecnológica promete otimizar o acesso a serviços, facilitar a prevenção e o acompanhamento de doenças, e empoderar os indivíduos na gestão de seu próprio bem-estar. Contudo, a rápida expansão dessas soluções exige uma reflexão aprofundada sobre seus impactos e a forma como moldam a relação das pessoas com a medicina e o autocuidado na sociedade contemporânea."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Pesquisas recentes indicam que uma parcela significativa da população brasileira já utiliza ou estaria disposta a utilizar tecnologias para gerenciar sua saúde. Enquanto as teleconsultas, por exemplo, demonstraram ser cruciais para manter o atendimento durante a pandemia e alcançar regiões remotas, a disparidade no acesso à internet e a dispositivos digitais ainda é um obstáculo. Tal cenário levanta questões sobre quem realmente se beneficia dessas inovações e como garantir que a saúde digital não aprofunde as desigualdades sociais e regionais já existentes no sistema de saúde do país, promovendo uma inclusão efetiva."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "Apesar dos avanços, a mediação tecnológica na saúde não está isenta de controvérsias. A coleta massiva de dados pessoais, muitas vezes sensíveis, gera preocupações sobre privacidade e segurança, com o risco de uso indevido ou vazamento de informações. Além disso, a dependência excessiva de algoritmos e a superficialidade de algumas interações digitais podem comprometer a qualidade do diagnóstico e o vínculo humano-profissional. É fundamental debater as implicações éticas e regulatórias para assegurar que a tecnologia seja uma aliada no cuidado com a saúde, e não um fator de vulnerabilidade ou desumanização."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da saúde digital no Brasil: entre o acesso democrático e a proteção individual\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Ciência",
-      "titulo": "Será que é saudável a tecnologia fazer a mediação da saúde?",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
-    },
-    "geradoEm": "2026-07-20T11:41:43.359Z"
-  },
-  {
-    "id": "tema-1784547712447-desafios-para-a-garantia-da-seguranca-publica-com-respeito-a",
-    "tema": "Desafios para a garantia da segurança pública com respeito aos direitos humanos no contexto brasileiro",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "segurança pública",
-      "direitos humanos",
-      "violência policial",
-      "abuso de autoridade",
-      "comunidades vulneráveis"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Recentemente, a justiça brasileira condenou agentes de segurança pública por atos de tortura contra adolescentes em uma comunidade de São Paulo. O caso, que ganhou repercussão nacional, evidenciou a persistência de práticas violentas e desumanas por parte de alguns membros das forças policiais, gerando debates urgentes sobre a conduta e a fiscalização do poder estatal. A situação destaca a necessidade de aprimoramento das políticas de segurança para garantir a proteção dos cidadãos, especialmente os mais vulneráveis."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos e relatórios de organizações de direitos humanos frequentemente apontam a desconfiança de parcelas significativas da população, especialmente em áreas periféricas, em relação às forças policiais. Essa percepção é agravada por casos de abuso de autoridade e violência, que minam a legitimidade da atuação policial e dificultam a construção de uma relação de colaboração entre a comunidade e os agentes de segurança. A efetivação dos direitos humanos é um pilar fundamental para a reconstrução dessa confiança."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A implementação de tecnologias como câmeras corporais em uniformes de policiais tem sido debatida como uma ferramenta potencial para aumentar a transparência e a fiscalização das ações policiais. Embora não seja uma solução única, essa medida pode contribuir para a redução de incidentes de violência e abuso, ao mesmo tempo em que protege os próprios agentes de acusações infundadas. Contudo, é fundamental que tais iniciativas sejam acompanhadas por programas robustos de treinamento e uma cultura institucional de respeito aos direitos humanos."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a garantia da segurança pública com respeito aos direitos humanos no contexto brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "C�mera corporal grava policial militar de SP fazendo roleta-russa com adolescente",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/07/camera-corporal-grava-policial-militar-de-sp-fazendo-roleta-russa-com-adolescente.shtml"
-    },
-    "geradoEm": "2026-07-20T11:41:52.447Z"
-  },
-  {
-    "id": "tema-1784547723112-a-cultura-do-cancelamento-e-seus-impactos-na-liberdade-de-ex",
-    "tema": "A cultura do cancelamento e seus impactos na liberdade de expressão na sociedade brasileira",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "cultura do cancelamento",
-      "liberdade de expressão",
-      "redes sociais"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Em tempos recentes, a arena digital tem se transformado em um espaço onde até mesmo escolhas aparentemente triviais, como a preferência por um time de futebol, podem se tornar alvo de escrutínio público e julgamentos severos. O que antes era motivo de confraternização, hoje se converte em um campo minado de exigências de alinhamento ideológico e moral. Essa vigilância constante, impulsionada pela busca por uma \"pureza\" de pensamento, evidencia um cenário de crescente intolerância e polarização nas interações cotidianas, ampliadas exponencialmente pelas plataformas sociais no Brasil."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Pesquisas recentes indicam que uma parcela significativa da população brasileira sente-se inibida em expressar suas opiniões em ambientes virtuais, temendo retaliações ou o chamado \"cancelamento social\". Esse receio não se restringe a temas polêmicos, mas abrange um leque de assuntos que, outrora, seriam debatidos livremente. Estima-se que mais de 60% dos usuários de redes sociais já presenciaram ou foram alvo de ataques virtuais motivados por divergências de pensamento, o que impacta diretamente a capacidade de diálogo e a diversidade de ideias em nossa sociedade."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A dinâmica da cultura do cancelamento, amplificada pelas redes sociais, levanta questionamentos profundos sobre os limites da liberdade de expressão e a responsabilidade individual. Ao invés de promover um debate construtivo, muitas vezes o ambiente digital se torna um tribunal sumário, onde a reputação e a imagem de indivíduos são rapidamente comprometidas sem um direito adequado de defesa. Esse fenômeno não apenas inibe a pluralidade de vozes, mas também contribui para a fragmentação social e a dificuldade em construir pontes entre diferentes perspectivas, minando os alicerces da convivência democrática."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"A cultura do cancelamento e seus impactos na liberdade de expressão na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "�s vezes � s� futebol",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/colunas/marilizpereirajorge/2026/07/as-vezes-e-so-futebol.shtml"
-    },
-    "geradoEm": "2026-07-20T11:42:03.112Z"
-  },
-  {
-    "id": "tema-1784547765384-desafios-para-a-salvaguarda-do-conhecimento-indigena-e-da-fl",
-    "tema": "Desafios para a salvaguarda do conhecimento indígena e da flora amazônica no contexto das alterações climáticas no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "Conhecimento tradicional",
-      "Amazônia",
-      "Crise climática"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Há séculos, as diversas comunidades indígenas que habitam a Amazônia desenvolveram um profundo e complexo sistema de conhecimento sobre as inúmeras espécies vegetais da floresta. Esse saber tradicional, transmitido oralmente entre gerações, é fundamental para a subsistência, saúde e cultura desses povos, que utilizam plantas para alimentação, medicina, rituais e construção. A relação intrínseca entre os povos originários e a biodiversidade amazônica representa um legado cultural e científico de valor inestimável para o Brasil e para a humanidade."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes alertam que o aquecimento global impõe uma séria ameaça à biodiversidade amazônica, colocando em risco uma vasta quantidade de espécies de plantas essenciais para a vida e o conhecimento das comunidades locais. Projeções indicam que até um terço das plantas comumente utilizadas pelos povos indígenas podem ser devastadas devido às alterações climáticas, como aumento de temperatura e mudanças nos regimes de chuva. Essa perda não afeta apenas a flora, mas também compromete a base material e cultural de sociedades que dependem diretamente desses recursos."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A iminente perda de plantas amazônicas, impulsionada pelas mudanças climáticas, transcende a dimensão ecológica, configurando-se como uma grave erosão do patrimônio cultural brasileiro. Com a potencial extinção de espécies vegetais, desaparecem também práticas, rituais, línguas e a própria memória dos povos indígenas que as cultivam e utilizam. A desvalorização ou o desaparecimento desse conhecimento milenar representa não apenas uma tragédia para as comunidades afetadas, mas uma perda irreparável para o conhecimento global sobre sustentabilidade e a relação harmoniosa entre o ser humano e a natureza."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a salvaguarda do conhecimento indígena e da flora amazônica no contexto das alterações climáticas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Aquecimento global pode devastar um ter�o das plantas usadas por comunidades amaz�nicas",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/aquecimento-global-pode-devastar-um-terco-das-plantas-usadas-por-comunidades-amazonicas.shtml"
-    },
-    "geradoEm": "2026-07-20T11:42:45.384Z"
-  },
-  {
-    "id": "tema-1784547775806-desafios-para-a-integracao-e-acessibilidade-da-terapia-com-p",
-    "tema": "Desafios para a integração e acessibilidade da terapia com psicodélicos no tratamento da saúde mental brasileira",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "psicodélicos",
-      "saúde mental",
-      "terapia assistida",
-      "regulamentação",
-      "acesso"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Recentemente, a indústria farmacêutica global tem demonstrado um interesse crescente em compostos psicodélicos como potenciais tratamentos para transtornos de saúde mental. A aquisição de empresas especializadas por grandes corporações sinaliza uma nova fase na abordagem dessas substâncias, que, historicamente associadas a contextos recreativos, agora ganham atenção por seu valor terapêutico em ambientes clínicos controlados. Essa mudança representa tanto uma esperança para pacientes que buscam novas alternativas, quanto um desafio para a forma como essas terapias serão desenvolvidas e disponibilizadas à população."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Muitos defensores da terapia psicodélica vislumbram um futuro onde essas substâncias, sob supervisão médica, poderiam revolucionar o tratamento de condições como depressão resistente, Transtorno de Estresse Pós-Traumático (TEPT) e ansiedade severa. Contudo, a entrada de grandes players do mercado levanta questões sobre a direção que essa inovação tomará. Enquanto há o potencial para investimentos significativos em pesquisa e desenvolvimento, também surge a preocupação de que a comercialização massiva possa desvirtuar o acesso amplo e equitativo, transformando uma ferramenta de transformação em um produto de alto custo e alcance restrito."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "No Brasil, o debate sobre o uso terapêutico de psicodélicos ainda enfrenta barreiras significativas, tanto regulatórias quanto culturais. A legislação atual é restritiva, e a complexidade na condução de pesquisas e na eventual implementação de tratamentos envolve múltiplos desafios éticos, de segurança e de acessibilidade. Garantir que o avanço científico nesse campo beneficie a população de forma ampla e justa, sem reproduzir desigualdades ou negligenciar a dimensão humana do cuidado, exige um planejamento cuidadoso e um diálogo transparente entre ciência, governo e sociedade."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a integração e acessibilidade da terapia com psicodélicos no tratamento da saúde mental brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ciência",
-      "titulo": "'Veneno de sapo' da Eli Lilly apaga centelha psicod�lica",
-      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/colunas/marceloleite/2026/07/veneno-de-sapo-da-eli-lilly-apaga-centelha-psicodelica.shtml"
-    },
-    "geradoEm": "2026-07-20T11:42:55.806Z"
-  },
-  {
-    "id": "tema-1784547785440-os-desafios-para-a-regulamentacao-e-o-acesso-a-terapias-psic",
-    "tema": "Os desafios para a regulamentação e o acesso a terapias psicodélicas no contexto brasileiro",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "terapias psicodélicas",
-      "regulamentação",
-      "acesso à saúde",
-      "saúde mental",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Em diversos países, a pesquisa científica com substâncias psicodélicas tem ganhado notável impulso, explorando seu potencial para o tratamento de condições como depressão, ansiedade e transtorno de estresse pós-traumático. Essa onda de estudos científicos tem gerado otimismo na comunidade médica e entre pacientes, que veem nessas abordagens uma nova fronteira para a saúde mental. Contudo, a transição da pesquisa para a prática clínica regulamentada apresenta complexidades significativas, especialmente em nações com sistemas de saúde desafiados e legislações específicas sobre substâncias controladas."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "A projeção de que o mercado global de terapias psicodélicas possa atingir bilhões de dólares levanta preocupações sobre a acessibilidade desses tratamentos em países em desenvolvimento, como o Brasil. Especialistas alertam para o risco de monopólios estrangeiros e patentes que poderiam encarecer o acesso e limitar a oferta, transformando essas terapias em um privilégio para poucos. Nesse cenário, o debate sobre a inclusão desses tratamentos no sistema público de saúde e a formulação de políticas que garantam equidade se torna crucial."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A discussão sobre o uso terapêutico de psicodélicos transcende a esfera puramente científica, englobando aspectos éticos, sociais e culturais. É fundamental que a sociedade brasileira tenha acesso a informações qualificadas e imparciais sobre o tema, a fim de fomentar um debate público esclarecido e combater estigmas. A educação e a conscientização são pilares para que a regulamentação futura seja construída sobre bases sólidas de conhecimento e respeito aos direitos humanos, evitando tanto a banalização quanto a demonização dessas substâncias."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a regulamentação e o acesso a terapias psicodélicas no contexto brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ciência",
-      "titulo": "Veja 11 sugest�es de leitura psicod�lica em portugu�s de gra�a",
-      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/blogs/virada-psicodelica/2026/07/veja-11-sugestoes-de-leitura-psicodelica-em-portugues-de-graca.shtml"
-    },
-    "geradoEm": "2026-07-20T11:43:05.440Z"
-  },
-  {
-    "id": "tema-1784547797988-desafios-para-a-efetivacao-do-direito-a-moradia-digna-no-bra",
-    "tema": "Desafios para a efetivação do direito à moradia digna no Brasil",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "moradia digna",
-      "políticas públicas",
-      "vulnerabilidade social",
-      "direito social"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O Brasil enfrenta um persistente déficit habitacional, impactando milhões de famílias e evidenciando a urgência de políticas públicas eficazes. Nesse contexto, a gestão de programas habitacionais tem buscado aprimorar seus métodos de seleção, como observado em grandes centros urbanos. A transição de sistemas baseados em sorteio para critérios que consideram a vulnerabilidade social e a composição familiar reflete a tentativa de direcionar recursos para os grupos mais necessitados, visando uma distribuição mais justa do acesso à moradia digna."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Pesquisas e dados socioeconômicos revelam que famílias com crianças pequenas, jovens casais e indivíduos em situação de auxílio-moradia frequentemente enfrentam maiores obstáculos para acessar moradias adequadas. A priorização desses grupos em programas habitacionais não apenas busca mitigar a precariedade habitacional, mas também reconhece o impacto da moradia na saúde, educação e desenvolvimento social. A ausência de um lar seguro e estável perpetua ciclos de pobreza e dificulta a ascensão social, tornando o acesso à habitação um pilar fundamental para a dignidade humana."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "Embora a adoção de critérios específicos em programas habitacionais vise otimizar a distribuição de moradias, a complexidade do déficit habitacional brasileiro exige uma abordagem multifacetada. A simples mudança nos métodos de seleção, por si só, pode não ser suficiente para atender à vasta demanda e garantir que todos os grupos vulneráveis sejam contemplados. Questões como a disponibilidade de terras, a infraestrutura urbana e a capacidade de financiamento dos programas estatais permanecem como desafios cruciais, demandando investimentos contínuos e políticas integradas que transcendam a mera escolha de beneficiários."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação do direito à moradia digna no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "Gest�o Tarc�sio troca sorteio por crit�rios como filhos pequenos e trabalho no bairro em nova sele��o para apartamentos da CDHU em S�o Paulo",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/07/gestao-tarcisio-troca-sorteio-por-criterios-como-filhos-pequenos-e-trabalho-no-bairro-em-nova-selecao-para-apartamentos-da-cdhu-em-sao-paulo.shtml"
-    },
-    "geradoEm": "2026-07-20T11:43:17.988Z"
-  },
-  {
-    "id": "tema-1784547809410-desafios-para-a-promocao-da-saude-e-o-combate-a-desinformaca",
-    "tema": "Desafios para a promoção da saúde e o combate à desinformação sobre produtos alimentícios e suplementos no Brasil",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "desinformação",
-      "saúde pública",
-      "suplementos alimentares",
-      "consumo consciente",
-      "alimentação"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Muitos brasileiros buscam atalhos para a saúde e o bem-estar, recorrendo frequentemente a produtos comercializados como 'soluções milagrosas'. O óleo de coco, por exemplo, ganhou grande popularidade como suplemento capaz de auxiliar na perda de peso e melhorar a saúde metabólica. Contudo, a ciência tem apontado que essa percepção pode ser equivocada. Estudos recentes indicam que o consumo excessivo e desorientado de alguns desses produtos, longe de trazer benefícios, pode agravar condições como obesidade, inflamações e até mesmo distúrbios de ansiedade, invertendo seu papel de 'aliado' para 'vilão' na dieta."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "A crença popular em suplementos alimentares, muitas vezes sem comprovação científica, representa um desafio para a saúde pública. Dados do Ministério da Saúde alertam para o aumento de casos de problemas de saúde relacionados ao uso inadequado de produtos dietéticos. Em vez de promover a saúde, o consumo irrestrito de certas substâncias, como alguns tipos de gordura presente em suplementos de óleo, pode levar ao acúmulo de gordura corporal, desregulação hormonal e impactos negativos no sistema cardiovascular, evidenciando a necessidade de maior rigor na avaliação e no consumo desses itens."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A era digital potencializou a disseminação de informações sobre saúde e bem-estar, mas também abriu portas para a propagação de mitos e desinformação. Plataformas online e redes sociais frequentemente se tornam veículos para a promoção de dietas e suplementos com promessas exageradas, sem o respaldo de profissionais da saúde ou da pesquisa científica. Essa facilidade de acesso a conteúdos não verificados dificulta a capacidade do cidadão de discernir o que é confiável, resultando em escolhas alimentares e de consumo de suplementos que podem comprometer seriamente sua saúde."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a promoção da saúde e o combate à desinformação sobre produtos alimentícios e suplementos no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Ciência",
-      "titulo": "Obesidade, ansiedade e inflamações: entenda como suplemento de óleo de coco pode se tornar 'vilão' na dieta",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2023/07/05/obesidade-ansiedade-e-inflamacoes-entenda-como-suplemento-de-oleo-de-coco-pode-se-tornar-vilao-na-dieta.ghtml"
-    },
-    "geradoEm": "2026-07-20T11:43:29.410Z"
-  },
-  {
-    "id": "tema-1784547817450-os-desafios-para-o-combate-a-pesca-predatoria-e-a-mutilacao-",
-    "tema": "Os desafios para o combate à pesca predatória e à mutilação de tubarões no litoral brasileiro",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "tubarões",
-      "pesca ilegal",
-      "mutilação",
-      "vida marinha",
-      "biodiversidade"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A prática da remoção das barbatanas de tubarões vivos, conhecida como 'finning', é uma crueldade que tem sido observada em diversas regiões costeiras do mundo. Após a mutilação, os animais são devolvidos ao mar, onde sua morte é praticamente inevitável devido à incapacidade de nadar e caçar. Essa atividade, impulsionada por mercados lucrativos, representa não apenas um ato desumano contra a vida selvagem, mas também uma séria ameaça à saúde dos ecossistemas marinhos globais, com reflexos preocupantes para a biodiversidade brasileira."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Tubarões são predadores de topo essenciais para a manutenção do equilíbrio dos oceanos. Sua presença regula populações de outras espécies, garantindo a saúde dos recifes de coral e dos leitos de algas marinhas. No entanto, estimativas indicam que a população de algumas espécies de tubarões já sofreu declínios superiores a 70% nas últimas décadas, principalmente devido à pesca excessiva e ilegal. A ausência desses animais pode desencadear um efeito cascata, desestabilizando cadeias alimentares inteiras e comprometendo a vitalidade dos biomas marinhos brasileiros."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A demanda por barbatanas de tubarão em mercados asiáticos impulsiona uma indústria ilegal e insustentável. A alta rentabilidade atrai pescadores que operam sem licença ou que burlam as regulamentações existentes, muitas vezes em águas internacionais ou áreas de difícil fiscalização. No Brasil, apesar das leis de proteção à fauna marinha, a extensão do litoral e a complexidade da fiscalização criam lacunas que podem ser exploradas, permitindo que a pesca predatória de tubarões persista, colocando em risco não apenas as espécies, mas também a sustentabilidade das comunidades pesqueiras locais."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para o combate à pesca predatória e à mutilação de tubarões no litoral brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "Pescadores cortam barbatanas de tubar�es vivos e os atiram de volta ao mar, diz ONG",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/pescadores-cortam-barbatanas-de-tubaroes-vivos-e-os-atiram-de-volta-ao-mar-diz-ong.shtml"
-    },
-    "geradoEm": "2026-07-20T11:43:37.450Z"
-  },
-  {
-    "id": "tema-1784547824939-desafios-para-o-combate-a-poluicao-por-microplasticos-e-a-pr",
-    "tema": "Desafios para o combate à poluição por microplásticos e a proteção da biodiversidade no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "microplásticos",
-      "Amazônia",
-      "poluição",
-      "biodiversidade",
-      "impacto ambiental"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Uma recente pesquisa científica conduzida em regiões da Amazônia brasileira trouxe à tona a alarmante presença de microplásticos em organismos aquáticos, especificamente em girinos. Essa descoberta sublinha a extensão da contaminação ambiental, indicando que fragmentos plásticos minúsculos já se infiltraram em ecossistemas sensíveis e remotos, ameaçando a fauna local. A presença desses materiais em espécies na base da cadeia alimentar amazônica levanta sérias preocupações sobre os impactos ecológicos e a saúde dos ecossistemas fluviais brasileiros."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "A poluição por plásticos, especialmente os microplásticos, representa uma crise global de proporções crescentes. Estima-se que milhões de toneladas de resíduos plásticos ingressem nos oceanos e corpos d'água anualmente, fragmentando-se em partículas menores que 5 milímetros. Esses fragmentos são facilmente ingeridos por uma vasta gama de organismos, desde plâncton até grandes mamíferos, integrando-se às cadeias tróficas e potencialmente acumulando-se ao longo delas, com consequências ainda não totalmente compreendidas para a saúde dos ecossistemas e da vida selvagem."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "As fontes de microplásticos são diversas, incluindo a degradação de itens plásticos maiores descartados incorretamente, a abrasão de pneus, a lavagem de roupas sintéticas e o descarte de produtos de higiene pessoal que contêm microesferas. A ausência de sistemas eficazes de tratamento de efluentes e de gestão de resíduos sólidos em muitas localidades brasileiras agrava o problema, permitindo que esses poluentes cheguem aos rios e florestas. A complexidade do problema exige uma abordagem multifacetada, envolvendo desde a redução do consumo de plástico até o aprimoramento das políticas públicas de saneamento e reciclagem."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate à poluição por microplásticos e a proteção da biodiversidade no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Cientistas descobrem micropl�sticos no corpo de girinos da Amaz�nia",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/cientistas-descobrem-microplasticos-no-corpo-de-girinos-da-amazonia.shtml"
-    },
-    "geradoEm": "2026-07-20T11:43:44.939Z"
-  },
-  {
-    "id": "tema-1784547837304-desafios-para-a-regulamentacao-e-protecao-dos-ecossistemas-d",
-    "tema": "Desafios para a regulamentação e proteção dos ecossistemas de águas profundas no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "mineração em águas profundas",
-      "biodiversidade marinha",
-      "sustentabilidade",
-      "ecossistemas profundos",
-      "legislação ambiental"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A mineração em águas profundas representa uma nova fronteira para a exploração de recursos, mas também uma séria ameaça a ecossistemas pouco conhecidos. Especialistas alertam que a busca por minerais em grandes profundidades pode devastar comunidades de seres vivos que dependem de fontes hidrotermais, como moluscos e outras espécies enigmáticas. No contexto brasileiro, a imensa Zona Econômica Exclusiva (ZEE) no Atlântico Sul, rica em biodiversidade e potenciais depósitos minerais, levanta preocupações sobre a necessidade de regulamentação e monitoramento eficazes para salvaguardar esses ambientes únicos e ainda pouco estudados."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "A União Internacional para a Conservação da Natureza (IUCN), autoridade global em status de espécies, indicou recentemente que a mineração em águas profundas pode levar à extinção de mais da metade dos moluscos associados a fontes hidrotermais. Essa projeção ressalta a vulnerabilidade de ecossistemas abissais e a lacuna de conhecimento sobre suas interconexões. Para o Brasil, com sua vasta costa e plataformas continentais, a ausência de um marco regulatório robusto para atividades de exploração em águas profundas representa um risco significativo à sua biodiversidade marinha, um patrimônio natural de valor inestimável."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "O avanço tecnológico tem permitido a prospecção e a eventual exploração de jazidas minerais em profundidades antes inalcançáveis, motivado pela crescente demanda global por metais raros e estratégicos. Contudo, a exploração desses recursos subaquáticos colide com a urgência de preservar ecossistemas marinhos profundos, muitos dos quais permanecem inexplorados e pouco compreendidos pela ciência. No Brasil, o debate sobre o futuro da \"Amazônia Azul\" e a necessidade de equilibrar o potencial econômico com a conservação ambiental requer uma abordagem multidisciplinar e um planejamento estratégico que envolva governo, academia e sociedade civil."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a regulamentação e proteção dos ecossistemas de águas profundas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Minera��o de �guas profundas pode devastar moluscos enigm�ticos, alertam cientistas",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/mineracao-de-aguas-profundas-pode-devastar-moluscos-enigmaticos-alertam-cientistas.shtml"
-    },
-    "geradoEm": "2026-07-20T11:43:57.304Z"
-  },
-  {
-    "id": "tema-1784547846958-desafios-para-a-prevencao-e-o-combate-aos-incendios-floresta",
-    "tema": "Desafios para a prevenção e o combate aos incêndios florestais no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "incêndios florestais",
-      "meio ambiente",
-      "mudanças climáticas",
-      "prevenção",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Globalmente, observa-se uma intensificação dos fenômenos climáticos extremos, como ondas de calor e períodos de seca prolongada. Na Europa, por exemplo, países como França e Espanha têm enfrentado nos últimos anos uma escalada no número e na magnitude dos incêndios florestais, superando médias históricas e consumindo vasta extensão de vegetação nativa. Esse cenário ressalta a vulnerabilidade dos ecossistemas e a necessidade urgente de estratégias de adaptação e mitigação diante das alterações climáticas globais, cujos efeitos também se manifestam em diversas regiões do Brasil."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "No Brasil, a ocorrência de incêndios florestais é um problema recorrente com graves consequências. Dados históricos indicam que milhões de hectares de biomas como Amazônia, Cerrado e Pantanal são devastados anualmente pelo fogo, muitas vezes com causas antropogênicas, como desmatamento e queimadas para pastagens. Além da perda irreparável de biodiversidade e da emissão massiva de gases de efeito estufa, esses eventos impactam a saúde humana, a qualidade do ar e a economia local, exigindo investimentos contínuos em monitoramento, fiscalização e educação ambiental para conter o avanço das chamas."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "O combate eficaz aos incêndios florestais no Brasil demanda uma abordagem multifacetada, que transcende a resposta emergencial. É fundamental fortalecer a legislação ambiental, aprimorar a capacidade de resposta das equipes de brigadistas e investir em tecnologias de detecção precoce. Contudo, a prevenção passa, sobretudo, pela conscientização da população sobre os riscos das queimadas e pela promoção de práticas de manejo sustentável do solo e da vegetação. A complexidade do problema exige a colaboração entre governo, setor privado, comunidades locais e organizações não governamentais para proteger o patrimônio natural brasileiro."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a prevenção e o combate aos incêndios florestais no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Inc�ndios florestais desafiam Fran�a e Espanha; Europa contabiliza estragos com onda de calor",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/incendios-florestais-desafiam-franca-e-espanha-europa-contabiliza-estragos-com-onda-de-calor.shtml"
-    },
-    "geradoEm": "2026-07-20T11:44:06.958Z"
-  },
-  {
-    "id": "tema-1784547855474-desafios-para-a-gestao-e-mitigacao-dos-impactos-de-especies-",
-    "tema": "Desafios para a gestão e mitigação dos impactos de espécies aquáticas invasoras no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "espécies invasoras",
-      "biodiversidade marinha",
-      "aquecimento global",
-      "ecossistema",
-      "sustentabilidade"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O aumento da temperatura dos oceanos, somado à intensificação do tráfego marítimo global, tem facilitado a dispersão e o estabelecimento de espécies aquáticas exóticas em novos habitats. No litoral brasileiro, essa realidade se manifesta na proliferação de organismos que, ao se adaptarem rapidamente, competem por recursos com a fauna nativa e desequilibram ecossistemas inteiros. Tal fenômeno representa uma ameaça crescente à biodiversidade marinha e costeira do país, exigindo atenção e estratégias de manejo eficazes."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes indicam que a presença de espécies aquáticas invasoras pode gerar perdas econômicas significativas para a pesca artesanal e industrial no Brasil. Ao predar ovos e larvas de espécies nativas ou competir por alimento, esses invasores afetam diretamente a produtividade pesqueira e a subsistência de comunidades litorâneas. Além disso, a introdução de patógenos ou a alteração da cadeia trófica local são riscos ambientais que demandam monitoramento constante e ações preventivas."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A complexidade de combater espécies invasoras reside não apenas na sua capacidade de adaptação, mas também na dificuldade de erradicá-las uma vez estabelecidas. A experiência internacional demonstra que estratégias eficazes envolvem desde o controle de vetores de introdução (como a água de lastro de navios) até programas de conscientização e participação comunitária. No entanto, a vastidão da costa brasileira e a carência de recursos para fiscalização e pesquisa representam grandes obstáculos para a implementação de políticas públicas abrangentes e sustentáveis."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a gestão e mitigação dos impactos de espécies aquáticas invasoras no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Gr�cia oferece recompensa para capturar peixe voraz atra�do pelo aquecimento do mar",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/07/grecia-oferece-recompensa-para-capturar-peixe-voraz-atraido-pelo-aquecimento-do-mar.shtml"
-    },
-    "geradoEm": "2026-07-20T11:44:15.474Z"
-  },
-  {
-    "id": "tema-1783943837568-desafios-para-combater-a-disseminacao-da-misoginia-online-e-",
-    "tema": "Desafios para combater a disseminação da misoginia online e seus reflexos na violência de gênero entre adolescentes no Brasil",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "misoginia",
-      "violencia de genero",
-      "adolescentes",
-      "internet",
-      "educacao digital"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A ascensão de comunidades online que promovem ideologias misóginas, frequentemente denominadas 'machosfera', tem gerado preocupação crescente na sociedade brasileira. Esses espaços virtuais, que disseminam discursos de ódio, desvalorização feminina e apologia à violência de gênero, encontram terreno fértil entre adolescentes e jovens, influenciando suas percepções sobre relações interpessoais e papéis sociais. Tal fenômeno representa um desafio complexo, pois contribui para a normalização de atitudes violentas e para a perpetuação de um ciclo de preconceito, com sérias repercussões no convívio social e na segurança das mulheres."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Levantamentos recentes, como o citado na notícia de origem, indicam uma explosão de casos de violência de gênero entre adolescentes, correlacionada à exposição e engajamento com conteúdos misóginos na internet. Pesquisas apontam que uma parcela significativa de jovens brasileiros consome regularmente materiais que incitam ao ódio contra mulheres, o que se reflete em comportamentos agressivos e desrespeitosos no ambiente escolar e familiar. Esses dados alarmantes sublinham a urgência de compreender e intervir sobre a forma como essas ideologias se propagam e moldam a visão de mundo de parte da juventude."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "O combate à influência da misoginia online exige uma abordagem multifacetada, que transcenda a mera repressão. É fundamental investir em educação para a cidadania digital, capacitando jovens a desenvolverem pensamento crítico diante de discursos extremistas e a identificarem conteúdos nocivos. Além disso, a família, a escola e as plataformas digitais possuem um papel crucial na promoção de valores como respeito, empatia e igualdade de gênero. Sem uma mobilização coletiva, que inclua a conscientização e a desconstrução de estereótipos, a erradicação dessa cultura de ódio permanecerá um desafio persistente."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para combater a disseminação da misoginia online e seus reflexos na violência de gênero entre adolescentes no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Educação",
-      "titulo": "Machosfera: levantamento inédito revela explosão da violência de gênero entre adolescentes",
-      "url": "https://g1.globo.com/globo-reporter/noticia/2026/07/13/machosfera-levantamento-inedito-revela-explosao-da-violencia-de-genero-entre-adolescentes.ghtml"
-    },
-    "geradoEm": "2026-07-13T11:57:17.568Z"
-  },
-  {
-    "id": "tema-1783943847958-desafios-para-garantir-a-seguranca-e-a-integridade-da-popula",
-    "tema": "Desafios para garantir a segurança e a integridade da população idosa brasileira frente à desinformação digital e ao uso da inteligência artificial",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "desinformação",
-      "inteligência artificial",
-      "idosos",
-      "vulnerabilidade digital",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A proliferação de conteúdos digitais gerados por Inteligência Artificial (IA) tem se tornado uma preocupação crescente, especialmente quando simulam figuras de autoridade, como médicos. No Brasil, essa prática tem sido notada em plataformas de vídeo, onde 'profissionais' virtuais disseminam informações de saúde questionáveis. Esse fenômeno explora a credibilidade que muitos idosos depositam em figuras de autoridade e na mídia, transformando o ambiente digital em um terreno fértil para a desinformação e potenciais golpes, colocando em risco a saúde e o bem-estar dessa parcela da população."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Pesquisas recentes indicam que, embora a adesão à internet entre idosos brasileiros tenha crescido, muitos ainda possuem menor letramento digital em comparação a outras faixas etárias. Essa lacuna de conhecimento os torna particularmente suscetíveis a conteúdos enganosos. Estudos sobre comportamento digital apontam que a desinformação que explora medos — como doenças e problemas de saúde — é especialmente eficaz em engajar e manipular. Nesse contexto, vídeos com falsos médicos de IA, que prometem curas milagrosas ou alertam sobre perigos inexistentes, encontram terreno fértil, capitalizando sobre a preocupação natural com a saúde e a busca por soluções fáceis, sem a devida checagem de fontes."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A disseminação de conteúdo enganoso por meio de inteligência artificial não é apenas um problema de desinformação; ela levanta sérias questões éticas e regulatórias. A capacidade da IA de criar figuras e narrativas convincentes, somada à dificuldade de rastrear a origem real dessas produções, impõe um desafio complexo às autoridades e às próprias plataformas digitais. Há um debate crescente sobre a responsabilidade dessas empresas em monitorar e remover tais conteúdos, bem como sobre a necessidade de políticas públicas que promovam a educação digital para todas as idades. A proteção dos direitos humanos no ambiente virtual, especialmente de grupos vulneráveis como os idosos, exige uma abordagem multifacetada que envolva tecnologia, legislação e conscientização social."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para garantir a segurança e a integridade da população idosa brasileira frente à desinformação digital e ao uso da inteligência artificial\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "Os médicos falsos feitos por IA que viralizam entre idosos no Brasil",
-      "url": "https://www.bbc.com/portuguese/articles/c4gy1e0m6l4o?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-07-13T11:57:27.958Z"
   }
 ]
