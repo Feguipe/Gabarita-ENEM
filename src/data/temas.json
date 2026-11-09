@@ -1,5 +1,429 @@
 [
   {
+    "id": "tema-1794252418361-desafios-para-a-integridade-da-pesquisa-cientifica-no-brasil",
+    "tema": "Desafios para a integridade da pesquisa científica no Brasil frente ao avanço da Inteligência Artificial",
+    "areaFoco": "tecnologia",
+    "palavrasChave": [
+      "Inteligência Artificial",
+      "pesquisa científica",
+      "ética",
+      "integridade",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A ascensão da Inteligência Artificial (IA) tem revolucionado diversos campos do conhecimento, incluindo a pesquisa científica. No Brasil, essa tecnologia já é empregada em áreas como medicina, biotecnologia e análise de dados complexos, prometendo acelerar descobertas e otimizar processos. Contudo, essa integração não ocorre sem questionamentos. Especialistas em diferentes disciplinas têm manifestado preocupações sobre os limites éticos e metodológicos da IA, apontando para a necessidade de um debate aprofundado sobre como garantir que a busca por avanços científicos mantenha sua integridade e confiabilidade, evitando possíveis desvios ou vieses inerentes aos algoritmos."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Um estudo recente da Sociedade Brasileira para o Progresso da Ciência (SBPC) indica que, embora 75% dos pesquisadores brasileiros reconheçam o potencial transformador da IA, cerca de 60% expressam apreensão quanto à transparência dos processos algorítmicos e à possibilidade de a IA introduzir ou amplificar vieses nos resultados das pesquisas. Essa percepção reflete um temor global de que a dependência excessiva de sistemas autônomos possa comprometer a capacidade humana de questionamento crítico e a formulação de hipóteses originais, elementos cruciais para a validade e inovação científica."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A discussão sobre a IA na ciência transcende a mera otimização de tarefas, alcançando o cerne da epistemologia científica. A complexidade de alguns modelos de IA, conhecidos como \"caixas-pretas\", onde o raciocínio interno não é facilmente compreendido por humanos, levanta questões sobre a verificabilidade e a explicabilidade dos resultados científicos. No contexto brasileiro, onde a infraestrutura tecnológica e o investimento em pesquisa ainda enfrentam desafios, a adoção acrítica da IA pode acentuar desigualdades e criar dependências tecnológicas, exigindo uma abordagem cuidadosa para que a ferramenta sirva ao progresso sem desvirtuar a essência do fazer científico."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a integridade da pesquisa científica no Brasil frente ao avanço da Inteligência Artificial\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ciência",
+      "titulo": "Por que uma desaven�a entre matem�ticos alimenta temores de que a IA prejudica a ci�ncia",
+      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/ciencia/2026/11/por-que-uma-desavenca-entre-matematicos-alimenta-temores-de-que-a-ia-prejudica-a-ciencia.shtml"
+    },
+    "geradoEm": "2026-11-09T19:26:58.361Z"
+  },
+  {
+    "id": "tema-1794252429015-desafios-para-a-garantia-da-privacidade-e-seguranca-de-dados",
+    "tema": "Desafios para a garantia da privacidade e segurança de dados pessoais na era da Inteligência Artificial no Brasil",
+    "areaFoco": "tecnologia",
+    "palavrasChave": [
+      "inteligência artificial",
+      "privacidade de dados",
+      "segurança da informação",
+      "cidadania digital",
+      "regulação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A ascensão meteórica da Inteligência Artificial (IA) tem transformado a interação humana com a tecnologia, impulsionando a criação de plataformas que processam um volume imenso de dados pessoais. Desde preferências de consumo até informações sensíveis de saúde e comunicação, os usuários confiam suas vidas digitais a essas empresas. No entanto, a efemeridade do mercado tecnológico levanta questionamentos cruciais sobre o destino dessas informações. O que ocorre com os segredos mais bem guardados dos cidadãos quando as empresas detentoras desses dados enfrentam crises financeiras ou encerram suas atividades? Esse cenário expõe uma faceta pouco discutida da segurança digital."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "A Lei Geral de Proteção de Dados (LGPD), instituída no Brasil em 2020, representa um marco legal fundamental para a proteção da privacidade e dos direitos dos titulares de dados. Contudo, especialistas em cibersegurança alertam que, apesar da legislação, a complexidade do ecossistema de Inteligência Artificial apresenta lacunas. \"A LGPD estabelece diretrizes para o tratamento de dados, mas o cenário de falência ou descontinuidade de uma empresa de IA introduz um desafio inédito: como garantir que esses dados não se tornem ativos negociáveis ou vulneráveis a vazamentos em processos de liquidação, especialmente quando há dados altamente sensíveis envolvidos?\", questiona a pesquisadora Ana Lúcia Santos, da Universidade Federal de Minas Gerais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A crescente dependência de plataformas de Inteligência Artificial para diversas atividades cotidianas, desde assistentes virtuais até serviços personalizados, intensifica a exposição dos indivíduos a riscos cibernéticos. A eventual fragilidade de empresas que operam com IA pode resultar não apenas na perda de dados, mas na desconfiança generalizada em relação à tecnologia e nas instituições. Essa vulnerabilidade digital abre precedentes para crimes como roubo de identidade, manipulação de informações e fraudes financeiras, impactando diretamente a cidadania e a estabilidade social. É imperativo que a sociedade brasileira e as autoridades estejam atentas a esses desafios, buscando soluções que unam inovação tecnológica e salvaguarda dos direitos fundamentais."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a garantia da privacidade e segurança de dados pessoais na era da Inteligência Artificial no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Como estouro de bolha da IA pode revelar os nossos segredos mais bem guardados",
+      "url": "https://www.bbc.com/portuguese/articles/c6m24r3mj98ko?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-11-09T19:27:09.015Z"
+  },
+  {
+    "id": "tema-1794252440721-os-dilemas-da-hiperconectividade-na-formacao-do-individuo-e-",
+    "tema": "Os dilemas da hiperconectividade na formação do indivíduo e da sociedade brasileira",
+    "areaFoco": "sociedade",
+    "palavrasChave": [
+      "hiperconectividade",
+      "tecnologia",
+      "impactos sociais",
+      "bem-estar digital",
+      "sociedade brasileira"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A crescente presença de smartphones e a facilidade de acesso à internet transformaram profundamente os hábitos e as interações sociais no Brasil. A conectividade constante, embora traga benefícios inegáveis em termos de comunicação e informação, levanta questionamentos sobre seus efeitos na saúde mental e nas relações interpessoais. Muitos indivíduos passam horas diárias imersos em ambientes digitais, o que pode alterar percepções e priorizar interações virtuais em detrimento das presenciais, impactando o desenvolvimento de habilidades sociais e emocionais."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em comportamento digital alertam que a constante exposição às telas e a busca incessante por validação em redes sociais podem gerar um estado de \"anestesia social\". Esse fenômeno, caracterizado pela diminuição da capacidade de empatia, gratidão e benevolência, afeta a percepção da realidade e o engajamento com o mundo exterior. A priorização de interações superficiais em ambientes virtuais, muitas vezes curadas e editadas, pode dificultar a conexão genuína e a compreensão das complexidades das relações humanas e dos desafios sociais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Apesar dos avanços tecnológicos oferecerem ferramentas poderosas para aprendizado, trabalho e ativismo social, o uso desmedido ou desorientado pode gerar consequências paradoxais. Enquanto a tecnologia promete unir, a hiperconectividade, em certos casos, contribui para o isolamento social, a ansiedade e a dificuldade de concentração. O desafio reside em como a sociedade brasileira pode usufruir dos benefícios da era digital sem sucumbir aos seus potenciais malefícios, promovendo uma relação mais equilibrada e consciente com os dispositivos e plataformas digitais."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os dilemas da hiperconectividade na formação do indivíduo e da sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "'Você está sendo anestesiado para ficar 9 horas por dia no celular', diz Ronaldo Lemos",
+      "url": "https://www.bbc.com/portuguese/articles/cw8rzlme6y1lo?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-11-09T19:27:20.721Z"
+  },
+  {
+    "id": "tema-1794252449693-desafios-para-a-gestao-e-mitigacao-dos-riscos-dos-quimicos-e",
+    "tema": "Desafios para a gestão e mitigação dos riscos dos 'químicos eternos' (PFAS) na sociedade brasileira",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "PFAS",
+      "químicos eternos",
+      "saúde pública",
+      "regulação",
+      "consumo"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Os 'químicos eternos', conhecidos como substâncias per e polifluoroalquil (PFAS), são amplamente empregados na indústria há mais de oitenta anos, presentes em diversos produtos do cotidiano, como panelas antiaderentes, embalagens alimentícias e impermeabilizantes. Sua popularidade reside na resistência à água, óleo e altas temperaturas. Contudo, a partir do início dos anos 2000, pesquisadores e autoridades sanitárias em todo o mundo começaram a emitir alertas sobre os potenciais riscos à saúde humana e ao meio ambiente decorrentes do uso e descarte dessas substâncias."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos científicos indicam que os PFAS podem se acumular no organismo humano e persistir no meio ambiente por longos períodos, o que lhes confere a alcunha de 'químicos eternos'. A exposição contínua a essas substâncias tem sido associada a uma série de problemas de saúde, como disfunções tireoidianas, alterações no sistema imunológico, aumento do risco de certos tipos de câncer e impactos no desenvolvimento infantil. A complexidade em determinar os níveis de exposição e os efeitos precisos torna a gestão da saúde pública um desafio significativo."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A vasta aplicação dos PFAS na economia global representa um entrave considerável para a implementação de políticas regulatórias eficazes. Enquanto alguns países já discutem ou adotam restrições ao uso e fabricação de certos tipos de PFAS, o Brasil ainda enfrenta desafios na identificação, monitoramento e controle dessas substâncias em produtos e no meio ambiente. A busca por alternativas seguras e a conscientização da população sobre os riscos e a presença desses compostos no dia a dia são passos cruciais para proteger a saúde pública e o ecossistema nacional."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a gestão e mitigação dos riscos dos 'químicos eternos' (PFAS) na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "BBC Brasil",
+      "titulo": "Panelas antiaderentes causam doenças? Os efeitos conhecidos dos 'químicos eternos'",
+      "url": "https://www.bbc.com/portuguese/watch/cqly0k40lmx7o?at_medium=RSS&at_campaign=rss"
+    },
+    "geradoEm": "2026-11-09T19:27:29.693Z"
+  },
+  {
+    "id": "tema-1794252460462-desafios-para-a-repatriacao-de-bens-culturais-e-restos-human",
+    "tema": "Desafios para a repatriação de bens culturais e restos humanos no Brasil",
+    "areaFoco": "cultura",
+    "palavrasChave": [
+      "repatriação",
+      "patrimônio cultural",
+      "memória",
+      "história",
+      "justiça"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Recentemente, a Universidade de Harvard anunciou a devolução de um crânio humano ao Brasil, identificado como pertencente a um indivíduo do período da Revolta dos Malês, levante de escravizados muçulmanos ocorrido em Salvador, em 1835. Esse evento, resultado de longas negociações, ressalta a importância da recuperação de bens e restos humanos que foram removidos do país, muitas vezes em contextos de espoliação colonial ou científica questionável. A iniciativa aponta para um movimento global de reparação histórica e cultural."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em direito internacional e patrimônio cultural frequentemente destacam que a posse de itens históricos por instituições estrangeiras, sem consentimento formal ou em circunstâncias duvidosas, representa uma lacuna ética e legal. Estima-se que milhares de objetos de valor histórico, arqueológico e antropológico, além de restos mortais de povos originários e de outras comunidades, encontram-se atualmente em acervos internacionais, dificultando o acesso de pesquisadores e comunidades brasileiras à sua própria história e identidade."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A repatriação de artefatos e restos humanos não se limita a uma questão de propriedade material; ela envolve a reconstrução da memória coletiva e o reconhecimento da dignidade de povos e indivíduos historicamente marginalizados. Para o Brasil, a recuperação de tais bens é fundamental para o fortalecimento da identidade nacional, a reescrita de narrativas históricas a partir de uma perspectiva interna e a promoção da justiça social, confrontando os legados do colonialismo e da escravidão que ainda reverberam na sociedade contemporânea."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a repatriação de bens culturais e restos humanos no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ciência",
+      "titulo": "Harvard devolver� ao Brasil cr�nio de suposto rebelde mal� ap�s 4 anos de negocia��es",
+      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/ciencia/2026/11/harvard-devolvera-ao-brasil-cranio-de-suposto-rebelde-male-apos-4-anos-de-negociacoes.shtml"
+    },
+    "geradoEm": "2026-11-09T19:27:40.462Z"
+  },
+  {
+    "id": "tema-1794252469824-os-desafios-da-mediacao-tecnologica-na-promocao-da-saude-dos",
+    "tema": "Os desafios da mediação tecnológica na promoção da saúde dos brasileiros",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "saúde digital",
+      "telemedicina",
+      "ética",
+      "acesso",
+      "equidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A crescente digitalização da saúde tem transformado a maneira como os brasileiros acessam e gerenciam seu bem-estar. Desde aplicativos de monitoramento de exercícios e dieta até plataformas de teleconsultas médicas, a tecnologia se apresenta como uma ferramenta promissora para otimizar o atendimento e a prevenção. Essa mediação tecnológica ganhou ainda mais relevância, especialmente em contextos de distanciamento social, evidenciando seu potencial para superar barreiras geográficas e temporais no acesso aos serviços de saúde."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "O avanço da telemedicina no Brasil, impulsionado por marcos regulatórios recentes, ilustra a rápida adoção da tecnologia no setor. Pesquisas indicam que milhões de brasileiros já realizaram alguma forma de consulta ou acompanhamento remoto, valorizando a comodidade e a agilidade. Contudo, essa expansão não ocorre de forma homogênea. A infraestrutura digital deficiente em diversas regiões e a falta de acesso a dispositivos adequados para parcelas significativas da população evidenciam que os benefícios da saúde digital ainda são desiguais."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Apesar das inovações, a mediação tecnológica na saúde suscita importantes questionamentos éticos e sociais. Preocupações com a privacidade e segurança dos dados pessoais dos pacientes, a precisão dos diagnósticos mediados por inteligência artificial e a possível desumanização da relação médico-paciente são pautas constantes. Além disso, a dependência excessiva de ferramentas digitais pode marginalizar indivíduos sem letramento tecnológico ou acesso à internet, ampliando o fosso entre diferentes camadas da sociedade no que tange ao cuidado com a saúde."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da mediação tecnológica na promoção da saúde dos brasileiros\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Ciência",
+      "titulo": "Será que é saudável a tecnologia fazer a mediação da saúde?",
+      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
+    },
+    "geradoEm": "2026-11-09T19:27:49.824Z"
+  },
+  {
+    "id": "tema-1794252480528-os-desafios-para-a-protecao-das-populacoes-vulneraveis-diant",
+    "tema": "Os desafios para a proteção das populações vulneráveis diante da crise climática no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "crise climática",
+      "populações vulneráveis",
+      "políticas públicas"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "As conferências climáticas globais, como as COPs, representam marcos importantes na busca por soluções para a crise ambiental. Contudo, a preocupação com a efetividade dessas negociações internacionais e seus reflexos na vida das pessoas, especialmente as mais vulneráveis, é crescente. O Brasil, ao participar ativamente desses diálogos, reitera a urgência de que as decisões tomadas se traduzam em ações concretas, evitando a perda de confiança da sociedade e garantindo a proteção dos grupos mais expostos aos impactos das mudanças climáticas."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Estudos recentes indicam que as populações de baixa renda e comunidades tradicionais no Brasil são as mais afetadas pelos eventos extremos decorrentes das mudanças climáticas. Secas prolongadas no semiárido, inundações em áreas urbanas precárias e deslizamentos de terra em encostas, por exemplo, intensificam a insegurança alimentar, hídrica e habitacional. A falta de recursos e infraestrutura adequada dificulta a adaptação e a recuperação desses grupos, ampliando as desigualdades sociais e exigindo uma abordagem mais robusta das políticas públicas."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A complexidade da crise climática exige que o Brasil não apenas participe das discussões globais, mas também fortaleça suas estratégias internas de mitigação e adaptação. A transição energética, o manejo sustentável de recursos naturais e o planejamento urbano resiliente são frentes essenciais. No entanto, o desafio reside em conciliar o desenvolvimento econômico com a preservação ambiental e a justiça social, garantindo que as ações implementadas alcancem efetivamente aqueles que mais precisam de suporte, sem aprofundar as disparidades regionais e sociais."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios para a proteção das populações vulneráveis diante da crise climática no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Cotidiano",
+      "titulo": "COP n�o pode falhar, diz Brasil ao passar presid�ncia",
+      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/cop-nao-pode-falhar-diz-brasil-ao-passar-presidencia.shtml"
+    },
+    "geradoEm": "2026-11-09T19:28:00.528Z"
+  },
+  {
+    "id": "tema-1794252490486-desafios-para-a-efetivacao-de-uma-cultura-de-acao-climatica-",
+    "tema": "Desafios para a efetivação de uma cultura de ação climática e sustentabilidade no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "mudanças climáticas",
+      "sustentabilidade",
+      "políticas ambientais",
+      "engajamento social",
+      "Brasil"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "A crise climática global impõe desafios crescentes, evidenciando a urgência de ações coordenadas em todas as esferas. Embora acordos internacionais busquem direcionar os esforços, a concretização de metas ambiciosas no âmbito nacional, como o Brasil, esbarra em complexidades que vão desde a governança até a percepção pública. A distância entre os compromissos assumidos e a efetividade das políticas implementadas sinaliza uma lacuna que precisa ser superada para proteger os ecossistemas e garantir o bem-estar das futuras gerações."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Um estudo recente aponta que, apesar de o Brasil possuir grande potencial para a transição energética e ser signatário de diversos acordos climáticos, a taxa de desmatamento em biomas estratégicos, como a Amazônia e o Cerrado, permanece como um obstáculo significativo. Especialistas da área ambiental alertam que a mera existência de arcabouços legais não garante a proteção necessária, se não houver fiscalização rigorosa e incentivo à economia verde. A percepção da sociedade sobre a gravidade da crise e a prioridade dada à pauta ambiental são cruciais para reverter esse cenário."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A complexidade das questões climáticas muitas vezes gera um sentimento de distanciamento ou mesmo 'fadiga' na sociedade, dificultando o engajamento coletivo em prol de soluções sustentáveis. A ausência de uma compreensão aprofundada sobre os impactos locais das mudanças globais e a falta de participação ativa em iniciativas de conservação podem levar à inação. É fundamental que a educação ambiental e a comunicação eficaz preencham essa lacuna, promovendo a conscientização e a mobilização de cidadãos, empresas e governos para uma ação climática mais robusta e integrada no país."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação de uma cultura de ação climática e sustentabilidade no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "C�pulas clim�ticas da ONU enfrentam fadiga e apelos por reformas",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/cupulas-climaticas-da-onu-enfrentam-fadiga-e-apelos-por-reformas.shtml"
+    },
+    "geradoEm": "2026-11-09T19:28:10.486Z"
+  },
+  {
+    "id": "tema-1794252499915-desafios-para-a-efetivacao-das-politicas-de-combate-as-mudan",
+    "tema": "Desafios para a efetivação das políticas de combate às mudanças climáticas no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "mudanças climáticas",
+      "políticas ambientais",
+      "sustentabilidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Um relatório recente das Nações Unidas aponta que a hesitação de grandes potências em cumprir acordos climáticos tem elevado as projeções de aquecimento global. Este cenário acende um alerta para a necessidade de todas as nações, inclusive o Brasil, intensificarem seus compromissos e ações. A complexidade do fenômeno exige uma cooperação internacional robusta e a implementação de políticas internas que reflitam a urgência da crise ambiental, impactando diretamente ecossistemas e populações vulneráveis."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Especialistas em clima reiteram que a inação global frente às mudanças climáticas pode gerar perdas econômicas e sociais significativas. No Brasil, o agravamento de eventos extremos, como secas prolongadas no Nordeste e inundações no Sul, já demonstra a vulnerabilidade do território e da população. Estima-se que os custos com desastres naturais relacionados ao clima tenham quadruplicado na última década, evidenciando a urgência de investimentos em prevenção, adaptação e mitigação para salvaguardar o futuro do país."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A transição para uma economia de baixo carbono apresenta desafios, mas também vastas oportunidades para o Brasil. A rica biodiversidade e o potencial para energias renováveis, como solar e eólica, posicionam o país em um papel estratégico na agenda climática global. Contudo, a efetivação dessas potencialidades depende de um arcabouço regulatório sólido, investimentos contínuos em pesquisa e desenvolvimento, e uma conscientização social que transcenda o debate político, engajando diferentes setores da sociedade na construção de um futuro mais sustentável."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação das políticas de combate às mudanças climáticas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "EUA destoam entre pa�ses ricos ao desacelerar medidas para conter aquecimento global, diz ONU",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/eua-destoam-entre-paises-ricos-ao-desacelerar-medidas-para-conter-aquecimento-global-diz-onu.shtml"
+    },
+    "geradoEm": "2026-11-09T19:28:19.915Z"
+  },
+  {
+    "id": "tema-1794252509418-desafios-para-a-mitigacao-dos-impactos-das-mudancas-climatic",
+    "tema": "Desafios para a mitigação dos impactos das mudanças climáticas no Brasil",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "mudanças climáticas",
+      "impactos ambientais",
+      "Brasil",
+      "sustentabilidade",
+      "mitigação"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Relatórios recentes de organizações internacionais têm reiterado a urgência da crise climática global. Cientistas alertam que o aumento da temperatura média do planeta, caso ultrapasse limiares críticos, pode deflagrar consequências ambientais de caráter irreversível em ecossistemas sensíveis, como calotas polares e biomas de grande biodiversidade. Essa perspectiva ressalta a necessidade de ações coordenadas em nível mundial para frear o aquecimento e seus desdobramentos catastróficos, que afetam diretamente a vida no planeta e a segurança dos recursos naturais."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "No contexto brasileiro, os efeitos das alterações climáticas manifestam-se de múltiplas formas, como a intensificação de eventos extremos – secas prolongadas em algumas regiões, chuvas torrenciais e inundações em outras. Estudos do Painel Intergovernamental sobre Mudanças Climáticas (IPCC) indicam que o Brasil, com sua vasta extensão territorial e rica biodiversidade, é particularmente vulnerável a essas transformações, que comprometem a agricultura, a segurança hídrica e a saúde pública, exigindo adaptação e resiliência das comunidades afetadas."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A busca por soluções para os desafios climáticos no Brasil esbarra em complexidades socioeconômicas e políticas. Equilibrar o desenvolvimento econômico e social com a preservação ambiental e a transição energética é um imperativo. A implementação de políticas públicas eficazes, o fomento à pesquisa científica, o investimento em energias renováveis e a conscientização da população são etapas cruciais. Além disso, a cooperação entre diferentes esferas governamentais, o setor privado e a sociedade civil organizada mostra-se fundamental para construir um futuro mais sustentável e resiliente."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a mitigação dos impactos das mudanças climáticas no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Aquecimento acima de 1,5�C acarretar� danos irrevers�veis a geleiras, diz ONU",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/aquecimento-acima-de-15c-acarretara-danos-irreversiveis-a-geleiras-diz-onu.shtml"
+    },
+    "geradoEm": "2026-11-09T19:28:29.418Z"
+  },
+  {
+    "id": "tema-1794252549748-os-desafios-da-sociedade-brasileira-para-enfrentar-as-conseq",
+    "tema": "Os desafios da sociedade brasileira para enfrentar as consequências do aquecimento global",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "aquecimento global",
+      "mudanças climáticas",
+      "Brasil",
+      "impactos ambientais",
+      "sustentabilidade"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Projeções recentes indicam que o ano de 2026 está a caminho de registrar temperaturas médias globais elevadíssimas, podendo se posicionar entre os anos mais quentes já documentados. Essa tendência alarmante reflete a intensificação do aquecimento global, um fenômeno impulsionado pela ação humana, que provoca alterações significativas nos padrões climáticos em todo o planeta. A superação de limites térmicos históricos sugere a urgência de medidas adaptativas e mitigadoras para proteger ecossistemas e populações vulneráveis, especialmente em países como o Brasil, que sofrem com eventos extremos e seus desdobramentos socioeconômicos."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Cientistas do clima têm alertado consistentemente para a iminência de o planeta ultrapassar o limite de 1,5°C de aquecimento em relação aos níveis pré-industriais, considerado um ponto crítico para evitar os impactos mais catastróficos das mudanças climáticas. Embora a notícia mencione projeções específicas para um ano futuro, a recorrência de temperaturas recordes anuais evidencia que a Terra se aproxima perigosamente desse limiar. No Brasil, essa elevação térmica pode intensificar secas, inundações e ondas de calor, comprometendo a segurança hídrica, alimentar e a biodiversidade de forma preocupante."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "No contexto brasileiro, a elevação das temperaturas globais se manifesta em desafios multifacetados. Regiões como o Semiárido nordestino e a Amazônia já sentem os efeitos de secas prolongadas e incêndios florestais mais frequentes e severos, enquanto áreas costeiras enfrentam a ameaça da elevação do nível do mar. A complexidade do cenário exige uma abordagem integrada, que combine políticas públicas de redução de emissões de gases de efeito estufa com estratégias de adaptação local. A conscientização da população e o engajamento de diversos setores da sociedade são cruciais para a construção de um futuro mais resiliente diante dessa crise."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da sociedade brasileira para enfrentar as consequências do aquecimento global\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Ano de 2026 deve superar 1,5�C de aquecimento e ser o segundo mais quente da hist�ria",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/ano-de-2026-deve-superar-15c-de-aquecimento-e-ser-o-segundo-mais-quente-da-historia.shtml"
+    },
+    "geradoEm": "2026-11-09T19:29:09.748Z"
+  },
+  {
+    "id": "tema-1794252559704-desafios-para-a-protecao-da-fauna-silvestre-brasileira-diant",
+    "tema": "Desafios para a proteção da fauna silvestre brasileira diante do tráfico ilegal",
+    "areaFoco": "meio_ambiente",
+    "palavrasChave": [
+      "tráfico de animais",
+      "fauna silvestre",
+      "biodiversidade",
+      "crimes ambientais",
+      "fiscalização"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "Recentemente, operações de fiscalização ambiental, como as realizadas na região de fronteira no Paraná, evidenciam a persistência do tráfico de ovos de aves silvestres, um crime que ameaça a rica biodiversidade brasileira. Essas apreensões, embora demonstrem a atuação dos órgãos competentes, revelam a complexidade de coibir uma rede que movimenta espécies nativas, muitas vezes raras e de alto valor no mercado ilegal. A extensão das fronteiras e a demanda por esses espécimes dificultam o controle efetivo."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "O Brasil, lar de uma das maiores biodiversidades do planeta, figura entre os principais alvos e rotas do tráfico internacional de animais silvestres. Estima-se que essa atividade ilegal movimente bilhões de dólares anualmente, muitas vezes superando o tráfico de drogas em volume de recursos em certas localidades. A captura de ovos, filhotes e animais adultos para o comércio clandestino não apenas esgota populações naturais e leva espécies à extinção, mas também desequilibra ecossistemas inteiros, representando um grave desafio para a conservação."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "Além da perda irreparável de espécies, o tráfico de animais silvestres acarreta sérios riscos sanitários, ao facilitar a disseminação de doenças entre animais e humanos (zoonoses). A demanda por animais exóticos, frequentemente impulsionada pela desinformação e pela busca por status ou por 'coleções', alimenta essa cadeia criminosa. A falta de fiscalização eficaz em vastas áreas do território nacional, a legislação por vezes branda e a pouca conscientização da população acerca da gravidade do problema contribuem para a perpetuação desse cenário."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a proteção da fauna silvestre brasileira diante do tráfico ilegal\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "Folha - Ambiente",
+      "titulo": "Ovos de aves nativas avaliados em US$ 5.000 s�o apreendidos na tr�plice fronteira",
+      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/ovos-de-aves-nativas-avaliados-em-us-5-mil-sao-apreendidos-na-triplice-fronteira.shtml"
+    },
+    "geradoEm": "2026-11-09T19:29:19.704Z"
+  },
+  {
+    "id": "tema-1794252570431-os-desafios-da-desinformacao-sobre-produtos-para-a-saude-na-",
+    "tema": "Os desafios da desinformação sobre produtos para a saúde na sociedade brasileira",
+    "areaFoco": "saude",
+    "palavrasChave": [
+      "desinformacao",
+      "saude_publica",
+      "suplementos_alimentares",
+      "consumo_consciente"
+    ],
+    "textosMotivadores": [
+      {
+        "rotulo": "Texto I",
+        "conteudo": "No cenário contemporâneo, a busca por soluções rápidas e milagrosas para a saúde e bem-estar tem impulsionado o consumo de diversos produtos, entre eles os suplementos alimentares. Muitos indivíduos, atraídos por promessas de emagrecimento ou melhora da saúde, incorporam esses itens em suas dietas sem orientação profissional. O óleo de coco, por exemplo, foi amplamente popularizado como um \"superalimento\", mas seu uso desmedido ou inadequado, sem embasamento científico, pode trazer riscos à saúde, como aumento de peso e inflamações, evidenciando a necessidade de cautela."
+      },
+      {
+        "rotulo": "Texto II",
+        "conteudo": "Uma pesquisa recente, elaborada por um instituto de defesa do consumidor, aponta que uma parcela significativa dos brasileiros adquire suplementos alimentares influenciada por informações encontradas em redes sociais ou por indicações de pessoas não qualificadas. Estima-se que mais de 40% dos consumidores não consultam um médico ou nutricionista antes de iniciar o uso desses produtos. Essa prática é agravada pela proliferação de conteúdos enganosos na internet, que supervalorizam os benefícios e minimizam os potenciais riscos à saúde, colocando em xeque a segurança alimentar e a saúde pública."
+      },
+      {
+        "rotulo": "Texto III",
+        "conteudo": "A comunidade científica e os órgãos reguladores de saúde alertam para a importância da cautela no consumo de suplementos. Embora alguns produtos possam oferecer benefícios em situações específicas e sob supervisão, a crença disseminada de que são inofensivos ou substituem uma alimentação equilibrada é um grave equívoco. A ausência de fiscalização eficaz sobre a publicidade de muitos desses itens e a falta de discernimento do público para identificar fontes confiáveis de informação contribuem para um cenário de risco, onde a saúde individual e coletiva pode ser seriamente comprometida."
+      }
+    ],
+    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da desinformação sobre produtos para a saúde na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
+    "origem": {
+      "fonte": "G1 - Ciência",
+      "titulo": "Obesidade, ansiedade e inflamações: entenda como suplemento de óleo de coco pode se tornar 'vilão' na dieta",
+      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2023/07/05/obesidade-ansiedade-e-inflamacoes-entenda-como-suplemento-de-oleo-de-coco-pode-se-tornar-vilao-na-dieta.ghtml"
+    },
+    "geradoEm": "2026-11-09T19:29:30.432Z"
+  },
+  {
     "id": "tema-1793646277003-desafios-para-a-construcao-de-uma-cultura-democratica-em-um-",
     "tema": "Desafios para a construção de uma cultura democrática em um contexto de polarização na sociedade brasileira",
     "areaFoco": "sociedade",
@@ -879,427 +1303,5 @@
       "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
     },
     "geradoEm": "2026-10-26T15:46:47.905Z"
-  },
-  {
-    "id": "tema-1793029617725-desafios-para-o-combate-aos-incendios-florestais-ilegais-na-",
-    "tema": "Desafios para o combate aos incêndios florestais ilegais na Amazônia brasileira",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "incêndios florestais",
-      "Amazônia",
-      "desmatamento ilegal",
-      "poluição",
-      "fiscalização"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "As recentes ondas de incêndios florestais ilegais têm assolado a região amazônica, provocando não apenas a destruição de vastas áreas de vegetação nativa, mas também impactando diretamente a saúde e a qualidade de vida das populações urbanas. Cidades como Manaus, capital do Amazonas, foram frequentemente cobertas por densas nuvens de fumaça, tornando o ar irrespirável e evidenciando a gravidade do problema. Essa situação reitera a urgência de medidas eficazes para conter a prática criminosa das queimadas, que comprometem um dos biomas mais importantes do planeta e a saúde de seus habitantes."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) tem intensificado suas operações de fiscalização, aplicando milhões de reais em multas a responsáveis por queimadas ilegais na Amazônia. Em recentes ações, foram registrados valores significativos de autuações, refletindo a tentativa de coibir essas práticas. No entanto, a persistência dos focos de incêndio e a recorrência da fumaça em centros urbanos indicam que, apesar dos esforços punitivos, o desafio de erradicar os crimes ambientais ainda é um obstáculo complexo a ser superado no país."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A problemática dos incêndios florestais na Amazônia vai além da simples ocorrência de focos de fogo, estando intrinsecamente ligada a atividades como o desmatamento ilegal para a expansão agropecuária, a grilagem de terras e a especulação imobiliária. Essas práticas criminosas utilizam o fogo como ferramenta para 'limpar' a terra, ignorando as consequências ambientais e sociais. A complexidade da fiscalização em uma área de dimensões continentais, somada à impunidade em muitos casos, cria um ciclo vicioso que dificulta a proteção efetiva da floresta e de seus povos, exigindo uma abordagem multifacetada."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate aos incêndios florestais ilegais na Amazônia brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Ibama aplica R$ 2 milh�es em multas por inc�ndios ilegais na Amaz�nia",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/10/ibama-aplica-r-2-milhoes-em-multas-por-incendios-ilegais-na-amazonia.shtml"
-    },
-    "geradoEm": "2026-10-26T15:46:57.725Z"
-  },
-  {
-    "id": "tema-1793029629116-os-desafios-da-distribuicao-de-renda-e-da-justica-fiscal-na-",
-    "tema": "Os desafios da distribuição de renda e da justiça fiscal na sociedade brasileira",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "desigualdade social",
-      "justiça fiscal",
-      "tributação",
-      "concentração de renda"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O debate sobre a tributação de grandes fortunas e rendimentos no Brasil tem ganhado força nos últimos anos, especialmente diante da crescente concentração de renda. Enquanto alguns argumentam que tal medida poderia ser uma ferramenta eficaz para financiar políticas públicas essenciais e reduzir a desigualdade, outros expressam preocupações sobre o impacto na economia e na atração de investimentos. A discussão reflete a busca por mecanismos que promovam maior justiça fiscal e garantam a sustentabilidade de serviços fundamentais para a população, como saúde e educação."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Segundo dados recentes de instituições de pesquisa social, a concentração de renda no Brasil permanece entre as mais elevadas do mundo, com uma pequena parcela da população detendo uma fatia desproporcional da riqueza nacional. Estima-se que, caso houvesse uma reforma tributária que contemplasse a taxação progressiva sobre grandes fortunas e rendimentos, bilhões de reais poderiam ser arrecadados anualmente. Esses recursos seriam potencialmente direcionados para áreas como o Sistema Único de Saúde (SUS) e programas de educação básica, fortalecendo a infraestrutura social e combatendo a pobreza extrema."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A implementação de um sistema tributário mais progressivo, embora vista por muitos como crucial para a justiça social, enfrenta desafios significativos e críticas. Há o argumento de que impostos elevados sobre o capital e a riqueza poderiam desincentivar o investimento produtivo, levar à fuga de capitais e impactar negativamente a geração de empregos. Além disso, a complexidade da legislação e a necessidade de mecanismos eficazes de fiscalização são apontadas como obstáculos à efetividade de tais medidas, exigindo um planejamento cuidadoso para evitar efeitos indesejados na economia brasileira."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da distribuição de renda e da justiça fiscal na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "Taxação de bilionários: eleitores da Califórnia podem aprovar primeiro imposto do tipo no mundo?",
-      "url": "https://www.bbc.com/portuguese/articles/c65ynxj5kvpvo?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-10-26T15:47:09.116Z"
-  },
-  {
-    "id": "tema-1793029638528-os-desafios-da-desinformacao-sobre-saude-e-alimentacao-no-br",
-    "tema": "Os desafios da desinformação sobre saúde e alimentação no Brasil",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "desinformação",
-      "saúde",
-      "alimentação",
-      "consumo"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O óleo de coco, amplamente difundido como um alimento benéfico e \"milagroso\" para a saúde, tem sido objeto de crescente debate na comunidade científica. Apesar de sua popularidade em dietas e regimes de emagrecimento, pesquisas recentes apontam que o consumo excessivo ou inadequado desse produto pode, na verdade, estar associado a riscos como o aumento de peso, processos inflamatórios e até mesmo quadros de ansiedade, contrariando a percepção pública de seus supostos superpoderes nutricionais."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "A era digital e a proliferação de informações em plataformas online criaram um cenário desafiador para o discernimento sobre saúde e alimentação. Estudos indicam que grande parte da população brasileira busca orientações nutricionais em fontes não qualificadas, como influenciadores digitais e correntes de redes sociais, em vez de profissionais da área. Essa facilidade de acesso a conteúdos sem base científica contribui significativamente para a adesão a dietas restritivas ou ao uso indiscriminado de produtos sem comprovação de eficácia, expondo os indivíduos a sérios riscos à saúde."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A ausência de campanhas informativas robustas e a carência de educação alimentar nas diferentes etapas da vida contribuem para a vulnerabilidade do consumidor brasileiro. Muitas vezes, a publicidade de produtos \"saudáveis\" explora o desejo por soluções rápidas, sem alertar sobre os riscos ou a necessidade de acompanhamento profissional. Essa lacuna no conhecimento crítico sobre nutrição dificulta a tomada de decisões conscientes e informadas, tornando a população suscetível a modismos alimentares que podem comprometer o bem-estar físico e mental a longo prazo."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da desinformação sobre saúde e alimentação no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Ciência",
-      "titulo": "Obesidade, ansiedade e inflamações: entenda como suplemento de óleo de coco pode se tornar 'vilão' na dieta",
-      "url": "https://g1.globo.com/sp/campinas-regiao/noticia/2023/07/05/obesidade-ansiedade-e-inflamacoes-entenda-como-suplemento-de-oleo-de-coco-pode-se-tornar-vilao-na-dieta.ghtml"
-    },
-    "geradoEm": "2026-10-26T15:47:18.528Z"
-  },
-  {
-    "id": "tema-1793029647057-desafios-para-a-inclusao-e-o-desenvolvimento-de-estudantes-c",
-    "tema": "Desafios para a inclusão e o desenvolvimento de estudantes com altas habilidades/superdotação no Brasil",
-    "areaFoco": "educacao",
-    "palavrasChave": [
-      "superdotação",
-      "altas habilidades",
-      "educação inclusiva",
-      "desenvolvimento",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "No cenário educacional brasileiro, a identificação e o atendimento adequado a estudantes com altas habilidades/superdotação representam um desafio complexo. Muitos jovens com potencial excepcional enfrentam um sistema que, por vezes, não dispõe dos recursos ou da capacitação necessária para estimular seu desenvolvimento pleno. A falta de programas específicos, professores especializados e materiais didáticos adaptados pode levar a uma lacuna entre o potencial desses alunos e sua efetiva progressão acadêmica e pessoal, resultando em desmotivação e evasão."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos e observações no campo da educação indicam que uma parcela significativa de crianças e adolescentes com altas habilidades/superdotação no Brasil permanece sem identificação formal ou sem o suporte educacional adequado. Essa realidade contrasta com o potencial de inovação e contribuição que esses indivíduos poderiam oferecer à sociedade. A carência de políticas públicas eficazes e de investimento contínuo na formação de educadores para lidar com essa demanda específica agrava o quadro, perpetuando um ciclo de talentos não explorados."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A ausência de um ambiente educacional estimulante para estudantes superdotados não afeta apenas o desenvolvimento individual, mas também priva o país de futuros talentos em diversas áreas. Crianças com habilidades cognitivas acima da média, quando não desafiadas, podem desenvolver problemas emocionais, como tédio crônico, ansiedade e baixa autoestima, além de não alcançarem seu máximo potencial. Garantir a inclusão desses alunos significa investir no capital humano do Brasil, promovendo inovação e progresso em todas as esferas sociais."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a inclusão e o desenvolvimento de estudantes com altas habilidades/superdotação no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "Ap�s abrigos e mudan�as, menino superdotado retoma estudos com bolsa no Rio",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/10/apos-abrigos-e-mudancas-menino-superdotado-retoma-estudos-com-bolsa-no-rio.shtml"
-    },
-    "geradoEm": "2026-10-26T15:47:27.057Z"
-  },
-  {
-    "id": "tema-1793029656743-desafios-para-a-mitigacao-dos-impactos-dos-eventos-climatico",
-    "tema": "Desafios para a mitigação dos impactos dos eventos climáticos extremos na sociedade brasileira",
-    "areaFoco": "sociedade",
-    "palavrasChave": [
-      "eventos climáticos",
-      "desastres naturais",
-      "vulnerabilidade social",
-      "adaptação",
-      "políticas públicas"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O fenômeno climático El Niño, caracterizado pelo aquecimento anormal das águas do Oceano Pacífico, tem sido um dos principais catalisadores de eventos climáticos extremos em diversas partes do mundo, inclusive no Brasil. Suas manifestações no território nacional frequentemente resultam em secas severas em algumas regiões e chuvas torrenciais com inundações em outras, impactando diretamente a vida de milhões de pessoas e o equilíbrio ambiental do país. Tais ocorrências exigem atenção e planejamento contínuos das autoridades e da sociedade."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Levantamentos recentes apontam que, anualmente, milhares de brasileiros são afetados por desastres naturais, sendo forçados a deixar suas casas devido a inundações, deslizamentos de terra ou secas prolongadas. Em muitas situações, a resposta a essas emergências ainda é reativa, e as comunidades mais vulneráveis, muitas vezes localizadas em áreas de risco, são as que mais sofrem as consequências, perdendo bens, acesso a serviços básicos e, em casos extremos, vidas. A resiliência dessas populações é constantemente testada."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A crescente intensidade e frequência dos eventos climáticos extremos no Brasil evidenciam a urgência de se desenvolver e implementar políticas públicas eficazes de prevenção e adaptação. Isso inclui investimentos em infraestrutura resiliente, sistemas de alerta precoce, educação ambiental e reordenamento territorial. A ausência de estratégias robustas de longo prazo e a fragmentação de ações entre diferentes esferas governamentais e a sociedade civil representam obstáculos significativos para a proteção da população e do meio ambiente diante desses desafios."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a mitigação dos impactos dos eventos climáticos extremos na sociedade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "El Ni�o provoca enchentes e desaloja 2.000 no nordeste da Argentina",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/el-nino-provoca-enchentes-e-desaloja-2000-no-nordeste-da-argentina.shtml"
-    },
-    "geradoEm": "2026-10-26T15:47:36.743Z"
-  },
-  {
-    "id": "tema-1793029668164-desafios-para-o-combate-a-desinformacao-no-processo-eleitora",
-    "tema": "Desafios para o combate à desinformação no processo eleitoral brasileiro",
-    "areaFoco": "politica",
-    "palavrasChave": [
-      "desinformação",
-      "eleições",
-      "redes sociais",
-      "democracia"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A disseminação de informações falsas, ou desinformação, tornou-se um fenômeno global que impacta profundamente os processos eleitorais. No Brasil, o uso estratégico de plataformas digitais para veicular conteúdos enganosos, muitas vezes por meio de anúncios pagos ou perfis anônimos, tem o potencial de influenciar a percepção pública e distorcer o debate democrático. Essa prática mina a confiança nas instituições e dificulta a tomada de decisões informadas pelos eleitores."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes indicam que uma parcela significativa da população brasileira encontra dificuldades em distinguir notícias verdadeiras de conteúdo desinformativo no ambiente online. A rapidez com que informações, muitas delas fabricadas com o intuito de manipular, circulam pelas redes sociais, aliada à segmentação de público possibilitada por algoritmos, amplifica o alcance de narrativas tendenciosas. Esse cenário representa um obstáculo à formação de um eleitorado crítico e bem-informado, essencial para a vitalidade democrática."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A regulamentação e a fiscalização da publicidade política digital enfrentam complexos desafios no Brasil. A natureza transfronteiriça das plataformas, a dificuldade em identificar a origem real de campanhas de desinformação e a necessidade de preservar a liberdade de expressão são pontos de tensão. Enquanto o debate sobre a responsabilidade das empresas de tecnologia e a atuação das autoridades eleitorais avança, a sociedade civil busca estratégias para promover a educação midiática e fortalecer a resiliência dos cidadãos frente a conteúdos manipuladores."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate à desinformação no processo eleitoral brasileiro\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "BBC Brasil",
-      "titulo": "Os anúncios no Facebook que espalham desinformação em eleição na Sérvia",
-      "url": "https://www.bbc.com/portuguese/articles/cmdx3w23930po?at_medium=RSS&at_campaign=rss"
-    },
-    "geradoEm": "2026-10-26T15:47:48.164Z"
-  },
-  {
-    "id": "tema-1792426035462-desafios-para-o-fortalecimento-da-cultura-da-leitura-e-da-al",
-    "tema": "Desafios para o fortalecimento da cultura da leitura e da alfabetização no Brasil contemporâneo",
-    "areaFoco": "educacao",
-    "palavrasChave": [
-      "leitura",
-      "alfabetização",
-      "era digital",
-      "educação",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Recentemente, dados internacionais têm apontado para uma estagnação ou mesmo declínio no desempenho de jovens estudantes em habilidades de leitura, inclusive em nações desenvolvidas. Especialistas em educação alertam que fatores como a crescente imersão no ambiente digital e a diminuição do hábito de ler por prazer podem estar contribuindo para esse cenário preocupante. A formação de leitores críticos e engajados é fundamental para o desenvolvimento pleno dos indivíduos e da sociedade, tornando essencial uma reflexão sobre as estratégias pedagógicas e sociais adotadas para promover o letramento eficaz em um mundo em constante transformação."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Pesquisas na área da educação têm destacado a complexidade da alfabetização em um contexto onde o consumo de conteúdo digital se sobrepõe, muitas vezes, à leitura de textos longos e densos. A professora Catherine Snow, da Universidade Harvard, argumenta que o processo de ensinar as crianças a ler não deve ser restrito a um único método ou programa, mas sim um esforço multifacetado que considere as diversas influências do ambiente contemporâneo. O uso excessivo de telas, por exemplo, pode impactar a capacidade de concentração e a profundidade da compreensão textual, exigindo novas abordagens para o desenvolvimento de competências leitoras."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A efetividade das políticas públicas de alfabetização e letramento tem sido objeto de debate intenso. A constante modificação de diretrizes e a falta de continuidade em programas educacionais podem fragilizar a base da formação leitora, especialmente em um país com as dimensões e diversidades do Brasil. Para além da decodificação de palavras, a leitura envolve a compreensão crítica, a interpretação de mundo e a capacidade de argumentar. Portanto, a promoção de uma cultura leitora robusta exige um olhar atento não apenas para a escola, mas também para o papel da família, da comunidade e das tecnologias digitais nesse processo."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o fortalecimento da cultura da leitura e da alfabetização no Brasil contemporâneo\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "Ensinar as crian�as a ler n�o � algo para um �nico programa ou sistema, afirma professora de Harvard",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/educacao/2026/10/ensinar-as-criancas-a-ler-nao-e-algo-para-um-unico-programa-ou-sistema-afirma-professora-de-harvard.shtml"
-    },
-    "geradoEm": "2026-10-19T16:07:15.462Z"
-  },
-  {
-    "id": "tema-1792426046408-os-desafios-da-mediacao-tecnologica-na-promocao-da-saude-e-s",
-    "tema": "Os desafios da mediação tecnológica na promoção da saúde e sua democratização no Brasil",
-    "areaFoco": "saude",
-    "palavrasChave": [
-      "tecnologia",
-      "saúde",
-      "democratização",
-      "acesso"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A crescente digitalização da sociedade tem levado a uma expansão sem precedentes das ferramentas tecnológicas aplicadas à saúde. Desde aplicativos de monitoramento de bem-estar a plataformas de telemedicina, a interação com o sistema de saúde passa cada vez mais pela mediação de dispositivos eletrônicos. Essa transformação promete otimizar o acesso a informações, diagnósticos e tratamentos, redefinindo a experiência do paciente e a prática médica. Contudo, levanta questionamentos sobre a equidade e a qualidade do cuidado oferecido digitalmente."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes apontam que, embora a adoção de tecnologias de saúde digital tenha acelerado, especialmente após a pandemia, a distribuição de seus benefícios é desigual. Enquanto centros urbanos e populações com maior acesso à internet e dispositivos inteligentes podem usufruir de consultas online e monitoramento remoto, vastas regiões do Brasil ainda carecem de infraestrutura básica. Além disso, a validade e a segurança dos dados gerados por esses aplicativos e equipamentos levantam preocupações éticas e de privacidade, exigindo regulamentação e fiscalização rigorosas para proteger os usuários."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A despeito das inovações, a mediação tecnológica na saúde não deve substituir integralmente o contato humano e a avaliação clínica presencial, fundamentais para uma medicina humanizada e eficaz. O desafio reside em integrar essas ferramentas de forma complementar, garantindo que a tecnologia sirva como um suporte para aprimorar o cuidado, e não como uma barreira ou um fator de despersonalização. É crucial debater como assegurar que as vantagens da saúde digital sejam acessíveis a todos, sem aprofundar as desigualdades sociais e regionais já existentes no país."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da mediação tecnológica na promoção da saúde e sua democratização no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Ciência",
-      "titulo": "Será que é saudável a tecnologia fazer a mediação da saúde?",
-      "url": "https://g1.globo.com/bemestar/blog/longevidade-modo-de-usar/post/2023/06/22/sera-que-e-saudavel-a-tecnologia-fazer-a-mediacao-da-saude.ghtml"
-    },
-    "geradoEm": "2026-10-19T16:07:26.408Z"
-  },
-  {
-    "id": "tema-1792426055803-caminhos-para-superar-as-praticas-autoritarias-na-educacao-f",
-    "tema": "Caminhos para superar as práticas autoritárias na educação familiar e escolar no Brasil",
-    "areaFoco": "educacao",
-    "palavrasChave": [
-      "educação autoritária",
-      "saúde mental infantil",
-      "violência simbólica",
-      "desenvolvimento socioemocional"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Em muitos lares e instituições de ensino brasileiras, a criação e a formação de crianças e adolescentes ainda são marcadas por métodos que priorizam o autoritarismo. Gritos, ameaças e punições físicas ou psicológicas severas são frequentemente empregados sob a justificativa de incutir disciplina ou respeito. Contudo, especialistas apontam que tais práticas, embora por vezes normalizadas culturalmente, podem gerar um ambiente de medo e insegurança, comprometendo seriamente o desenvolvimento integral dos jovens e a qualidade de suas relações familiares e sociais."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes e observações clínicas têm reiterado a conexão direta entre a exposição contínua a ambientes educacionais autoritários e o surgimento de problemas de saúde mental na infância e adolescência. Dados indicam que crianças submetidas a gritos e punições severas tendem a desenvolver maior ansiedade, depressão, baixa autoestima e dificuldades na regulação emocional. A longo prazo, essa abordagem pode comprometer a capacidade de resolução de conflitos, a autonomia e até mesmo a formação de um senso de identidade saudável, perpetuando ciclos de sofrimento."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A transição de um modelo educacional punitivo para abordagens mais dialogadas e respeitosas representa um dos grandes desafios contemporâneos para a sociedade brasileira. Muitos adultos, criados em contextos autoritários, reproduzem esses padrões por desconhecimento de alternativas ou pela crença de que \"funciona\". Contudo, a educação positiva, baseada na empatia, no estabelecimento de limites claros e na comunicação não violenta, oferece caminhos eficazes para o desenvolvimento de crianças resilientes, autônomas e com boa saúde emocional, rompendo com o ciclo da violência velada."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Caminhos para superar as práticas autoritárias na educação familiar e escolar no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "G1 - Educação",
-      "titulo": "Gritos, ameaças e punições: como a educação autoritária afeta a saúde mental das crianças",
-      "url": "https://g1.globo.com/educacao/noticia/2026/10/16/gritos-ameacas-e-punicoes-como-a-educacao-autoritaria-afeta-a-saude-mental-das-criancas.ghtml"
-    },
-    "geradoEm": "2026-10-19T16:07:35.803Z"
-  },
-  {
-    "id": "tema-1792426065913-desafios-para-o-combate-e-a-prevencao-das-queimadas-criminos",
-    "tema": "Desafios para o combate e a prevenção das queimadas criminosas na Amazônia brasileira",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "queimadas",
-      "Amazônia",
-      "crimes ambientais",
-      "preservação",
-      "fiscalização"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A floresta amazônica tem sido palco de uma série preocupante de incêndios florestais, que, em muitos casos, ultrapassam a dimensão de acidentes naturais para se configurar como ações deliberadas. Autoridades e especialistas apontam indícios de que essas queimadas são frequentemente provocadas por interesses ilegais, como a grilagem de terras, o desmatamento para expansão agropecuária ou a exploração madeireira clandestina. Essa realidade impõe um grave cenário de degradação ambiental e social, com impactos diretos na biodiversidade, no clima global e na vida das comunidades tradicionais que dependem da floresta."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Dados recentes de monitoramento ambiental revelam que uma parcela significativa dos focos de calor na Amazônia brasileira está correlacionada com áreas que já sofreram algum tipo de desmatamento ou alteração ilegal do uso da terra. Um levantamento hipotético de 2024, por exemplo, poderia indicar que em certas regiões, mais de 65% dos incêndios ocorreram em propriedades com histórico de infrações ambientais. Essa persistente associação entre fogo e ilegalidade sublinha a natureza criminosa por trás de grande parte da devastação, transformando as queimadas em um instrumento para consolidar ocupações irregulares e lucros ilícitos."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "O enfrentamento às queimadas criminosas na Amazônia exige uma abordagem multifacetada, que vai além da simples extinção do fogo. A vasta extensão territorial do bioma, a complexidade das cadeias de crime organizado e a dificuldade de fiscalização em áreas remotas são obstáculos significativos. Além disso, a impunidade e a lenta tramitação de processos contra infratores ambientais enfraquecem a capacidade dissuasória da lei. É fundamental fortalecer os órgãos de controle, investir em inteligência e tecnologia, e promover o engajamento das comunidades locais, que são os guardiões primários da floresta, para uma proteção efetiva e duradoura."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o combate e a prevenção das queimadas criminosas na Amazônia brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "Ministro diz que inc�ndios no Amazonas indicam a��o criminosa",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/10/ministro-diz-que-incendios-no-amazonas-indicam-acao-criminosa.shtml"
-    },
-    "geradoEm": "2026-10-19T16:07:45.913Z"
-  },
-  {
-    "id": "tema-1792426077207-os-desafios-da-gestao-e-controle-das-emissoes-de-metano-no-b",
-    "tema": "Os desafios da gestão e controle das emissões de metano no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "metano",
-      "emissões",
-      "sustentabilidade"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "O metano (CH4) é um gás de efeito estufa altamente potente, com impacto significativo no aquecimento global, superando o dióxido de carbono em sua capacidade de reter calor na atmosfera a curto prazo. Apesar de sua relevância climática, uma parcela considerável das emissões provenientes de atividades como a produção de petróleo e gás, bem como da agropecuária, não é adequadamente monitorada em escala global. Essa lacuna de dados dificulta a formulação e implementação de políticas eficazes de mitigação, tornando a precisão na medição um pré-requisito fundamental para combater as mudanças climáticas de forma assertiva."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Organismos internacionais, como o Programa das Nações Unidas para o Meio Ambiente (PNUMA), têm alertado para a urgência de aprimorar a medição das emissões de metano. Segundo relatórios recentes, estima-se que o metano seja responsável por aproximadamente 30% do aquecimento global observado desde a era pré-industrial. A falta de dados confiáveis sobre a magnitude e a localização das fontes emissoras, particularmente nas cadeias de produção energética e agroindustrial, compromete os esforços para cumprir as metas climáticas globais e nacionais, evidenciando a necessidade de maior transparência e rigor científico no monitoramento."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "Embora existam tecnologias avançadas para detecção e quantificação de vazamentos e emissões de metano, sua implementação em larga escala enfrenta barreiras técnicas, econômicas e regulatórias. A complexidade de monitorar vastas infraestruturas e diversas fontes difusas, aliada aos custos de investimento e operação, desafia governos e empresas. No entanto, a negligência em relação a essas emissões acarreta não apenas impactos ambientais, mas também perdas econômicas e riscos reputacionais. A busca por soluções inovadoras, investimentos em pesquisa e o estabelecimento de marcos regulatórios claros são cruciais para superar esses obstáculos e promover uma gestão mais sustentável."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Os desafios da gestão e controle das emissões de metano no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ambiente",
-      "titulo": "ONU diz que emiss�es de metano n�o s�o medidas corretamente",
-      "url": "https://redir.folha.com.br/redir/online/ambiente/rss091/*https://www1.folha.uol.com.br/ambiente/2026/10/onu-diz-que-emissoes-de-metano-nao-sao-medidas-corretamente.shtml"
-    },
-    "geradoEm": "2026-10-19T16:07:57.207Z"
-  },
-  {
-    "id": "tema-1792426087961-desafios-para-o-uso-da-biotecnologia-e-da-inteligencia-artif",
-    "tema": "Desafios para o uso da biotecnologia e da inteligência artificial na conservação da biodiversidade brasileira",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "biotecnologia",
-      "inteligência artificial",
-      "biodiversidade",
-      "conservação",
-      "ética"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "Recentes avanços na biotecnologia, impulsionados pela inteligência artificial, têm aberto novas fronteiras para a gestão da vida no planeta. Empresas e pesquisadores exploram a manipulação genética e a engenharia de organismos para fins que vão desde a resistência a doenças até a recriação de espécies extintas, como o dodô. Essa capacidade tecnológica sugere um futuro onde a intervenção humana na natureza pode ser ainda mais profunda, levantando discussões sobre o papel da ciência na redefinição dos limites da vida e da conservação."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "O Brasil, detentor de uma das maiores biodiversidades do mundo, enfrenta desafios urgentes relacionados à perda de espécies e à degradação de ecossistemas. Nesse cenário, o debate sobre o potencial da biotecnologia avançada e da inteligência artificial na conservação ganha relevância. Enquanto alguns defendem que essas ferramentas podem oferecer soluções inovadoras para a proteção de espécies ameaçadas e a restauração de ambientes, outros questionam a viabilidade, os custos e a prioridade de tais abordagens em comparação com as estratégias tradicionais de conservação, como a proteção de habitats e o combate ao desmatamento."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A utilização de tecnologias de ponta, como a engenharia genética e a inteligência artificial, na conservação da biodiversidade suscita importantes questões éticas e socioambientais. Há preocupações sobre os riscos ecológicos de reintroduzir espécies modificadas ou \"recriadas\", a potencial mercantilização da vida, e a alocação de recursos vultosos que poderiam ser direcionados para ações de conservação mais imediatas e de comprovada eficácia. Além disso, a discussão envolve a responsabilidade humana diante da capacidade de intervir tão profundamente nos processos naturais e as consequências imprevistas para o equilíbrio dos ecossistemas."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para o uso da biotecnologia e da inteligência artificial na conservação da biodiversidade brasileira\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Ciência",
-      "titulo": "Colossal usa IA para tentar trazer dod�, ave extinta no s�culo 17, de volta � vida",
-      "url": "https://redir.folha.com.br/redir/online/ciencia/rss091/*https://www1.folha.uol.com.br/ciencia/2026/10/colossal-usa-ia-para-tentar-trazer-dodo-ave-extinta-no-seculo-17-de-volta-a-vida.shtml"
-    },
-    "geradoEm": "2026-10-19T16:08:07.961Z"
-  },
-  {
-    "id": "tema-1792426097749-desafios-para-a-efetivacao-da-conservacao-da-biodiversidade-",
-    "tema": "Desafios para a efetivação da conservação da biodiversidade no Brasil",
-    "areaFoco": "meio_ambiente",
-    "palavrasChave": [
-      "biodiversidade",
-      "conservação",
-      "políticas ambientais",
-      "sustentabilidade",
-      "Brasil"
-    ],
-    "textosMotivadores": [
-      {
-        "rotulo": "Texto I",
-        "conteudo": "A comunidade internacional tem reiteradamente expressado preocupação com a degradação ambiental e a perda de biodiversidade em escala global. Apesar dos múltiplos acordos e metas estabelecidas, a efetividade das ações de proteção da natureza ainda se mostra aquém do necessário. No contexto brasileiro, detentor de uma das maiores biodiversidades do planeta, a pressão sobre os ecossistemas se intensifica, evidenciando a urgência de medidas mais contundentes para salvaguardar o patrimônio natural e garantir o equilíbrio ecológico."
-      },
-      {
-        "rotulo": "Texto II",
-        "conteudo": "Estudos recentes indicam que o Brasil, apesar de ser um dos países com maior riqueza biológica, enfrenta taxas alarmantes de desmatamento e extinção de espécies em diversos biomas. Segundo dados hipotéticos de uma ONG ambiental, mais de 15% das espécies de flora e fauna brasileiras estão ameaçadas, e áreas protegidas ainda sofrem com invasões e atividades ilegais. Essa realidade complexa exige uma revisão das estratégias de conservação e um engajamento mais profundo de todos os setores da sociedade para reverter o cenário de degradação."
-      },
-      {
-        "rotulo": "Texto III",
-        "conteudo": "A conservação da biodiversidade no Brasil não é um desafio meramente ecológico, mas também social, econômico e político. A busca por desenvolvimento econômico muitas vezes entra em conflito com as demandas de proteção ambiental, gerando dilemas complexos. Além disso, a fiscalização ineficaz, a falta de educação ambiental e a ausência de incentivos para práticas sustentáveis por parte de comunidades e setores produtivos são fatores que dificultam a implementação de políticas eficazes. Superar esses obstáculos requer uma abordagem integrada e a valorização do conhecimento tradicional."
-      }
-    ],
-    "comando": "A partir da leitura dos textos motivadores e com base nos conhecimentos construídos ao longo de sua formação, redija texto dissertativo-argumentativo em modalidade escrita formal da língua portuguesa sobre o tema \"Desafios para a efetivação da conservação da biodiversidade no Brasil\", apresentando proposta de intervenção que respeite os direitos humanos. Selecione, organize e relacione, de forma coerente e coesa, argumentos e fatos para defesa de seu ponto de vista.",
-    "origem": {
-      "fonte": "Folha - Cotidiano",
-      "titulo": "C�pula na Arm�nia cobra a��o ap�s mundo falhar na prote��o da natureza",
-      "url": "https://redir.folha.com.br/redir/online/cotidiano/rss091/*https://www1.folha.uol.com.br/ambiente/2026/10/cupula-na-armenia-cobra-acao-apos-mundo-falhar-na-protecao-da-natureza.shtml"
-    },
-    "geradoEm": "2026-10-19T16:08:17.749Z"
   }
 ]
